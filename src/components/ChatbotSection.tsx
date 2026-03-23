@@ -2,8 +2,10 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { Bot, Send } from "lucide-react";
 import { useState } from "react";
 
-const sampleMessages = [
-  { role: "bot" as const, text: "Namaste! I'm Vidhi Sahayak, your AI legal assistant. Ask me anything about Indian laws, rights, or legal procedures. I can help in Hindi, English, Tamil, and 9 other languages." },
+type Message = { role: "bot" | "user"; text: string };
+
+const sampleMessages: Message[] = [
+  { role: "bot", text: "Namaste! I'm Vidhi Sahayak, your AI legal assistant. Ask me anything about Indian laws, rights, or legal procedures. I can help in Hindi, English, Tamil, and 9 other languages." },
 ];
 
 export const ChatbotSection = () => {
