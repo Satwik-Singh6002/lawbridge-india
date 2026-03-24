@@ -78,6 +78,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Nipun Saxena v. Union of India", year: "2019", summary: "Supreme Court issued comprehensive guidelines on protection of identity of sexual assault victims. Prohibited disclosure of victim's identity under any circumstances, including in judgments." },
       { name: "Priya Patel v. State of MP (Two-Finger Test)", year: "2013", summary: "Supreme Court held that the 'two-finger test' on rape victims violates right to privacy and dignity under Article 21. Directed that the test should not be conducted." },
       { name: "State of Rajasthan v. Shri Narayan", year: "2021", summary: "Supreme Court reiterated that lack of physical resistance does not mean consent. Fear, shock, or trauma can prevent active resistance." },
+      { name: "X v. Principal Secretary, Health and Family Welfare Dept.", year: "2022", summary: "Supreme Court expanded the interpretation of 'rape' under MTP Act to include marital rape for the purpose of seeking abortion beyond 20 weeks, recognizing that unwanted pregnancy from marital rape constitutes grave injury to mental health." },
+      { name: "In Re: Guidelines for Recording of Sexual Offences", year: "2024", summary: "Supreme Court issued updated guidelines mandating video-recording of victim statements under Section 164 CrPC/BNSS, special training for investigating officers in sexual assault cases, and time-bound completion of trials within 2 months." },
+      { name: "Bhartiya Nyaya Sanhita Implementation Directives", year: "2024", summary: "Supreme Court issued comprehensive guidelines on transition from IPC to BNS for sexual offence cases, clarifying that pending cases continue under IPC while new FIRs from July 1, 2024 are registered under BNS provisions." },
     ],
   },
   "scam-fraud": {
