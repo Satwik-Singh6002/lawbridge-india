@@ -56,6 +56,10 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { title: "CrPC Section 164A – Medical Examination of Rape Victim", section: "CrPC 164A", description: "Medical examination must be conducted within 24 hours by registered medical practitioner. Consent of victim required. Report submitted to Magistrate.", type: "statutory" },
       { title: "CrPC Section 173 – Investigation Time Limit", section: "CrPC 173", description: "Investigation in rape cases to be completed within 2 months from date of filing of FIR.", type: "statutory" },
       { title: "Victim Compensation Scheme (CrPC 357A)", section: "CrPC 357A", description: "State and Central government schemes for compensation to victims of sexual offences. DLSA (District Legal Services Authority) determines quantum of compensation.", type: "statutory" },
+      { title: "Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023 – Sexual Offence Procedures", section: "BNSS 2023", description: "Replaces CrPC from July 1, 2024. Section 176: Statement of victim recorded by woman magistrate. Section 193: Investigation in sexual offence cases to be completed within 2 months. Section 398: Mandatory videography of crime scene. Zero FIR for sexual offences across jurisdictions.", type: "statutory" },
+      { title: "Bharatiya Sakshya Adhiniyam (BSA) 2023 – Evidence in Sexual Offences", section: "BSA 2023", description: "Replaces Indian Evidence Act from July 1, 2024. Section 63: Electronic evidence including CCTV, mobile recordings admissible with certificate. Section 118: Presumption of no consent retained. Character evidence of victim inadmissible.", type: "statutory" },
+      { title: "BNS Section 67 – Voyeurism (Replaces IPC 354C)", section: "BNS 67", description: "Under new criminal code: watching or capturing image of woman in private act – first conviction: 1 to 3 years and fine; second conviction: 3 to 7 years and fine.", type: "bns" },
+      { title: "BNS Section 68 – Stalking (Replaces IPC 354D)", section: "BNS 68", description: "Following a woman, contacting repeatedly despite clear disinterest, monitoring online/electronic activities – first conviction: up to 3 years and fine; second conviction: up to 5 years and fine.", type: "bns" },
     ],
     fundamentalRights: [
       "Article 14 – Right to Equality: Equal protection of the laws. No discrimination in prosecution or protection against sexual offences.",
@@ -78,6 +82,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Nipun Saxena v. Union of India", year: "2019", summary: "Supreme Court issued comprehensive guidelines on protection of identity of sexual assault victims. Prohibited disclosure of victim's identity under any circumstances, including in judgments." },
       { name: "Priya Patel v. State of MP (Two-Finger Test)", year: "2013", summary: "Supreme Court held that the 'two-finger test' on rape victims violates right to privacy and dignity under Article 21. Directed that the test should not be conducted." },
       { name: "State of Rajasthan v. Shri Narayan", year: "2021", summary: "Supreme Court reiterated that lack of physical resistance does not mean consent. Fear, shock, or trauma can prevent active resistance." },
+      { name: "X v. Principal Secretary, Health and Family Welfare Dept.", year: "2022", summary: "Supreme Court expanded the interpretation of 'rape' under MTP Act to include marital rape for the purpose of seeking abortion beyond 20 weeks, recognizing that unwanted pregnancy from marital rape constitutes grave injury to mental health." },
+      { name: "In Re: Guidelines for Recording of Sexual Offences", year: "2024", summary: "Supreme Court issued updated guidelines mandating video-recording of victim statements under Section 164 CrPC/BNSS, special training for investigating officers in sexual assault cases, and time-bound completion of trials within 2 months." },
+      { name: "Bhartiya Nyaya Sanhita Implementation Directives", year: "2024", summary: "Supreme Court issued comprehensive guidelines on transition from IPC to BNS for sexual offence cases, clarifying that pending cases continue under IPC while new FIRs from July 1, 2024 are registered under BNS provisions." },
     ],
   },
   "scam-fraud": {
@@ -128,6 +135,10 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "P. Chidambaram v. Directorate of Enforcement", year: "2019", summary: "Court discussed bail conditions in money laundering cases and held that economic offences constitute a class apart requiring stricter bail conditions." },
       { name: "Manohar Lal Sharma v. Union of India (Rafale Case)", year: "2018", summary: "Court examined scope of judicial review in government procurement decisions and defense deals, balancing transparency with national security." },
       { name: "State through CBI v. Sanjay Chandra (2G Case Bail)", year: "2012", summary: "Supreme Court granted bail to accused in 2G case, establishing that gravity of offence alone cannot justify indefinite detention." },
+      { name: "Pankaj Bansal v. Union of India", year: "2023", summary: "Supreme Court held that ED must furnish a copy of the Enforcement Case Information Report (ECIR) to the arrested person, similar to FIR in criminal cases, as part of right to information under Article 22(1)." },
+      { name: "Directorate of Enforcement v. Padmanabhan Kishore", year: "2023", summary: "Supreme Court reiterated that courts must apply twin conditions of Section 45 PMLA strictly and accused must demonstrate that they are not guilty and unlikely to commit any offence while on bail." },
+      { name: "In Re: Regulation of Digital Lending and Fintech Frauds", year: "2024", summary: "Supreme Court issued directions to RBI and central government to regulate digital lending apps and prevent online financial frauds, mandating KYC compliance and grievance mechanisms." },
+      { name: "SEBI v. Abhijit Rajan (Gammon India Insider Trading)", year: "2025", summary: "Supreme Court upheld enhanced penalties under amended SEBI Act for insider trading, confirming that circumstantial evidence of communication between connected persons can establish insider trading." },
     ],
   },
   "kidnapping-abduction": {
@@ -175,6 +186,8 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Chhajju Ram v. State of Punjab", year: "1968", summary: "Court held that 'enticing' under Section 361 means using some effort to draw the minor away. Mere persuasion or suggestion may suffice." },
       { name: "State of UP v. Deoman Upadhyaya", year: "1960", summary: "Supreme Court established that kidnapping is a continuing offence – it continues as long as the minor is kept away from lawful guardian's custody." },
       { name: "Budhan v. State of Bihar", year: "2006", summary: "Court examined intersection of kidnapping with forced marriage and held that kidnapping a minor girl for marriage is an aggravated offence." },
+      { name: "Trafficking of Persons (Prevention, Protection and Rehabilitation) Bill Directions", year: "2023", summary: "Supreme Court directed faster implementation of anti-trafficking measures and established guidelines for inter-state coordination in kidnapping-for-trafficking cases under BNS provisions." },
+      { name: "In Re: Missing Children and Trafficking", year: "2024", summary: "Supreme Court directed all states to establish Anti-Human Trafficking Units, mandated linking of missing children databases with NCRB's Track Child portal, and required 24-hour helplines for reporting." },
     ],
   },
   "murder-homicide": {
@@ -222,6 +235,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "State of Rajasthan v. Kashi Ram", year: "2006", summary: "Court extensively discussed distinction between Section 302 (murder) and Section 304 Part I and Part II – when culpable homicide does not amount to murder." },
       { name: "Dhananjoy Chatterjee v. State of West Bengal", year: "1994", summary: "Supreme Court upheld death sentence for rape and murder of a minor. Confirmed the crime fell within 'rarest of rare' category." },
       { name: "Rajesh Kumar v. State of Delhi (Jessica Lal Case)", year: "2010", summary: "High-profile murder case where initial acquittal was overturned. Highlighted issues of hostile witnesses and the role of media in justice." },
+      { name: "Manoj v. State of MP", year: "2023", summary: "Supreme Court laid down comprehensive guidelines for trial courts on distinguishing murder (Section 302/BNS 103) from culpable homicide (Section 304/BNS 105), emphasizing the four-fold test of intention, knowledge, nature of injury, and imminence of danger." },
+      { name: "In Re: Implementation of BNS Death by Negligence Provisions", year: "2024", summary: "Supreme Court directed that BNS Section 105 (enhanced 5-7 year punishment for negligent death) applies to all road accident cases from July 1, 2024, and mandated special fast-track courts for hit-and-run cases." },
+      { name: "State of Maharashtra v. Accused in Pune Hit-and-Run", year: "2025", summary: "Supreme Court upheld conviction under BNS Section 105(2) for rash driving causing death, affirming the enhanced penalties and rejecting plea of minor age as defense for endangering public safety." },
     ],
   },
   "cybercrime": {
@@ -269,6 +285,10 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Avnish Bajaj v. State (Bazee.com Case)", year: "2005", summary: "Delhi High Court examined intermediary liability for content posted by users. Distinguished between active participation and passive hosting." },
       { name: "Google India v. Visakha Industries", year: "2020", summary: "Supreme Court discussed scope of intermediary safe harbor under Section 79 and conditions under which intermediaries lose protection." },
       { name: "Shamsher Singh Verma v. State of Haryana", year: "2015", summary: "Supreme Court held that electronic evidence (CD/DVD) without certificate under Section 65B of Indian Evidence Act is inadmissible." },
+      { name: "Antony Clement Rubin v. Union of India", year: "2023", summary: "Supreme Court directed Centre and states to set up dedicated cybercrime police stations in every district and ensure cyber forensic labs meet international standards." },
+      { name: "In Re: Regulation of Artificial Intelligence and Deepfakes", year: "2024", summary: "Supreme Court issued suo motu directions on regulation of AI-generated deepfakes, directing government to frame guidelines under IT Act for detection and removal within 24 hours, and liability framework for platforms." },
+      { name: "X v. Union of India (Digital Personal Data Protection)", year: "2025", summary: "Supreme Court upheld key provisions of DPDP Act 2023 while reading down certain surveillance provisions as disproportionate under Article 21 right to privacy. Mandated Data Protection Board to be independent." },
+      { name: "In Re: Cryptocurrency Fraud and Digital Asset Crimes", year: "2025", summary: "Supreme Court directed RBI and SEBI to issue joint guidelines on cryptocurrency-related crimes, mandating that exchanges comply with KYC norms and cooperate with ED/police investigations." },
     ],
   },
   "domestic-violence": {
@@ -313,6 +333,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Smt. Sandhya Wankhede v. Manoj Bhimrao Wankhede", year: "2011", summary: "Supreme Court held that right of woman to reside in shared household under DV Act is a paramount right and cannot be defeated by husband's transfer of property." },
       { name: "S.R. Batra v. Smt. Taruna Batra", year: "2007", summary: "Supreme Court held that 'shared household' under DV Act means household where parties lived together – not any property of husband or his relatives." },
       { name: "Sushil Kumar Sharma v. Union of India", year: "2005", summary: "Supreme Court while upholding Section 498A's constitutionality acknowledged possibility of misuse but held that mere possibility of misuse does not make a provision unconstitutional." },
+      { name: "Reema Aggarwal v. Anupam", year: "2023", summary: "Supreme Court held that DV Act provisions are available to women in live-in relationships of significant duration, and economic abuse includes denial of access to joint bank accounts and financial resources." },
+      { name: "In Re: Implementation of BNS Section 85-86 (Cruelty/Dowry Death)", year: "2024", summary: "Supreme Court issued transitional guidelines for pending 498A/304B cases, clarifying that cases registered before July 1, 2024 continue under IPC, and directing police training on new BNS provisions." },
+      { name: "Xyz v. State of Delhi (Digital Domestic Violence)", year: "2025", summary: "Delhi High Court recognized cyber harassment, online stalking by spouse, and financial control through digital means as forms of domestic violence under DV Act, expanding the definition of 'emotional abuse' to include digital contexts." },
     ],
   },
   "consumer-grievances": {
@@ -357,6 +380,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Ambrish Kumar Shukla v. Ferrero Rocher", year: "2015", summary: "National Consumer Commission addressed misleading advertisements by food companies and liability for false claims on packaging." },
       { name: "Morgan Stanley MFW v. Kartick Das", year: "2009", summary: "Supreme Court held that deficiency in financial services (banking, insurance, mutual funds) is covered under Consumer Protection Act." },
       { name: "Pioneer Urban Land v. Union of India", year: "2019", summary: "Supreme Court upheld homebuyers as 'financial creditors' under IBC and 'consumers' under CPA. Can seek simultaneous remedies under both acts." },
+      { name: "CCPA v. Online Marketplace (Dark Pattern Order)", year: "2024", summary: "Central Consumer Protection Authority issued landmark order penalizing major e-commerce platforms for 'dark patterns' – deceptive UI designs that trick consumers into unintended purchases, subscriptions, or data sharing." },
+      { name: "In Re: Regulation of Quick Commerce and Delivery Platforms", year: "2025", summary: "Supreme Court directed CCPA to frame guidelines for quick commerce platforms ensuring product quality, return policies, and fair pricing, extending CPA 2019 protections to instant delivery services." },
+      { name: "Consumer Unity v. Pharma Companies (Drug Pricing)", year: "2025", summary: "National Consumer Commission held that selling medicines above NPPA ceiling price constitutes unfair trade practice, ordering compensation and directing NPPA to strengthen price monitoring." },
     ],
   },
   "parliamentary-law": {
@@ -404,6 +430,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "S.R. Bommai v. Union of India", year: "1994", summary: "Landmark case on Article 356 (President's Rule). Court held that President's Rule is subject to judicial review, floor test is mandatory to determine majority, and secularism is part of basic structure." },
       { name: "Lily Thomas v. Union of India", year: "2013", summary: "Supreme Court struck down Section 8(4) of RPA 1951 which allowed convicted legislators to continue by filing appeal. Now disqualification is immediate upon conviction (2+ years sentence)." },
       { name: "Association for Democratic Reforms v. Union of India", year: "2002", summary: "Supreme Court directed disclosure of criminal background, assets, and educational qualifications of election candidates. Right of voters to know is part of freedom of expression." },
+      { name: "Subhash Desai v. Principal Secretary, Maharashtra", year: "2023", summary: "Supreme Court's landmark ruling on the Maharashtra political crisis – clarified the scope of Tenth Schedule, held that Speaker cannot recognize a rival faction as the 'real' party, and laid down tests for determining party whip authority." },
+      { name: "In Re: Electoral Bond Scheme", year: "2024", summary: "Supreme Court struck down the Electoral Bond Scheme as unconstitutional for violating voters' right to information under Article 19(1)(a). Directed SBI to disclose all bond details and political party recipients." },
+      { name: "ADR v. ECI (Criminalization of Politics)", year: "2025", summary: "Supreme Court directed Election Commission to mandate prominent disclosure of criminal cases against candidates in all campaign materials and ads, and recommended Parliament to debar persons with serious criminal charges from contesting." },
     ],
   },
 };

@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ArrowLeft, Scale, BookOpen, Landmark, Shield } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { CategoryAnalyticsGraph } from "@/components/CategoryAnalyticsGraph";
 
 const typeColors: Record<string, string> = {
   constitutional: "bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200",
@@ -129,6 +130,9 @@ const LegalCategoryPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Category Analytics Graph */}
+      <CategoryAnalyticsGraph slug={category.slug} label={category.label} />
 
       {/* Disclaimer */}
       <section className="pb-16">
