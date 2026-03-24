@@ -131,6 +131,10 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "P. Chidambaram v. Directorate of Enforcement", year: "2019", summary: "Court discussed bail conditions in money laundering cases and held that economic offences constitute a class apart requiring stricter bail conditions." },
       { name: "Manohar Lal Sharma v. Union of India (Rafale Case)", year: "2018", summary: "Court examined scope of judicial review in government procurement decisions and defense deals, balancing transparency with national security." },
       { name: "State through CBI v. Sanjay Chandra (2G Case Bail)", year: "2012", summary: "Supreme Court granted bail to accused in 2G case, establishing that gravity of offence alone cannot justify indefinite detention." },
+      { name: "Pankaj Bansal v. Union of India", year: "2023", summary: "Supreme Court held that ED must furnish a copy of the Enforcement Case Information Report (ECIR) to the arrested person, similar to FIR in criminal cases, as part of right to information under Article 22(1)." },
+      { name: "Directorate of Enforcement v. Padmanabhan Kishore", year: "2023", summary: "Supreme Court reiterated that courts must apply twin conditions of Section 45 PMLA strictly and accused must demonstrate that they are not guilty and unlikely to commit any offence while on bail." },
+      { name: "In Re: Regulation of Digital Lending and Fintech Frauds", year: "2024", summary: "Supreme Court issued directions to RBI and central government to regulate digital lending apps and prevent online financial frauds, mandating KYC compliance and grievance mechanisms." },
+      { name: "SEBI v. Abhijit Rajan (Gammon India Insider Trading)", year: "2025", summary: "Supreme Court upheld enhanced penalties under amended SEBI Act for insider trading, confirming that circumstantial evidence of communication between connected persons can establish insider trading." },
     ],
   },
   "kidnapping-abduction": {
