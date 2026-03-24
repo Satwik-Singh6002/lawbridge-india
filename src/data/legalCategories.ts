@@ -281,6 +281,10 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Avnish Bajaj v. State (Bazee.com Case)", year: "2005", summary: "Delhi High Court examined intermediary liability for content posted by users. Distinguished between active participation and passive hosting." },
       { name: "Google India v. Visakha Industries", year: "2020", summary: "Supreme Court discussed scope of intermediary safe harbor under Section 79 and conditions under which intermediaries lose protection." },
       { name: "Shamsher Singh Verma v. State of Haryana", year: "2015", summary: "Supreme Court held that electronic evidence (CD/DVD) without certificate under Section 65B of Indian Evidence Act is inadmissible." },
+      { name: "Antony Clement Rubin v. Union of India", year: "2023", summary: "Supreme Court directed Centre and states to set up dedicated cybercrime police stations in every district and ensure cyber forensic labs meet international standards." },
+      { name: "In Re: Regulation of Artificial Intelligence and Deepfakes", year: "2024", summary: "Supreme Court issued suo motu directions on regulation of AI-generated deepfakes, directing government to frame guidelines under IT Act for detection and removal within 24 hours, and liability framework for platforms." },
+      { name: "X v. Union of India (Digital Personal Data Protection)", year: "2025", summary: "Supreme Court upheld key provisions of DPDP Act 2023 while reading down certain surveillance provisions as disproportionate under Article 21 right to privacy. Mandated Data Protection Board to be independent." },
+      { name: "In Re: Cryptocurrency Fraud and Digital Asset Crimes", year: "2025", summary: "Supreme Court directed RBI and SEBI to issue joint guidelines on cryptocurrency-related crimes, mandating that exchanges comply with KYC norms and cooperate with ED/police investigations." },
     ],
   },
   "domestic-violence": {
