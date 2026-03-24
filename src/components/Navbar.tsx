@@ -3,20 +3,22 @@ import { Menu, X, Globe, Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { languages } from "@/i18n";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
   const currentLang = languages.find((l) => l.code === i18n.language) || languages[0];
 
   const navItems = [
-    { label: t("nav.laws"), href: "#laws" },
-    { label: t("nav.cases"), href: "#cases" },
-    { label: t("nav.analytics"), href: "#analytics" },
-    { label: t("nav.findHelp"), href: "#directory" },
-    { label: t("nav.news"), href: "#news" },
+    { label: t("nav.laws"), href: "/laws" },
+    { label: t("nav.cases"), href: "/cases" },
+    { label: t("nav.analytics"), href: "/analytics" },
+    { label: t("nav.findHelp"), href: "/find-help" },
+    { label: t("nav.news"), href: "/news" },
   ];
 
   const changeLanguage = (code: string) => {
