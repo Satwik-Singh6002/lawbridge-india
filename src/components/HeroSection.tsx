@@ -213,11 +213,6 @@ export const HeroSection = () => {
 
       {/* Floating particles — container only, children created by GSAP */}
       <div ref={particlesRef} className="absolute inset-0 pointer-events-none overflow-hidden" />
-              background: i % 3 === 0 ? "hsl(35 85% 55% / 0.6)" : "hsl(0 0% 100% / 0.15)",
-            }}
-          />
-        ))}
-      </div>
 
       {/* Saffron top accent line */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-saffron to-transparent" />
