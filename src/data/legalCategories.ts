@@ -231,6 +231,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "State of Rajasthan v. Kashi Ram", year: "2006", summary: "Court extensively discussed distinction between Section 302 (murder) and Section 304 Part I and Part II – when culpable homicide does not amount to murder." },
       { name: "Dhananjoy Chatterjee v. State of West Bengal", year: "1994", summary: "Supreme Court upheld death sentence for rape and murder of a minor. Confirmed the crime fell within 'rarest of rare' category." },
       { name: "Rajesh Kumar v. State of Delhi (Jessica Lal Case)", year: "2010", summary: "High-profile murder case where initial acquittal was overturned. Highlighted issues of hostile witnesses and the role of media in justice." },
+      { name: "Manoj v. State of MP", year: "2023", summary: "Supreme Court laid down comprehensive guidelines for trial courts on distinguishing murder (Section 302/BNS 103) from culpable homicide (Section 304/BNS 105), emphasizing the four-fold test of intention, knowledge, nature of injury, and imminence of danger." },
+      { name: "In Re: Implementation of BNS Death by Negligence Provisions", year: "2024", summary: "Supreme Court directed that BNS Section 105 (enhanced 5-7 year punishment for negligent death) applies to all road accident cases from July 1, 2024, and mandated special fast-track courts for hit-and-run cases." },
+      { name: "State of Maharashtra v. Accused in Pune Hit-and-Run", year: "2025", summary: "Supreme Court upheld conviction under BNS Section 105(2) for rash driving causing death, affirming the enhanced penalties and rejecting plea of minor age as defense for endangering public safety." },
     ],
   },
   "cybercrime": {
