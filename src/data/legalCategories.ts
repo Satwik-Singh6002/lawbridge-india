@@ -329,6 +329,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Smt. Sandhya Wankhede v. Manoj Bhimrao Wankhede", year: "2011", summary: "Supreme Court held that right of woman to reside in shared household under DV Act is a paramount right and cannot be defeated by husband's transfer of property." },
       { name: "S.R. Batra v. Smt. Taruna Batra", year: "2007", summary: "Supreme Court held that 'shared household' under DV Act means household where parties lived together – not any property of husband or his relatives." },
       { name: "Sushil Kumar Sharma v. Union of India", year: "2005", summary: "Supreme Court while upholding Section 498A's constitutionality acknowledged possibility of misuse but held that mere possibility of misuse does not make a provision unconstitutional." },
+      { name: "Reema Aggarwal v. Anupam", year: "2023", summary: "Supreme Court held that DV Act provisions are available to women in live-in relationships of significant duration, and economic abuse includes denial of access to joint bank accounts and financial resources." },
+      { name: "In Re: Implementation of BNS Section 85-86 (Cruelty/Dowry Death)", year: "2024", summary: "Supreme Court issued transitional guidelines for pending 498A/304B cases, clarifying that cases registered before July 1, 2024 continue under IPC, and directing police training on new BNS provisions." },
+      { name: "Xyz v. State of Delhi (Digital Domestic Violence)", year: "2025", summary: "Delhi High Court recognized cyber harassment, online stalking by spouse, and financial control through digital means as forms of domestic violence under DV Act, expanding the definition of 'emotional abuse' to include digital contexts." },
     ],
   },
   "consumer-grievances": {
