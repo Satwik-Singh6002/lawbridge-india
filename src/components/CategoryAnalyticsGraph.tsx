@@ -16,9 +16,9 @@ export const CategoryAnalyticsGraph = ({ slug, label }: CategoryAnalyticsGraphPr
   const [showDropdown, setShowDropdown] = useState(false);
 
   const categoryData = categoryAnalyticsData[slug];
-  if (!categoryData) return null;
 
   const availableStates = useMemo(() => {
+    if (!categoryData) return [];
     return Object.keys(categoryData).filter((k) => k !== "national");
   }, [categoryData]);
 
@@ -29,10 +29,10 @@ export const CategoryAnalyticsGraph = ({ slug, label }: CategoryAnalyticsGraphPr
     );
   }, [searchQuery, availableStates]);
 
-  const data = selectedRegion === "national" ? categoryData.national : categoryData[selectedRegion];
+  const data = categoryData ? (selectedRegion === "national" ? categoryData.national : categoryData[selectedRegion]) : null;
   const regionLabel = selectedRegion === "national" ? "National" : selectedRegion;
 
-  if (!data) return null;
+  if (!categoryData || !data) return null;
 
   return (
     <section className="py-16 bg-muted/30">
