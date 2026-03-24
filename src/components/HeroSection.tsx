@@ -242,10 +242,10 @@ export const HeroSection = () => {
 
           {/* Right: 3D Book */}
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-            <div
+           <div
               ref={bookContainerRef}
               className="relative will-change-transform"
-              style={{ perspective: "1800px" }}
+              style={{ perspective: "2200px" }}
             >
               <div
                 className="relative"
@@ -253,15 +253,67 @@ export const HeroSection = () => {
                   width: "320px",
                   height: "440px",
                   transformStyle: "preserve-3d",
+                  transform: "rotateY(-8deg) rotateX(2deg)",
                 }}
               >
+                {/* Page edges (right side - visible thickness) */}
+                <div
+                  className="absolute"
+                  style={{
+                    right: "-2px",
+                    top: "8px",
+                    bottom: "8px",
+                    width: "28px",
+                    transform: "rotateY(90deg) translateZ(318px)",
+                    background: "repeating-linear-gradient(to bottom, hsl(42 30% 92%), hsl(38 20% 86%) 1px, hsl(42 30% 92%) 1px, hsl(42 30% 92%) 3px)",
+                    borderRadius: "0 2px 2px 0",
+                    boxShadow: "2px 0 8px rgba(0,0,0,0.15)",
+                  }}
+                />
+
+                {/* Page edges (bottom - visible thickness) */}
+                <div
+                  className="absolute"
+                  style={{
+                    bottom: "-2px",
+                    left: "12px",
+                    right: "8px",
+                    height: "28px",
+                    transform: "rotateX(-90deg) translateZ(438px)",
+                    background: "repeating-linear-gradient(to right, hsl(42 30% 90%), hsl(38 20% 84%) 1px, hsl(42 30% 90%) 1px, hsl(42 30% 90%) 3px)",
+                    borderRadius: "0 0 2px 2px",
+                    boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+                  }}
+                />
+
+                {/* Spine */}
+                <div
+                  className="absolute"
+                  style={{
+                    left: "-28px",
+                    top: "-2px",
+                    bottom: "-2px",
+                    width: "30px",
+                    transform: "rotateY(-90deg) translateZ(0px)",
+                    background: "linear-gradient(90deg, hsl(220 50% 14%) 0%, hsl(220 45% 20%) 40%, hsl(220 50% 16%) 100%)",
+                    borderRadius: "4px 0 0 4px",
+                    boxShadow: "-4px 0 15px rgba(0,0,0,0.4)",
+                  }}
+                >
+                  <div className="flex items-center justify-center h-full">
+                    <span className="text-saffron/60 text-[8px] font-bold tracking-[0.3em] uppercase" style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}>
+                      Constitution of India
+                    </span>
+                  </div>
+                </div>
+
                 {/* Book spine / back cover */}
                 <div
                   className="absolute inset-0 rounded-r-md"
                   style={{
                     background: "linear-gradient(135deg, hsl(220 40% 18%) 0%, hsl(220 40% 12%) 100%)",
                     transform: "translateZ(-30px)",
-                    boxShadow: "0 25px 60px rgba(0,0,0,0.6)",
+                    boxShadow: "0 30px 80px rgba(0,0,0,0.7), 0 10px 30px rgba(0,0,0,0.4)",
                     borderRight: "3px solid hsl(35 80% 40%)",
                   }}
                 >
