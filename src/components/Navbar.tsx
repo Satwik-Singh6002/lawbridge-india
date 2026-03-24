@@ -29,12 +29,12 @@ export const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16">
-        <a href="#" className="flex items-center gap-2.5">
+        <Link to="/" className="flex items-center gap-2.5">
           <div className="w-9 h-9 rounded-lg bg-navy flex items-center justify-center">
             <Scale className="w-5 h-5 text-saffron" />
           </div>
           <span className="text-xl font-bold text-navy tracking-tight">ADHIKAR</span>
-        </a>
+        </Link>
 
         <div className="hidden md:flex items-center gap-1">
           {navItems.map((item) => (
