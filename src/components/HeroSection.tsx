@@ -211,15 +211,8 @@ export const HeroSection = () => {
         }}
       />
 
-      {/* Floating particles */}
-      <div ref={particlesRef} className="absolute inset-0 pointer-events-none overflow-hidden">
-        {Array.from({ length: 20 }).map((_, i) => (
-          <div
-            key={i}
-            className="absolute rounded-full"
-            style={{
-              width: `${2 + Math.random() * 3}px`,
-              height: `${2 + Math.random() * 3}px`,
+      {/* Floating particles — container only, children created by GSAP */}
+      <div ref={particlesRef} className="absolute inset-0 pointer-events-none overflow-hidden" />
               background: i % 3 === 0 ? "hsl(35 85% 55% / 0.6)" : "hsl(0 0% 100% / 0.15)",
             }}
           />
