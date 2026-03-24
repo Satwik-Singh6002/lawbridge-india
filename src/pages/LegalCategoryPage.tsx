@@ -21,7 +21,6 @@ const typeLabels: Record<string, string> = {
   bns: "Bharatiya Nyaya Sanhita",
   special: "Special Act",
 };
-};
 
 const LegalCategoryPage = () => {
   const { slug } = useParams<{ slug: string }>();
