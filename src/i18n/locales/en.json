@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "laws": "Laws",
+    "cases": "Cases",
+    "analytics": "Analytics",
+    "findHelp": "Find Help",
+    "news": "News",
+    "vidhiSahayak": "Vidhi Sahayak"
+  },
+  "hero": {
+    "subtitle": "India's Legal & Democratic Empowerment Platform",
+    "title1": "Know Your Laws.",
+    "title2": "Claim Your Rights.",
+    "description": "Search any Indian law, explore landmark cases, find advocates, and get AI-powered legal guidance — all in your language.",
+    "searchPlaceholder": "Search laws, acts, cases… e.g. \"Section 302 IPC\"",
+    "popular": "Popular:",
+    "scrollToOpen": "Scroll to open",
+    "tags": ["POCSO Act", "RTI Filing", "Cybercrime", "Consumer Rights", "FIR Process"],
+    "stats": {
+      "acts": "Central & State Acts",
+      "cases": "Case Summaries",
+      "languages": "Indian Languages",
+      "ai": "AI Legal Assistant"
+    }
+  },
+  "features": {
+    "sectionLabel": "Platform Features",
+    "title": "Everything You Need for Legal Empowerment",
+    "description": "From understanding laws to finding help — one unified platform for every Indian citizen.",
+    "items": {
+      "legalDb": { "title": "Complete Legal Database", "desc": "Full texts of every central and major state act, searchable by section, keyword, or topic." },
+      "caseRepo": { "title": "Case Repository", "desc": "Landmark judgments, punishments, and linked news for major case types across India." },
+      "aiAssistant": { "title": "AI Legal Assistant", "desc": "Vidhi Sahayak explains complex laws in simple language, in Hindi, English, and 10+ languages." },
+      "crimeAnalytics": { "title": "Crime Analytics", "desc": "National and state-wise case trend graphs sourced from NCRB data, filterable by offence type." },
+      "advocateDir": { "title": "Advocate Directory", "desc": "Find verified advocates by location, language, specialization, and fee range." },
+      "policeLocator": { "title": "Police & Court Locator", "desc": "Locate nearby police stations, women's help desks, and courts on an interactive map." },
+      "knowRights": { "title": "Know Your Rights", "desc": "Interactive guides on fundamental rights, RTI filing, FIR procedures, and more." },
+      "govPortals": { "title": "Government Portals", "desc": "Direct links to NHRC, eCourts, Cyber Crime Portal, Consumer Helpline, and more." }
+    }
+  },
+  "categories": {
+    "sectionLabel": "Legal Knowledge Base",
+    "title": "Browse by Case Type",
+    "description": "Pre-filtered collections of laws, judgments, and case studies for every major category."
+  },
+  "analytics": {
+    "sectionLabel": "Crime Analytics",
+    "title": "Case Trends Across India",
+    "description": "Data sourced from NCRB reports. Select a state to view regional trends.",
+    "national": "National",
+    "casesByCategory": "Cases by Category",
+    "kidnappingTrend": "Kidnapping Trend"
+  },
+  "chatbot": {
+    "sectionLabel": "AI Legal Assistant",
+    "title": "Meet Vidhi Sahayak",
+    "description": "Our multilingual AI chatbot simplifies complex legal concepts, explains relevant sections, and helps you understand your rights — all in the language you're most comfortable with.",
+    "features": [
+      "Explains laws in simple, everyday language",
+      "Supports 12 Indian languages including Hindi, Tamil, Telugu",
+      "Retrieves relevant case summaries and judgments",
+      "Provides step-by-step guides for legal procedures"
+    ],
+    "botName": "Vidhi Sahayak",
+    "botRole": "AI Legal Assistant",
+    "greeting": "Namaste! I'm Vidhi Sahayak, your AI legal assistant. Ask me anything about Indian laws, rights, or legal procedures. I can help in Hindi, English, Tamil, and 9 other languages.",
+    "placeholder": "Ask about any law or right…",
+    "mockReply": "Thank you for your question. This feature will be powered by our RAG-based AI system. For now, please explore the legal knowledge base above for detailed information. ⚖️\n\n⚠️ Disclaimer: For informational purposes only — not legal advice."
+  },
+  "directory": {
+    "sectionLabel": "Find Help Near You",
+    "title": "Advocates & Police Stations",
+    "description": "Locate verified advocates, police stations, women's help desks, and courts near you.",
+    "interactiveMap": "Interactive Map",
+    "mapIntegration": "Google Maps / OpenStreetMap integration",
+    "enableLocation": "Enable Location",
+    "searchPlaceholder": "Search by area, station name…"
+  },
+  "portals": {
+    "sectionLabel": "Quick Access",
+    "title": "Government Portals",
+    "description": "Direct links to essential government services for filing complaints, checking case status, and more."
+  },
+  "footer": {
+    "tagline": "India's unified platform for legal awareness, democratic empowerment, and citizen rights.",
+    "platform": "Platform",
+    "platformLinks": ["Legal Database", "Case Repository", "Crime Analytics", "AI Assistant", "Advocate Directory"],
+    "resources": "Resources",
+    "resourceLinks": ["Know Your Rights", "File an FIR", "RTI Guide", "Consumer Complaint", "Cyber Crime Report"],
+    "legal": "Legal",
+    "legalLinks": ["Privacy Policy", "Terms of Service", "Disclaimer", "Contact Us"],
+    "copyright": "© 2026 ADHIKAR. For informational purposes only — not legal advice.",
+    "dataSource": "Data sourced from NCRB, IndiaCode, eCourts & government publications."
+  },
+  "legalCategory": {
+    "backToAll": "Back to all categories",
+    "notFound": "Category Not Found",
+    "lawsTitle": "Applicable Laws & Provisions",
+    "rightsTitle": "Fundamental Rights & Constitutional Protections",
+    "judgmentsTitle": "Landmark Judgments",
+    "disclaimer": "This information is for educational purposes only and does not constitute legal advice. Please consult a qualified advocate for specific legal matters."
+  }
+}
