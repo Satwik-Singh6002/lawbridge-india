@@ -1,4 +1,5 @@
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import {
   Gavel, ShieldAlert, Banknote, UserX, Skull,
@@ -17,16 +18,18 @@ const categories = [
 ];
 
 export const LegalCategoriesSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24" id="laws">
       <div className="container">
         <ScrollReveal className="text-center mb-16">
-          <p className="text-saffron font-semibold text-sm tracking-widest uppercase mb-3">Legal Knowledge Base</p>
+          <p className="text-saffron font-semibold text-sm tracking-widest uppercase mb-3">{t("categories.sectionLabel")}</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-navy tracking-tight">
-            Browse by Case Type
+            {t("categories.title")}
           </h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Pre-filtered collections of laws, judgments, and case studies for every major category.
+            {t("categories.description")}
           </p>
         </ScrollReveal>
 
