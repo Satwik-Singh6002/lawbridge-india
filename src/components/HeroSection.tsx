@@ -69,16 +69,23 @@ export const HeroSection = () => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Floating particles
+      // Floating particles — created imperatively to avoid React/GSAP DOM conflict
       if (particlesRef.current) {
-        const particles = particlesRef.current.children;
-        Array.from(particles).forEach((p, i) => {
-          gsap.set(p, {
+        for (let i = 0; i < 20; i++) {
+          const dot = document.createElement("div");
+          dot.className = "absolute rounded-full";
+          const size = 2 + Math.random() * 3;
+          dot.style.width = `${size}px`;
+          dot.style.height = `${size}px`;
+          dot.style.background = i % 3 === 0 ? "hsl(35 85% 55% / 0.6)" : "hsl(0 0% 100% / 0.15)";
+          particlesRef.current.appendChild(dot);
+
+          gsap.set(dot, {
             x: Math.random() * window.innerWidth,
             y: Math.random() * window.innerHeight,
             opacity: 0,
           });
-          gsap.to(p, {
+          gsap.to(dot, {
             y: `-=${200 + Math.random() * 300}`,
             x: `+=${(Math.random() - 0.5) * 150}`,
             opacity: Math.random() * 0.5 + 0.1,
@@ -87,7 +94,7 @@ export const HeroSection = () => {
             delay: Math.random() * 5,
             ease: "none",
           });
-        });
+        }
       }
 
       // Entry animation
