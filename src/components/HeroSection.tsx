@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Search } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import constitutionBook from "@/assets/constitution-book.png";
@@ -46,6 +47,7 @@ const bookPages = [
 ];
 
 export const HeroSection = () => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLElement>(null);
   const bookContainerRef = useRef<HTMLDivElement>(null);
   const coverRef = useRef<HTMLDivElement>(null);
@@ -56,7 +58,6 @@ export const HeroSection = () => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Entrance animations
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
       tl.fromTo(
@@ -95,7 +96,6 @@ export const HeroSection = () => {
           "-=0.2"
         );
 
-      // Scroll timeline: cover opens, then pages turn one by one
       const scrollTl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -106,21 +106,18 @@ export const HeroSection = () => {
         },
       });
 
-      // Step 1: Open cover (0 → 0.2)
       scrollTl.to(
         coverRef.current,
         { rotateY: -160, duration: 0.2, ease: "power2.inOut" },
         0
       );
 
-      // Step 2: Fade text out as book opens
       scrollTl.to(
         textRef.current,
         { opacity: 0, x: -80, duration: 0.15, ease: "power2.in" },
         0.05
       );
 
-      // Step 3: Center and scale book as cover opens
       scrollTl.to(
         bookContainerRef.current,
         {
@@ -132,7 +129,6 @@ export const HeroSection = () => {
         0.05
       );
 
-      // Step 4: Turn pages one by one
       bookPages.forEach((_, i) => {
         const pageEl = pagesRef.current[i];
         if (!pageEl) return;
@@ -148,7 +144,6 @@ export const HeroSection = () => {
         );
       });
 
-      // Glow
       gsap.to(glowRef.current, {
         scale: 1.3,
         opacity: 0.6,
@@ -161,6 +156,8 @@ export const HeroSection = () => {
 
     return () => ctx.revert();
   }, []);
+
+  const tags = t("hero.tags", { returnObjects: true }) as string[];
 
   return (
     <section
@@ -187,7 +184,7 @@ export const HeroSection = () => {
 
       {/* Scroll hint */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-white/30 text-xs animate-pulse">
-        <span>Scroll to open</span>
+        <span>{t("hero.scrollToOpen")}</span>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M12 5v14M5 12l7 7 7-7" />
         </svg>
@@ -198,28 +195,28 @@ export const HeroSection = () => {
           {/* Left: Text */}
           <div ref={textRef} className="text-center lg:text-left order-2 lg:order-1">
             <p className="hero-subtitle text-saffron font-semibold text-sm tracking-widest uppercase mb-6">
-              India's Legal & Democratic Empowerment Platform
+              {t("hero.subtitle")}
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.08] tracking-tight mb-6">
-              <span className="hero-title-line block">Know Your Laws.</span>
-              <span className="hero-title-line block text-saffron">Claim Your Rights.</span>
+              <span className="hero-title-line block">{t("hero.title1")}</span>
+              <span className="hero-title-line block text-saffron">{t("hero.title2")}</span>
             </h1>
             <p className="hero-subtitle text-white/60 text-lg sm:text-xl max-w-xl mb-10 leading-relaxed">
-              Search any Indian law, explore landmark cases, find advocates, and get AI-powered legal guidance — all in your language.
+              {t("hero.description")}
             </p>
             <div ref={searchRef} className="max-w-xl mb-8">
               <div className="relative">
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
                 <input
                   type="text"
-                  placeholder='Search laws, acts, cases… e.g. "Section 302 IPC"'
+                  placeholder={t("hero.searchPlaceholder")}
                   className="w-full h-13 pl-12 pr-4 rounded-xl bg-white/10 backdrop-blur-md text-white text-base placeholder:text-white/40 shadow-xl shadow-black/30 border border-white/10 outline-none focus:ring-2 focus:ring-saffron/50 focus:border-saffron/30 transition-all"
                 />
               </div>
             </div>
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 text-sm text-white/40">
-              <span>Popular:</span>
-              {["POCSO Act", "RTI Filing", "Cybercrime", "Consumer Rights", "FIR Process"].map((tag) => (
+              <span>{t("hero.popular")}</span>
+              {Array.isArray(tags) && tags.map((tag) => (
                 <button key={tag} className="hero-tag px-3 py-1 rounded-full border border-white/15 hover:border-saffron hover:text-saffron transition-colors">
                   {tag}
                 </button>
@@ -227,10 +224,10 @@ export const HeroSection = () => {
             </div>
             <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-xl">
               {[
-                { value: "1,500+", label: "Central & State Acts" },
-                { value: "10,000+", label: "Case Summaries" },
-                { value: "12", label: "Indian Languages" },
-                { value: "24/7", label: "AI Legal Assistant" },
+                { value: "1,500+", label: t("hero.stats.acts") },
+                { value: "10,000+", label: t("hero.stats.cases") },
+                { value: "12", label: t("hero.stats.languages") },
+                { value: "24/7", label: t("hero.stats.ai") },
               ].map((stat) => (
                 <div key={stat.label} className="hero-stat text-center lg:text-left">
                   <div className="text-2xl sm:text-3xl font-bold text-saffron tabular-nums">{stat.value}</div>
@@ -278,7 +275,7 @@ export const HeroSection = () => {
                   </div>
                 </div>
 
-                {/* Book spine / back cover */}
+                {/* Back cover */}
                 <div
                   className="absolute inset-0 rounded-r-md"
                   style={{
@@ -297,7 +294,7 @@ export const HeroSection = () => {
                   </div>
                 </div>
 
-                {/* Inner pages (stacked, each flips) */}
+                {/* Inner pages */}
                 {bookPages.map((page, i) => (
                   <div
                     key={i}
@@ -312,7 +309,6 @@ export const HeroSection = () => {
                       zIndex: bookPages.length - i,
                     }}
                   >
-                    {/* Page front */}
                     <div
                       className="absolute inset-0 rounded-r-md overflow-hidden"
                       style={{
@@ -337,7 +333,6 @@ export const HeroSection = () => {
                       </div>
                     </div>
 
-                    {/* Page back */}
                     <div
                       className="absolute inset-0 rounded-l-md overflow-hidden"
                       style={{
@@ -365,7 +360,7 @@ export const HeroSection = () => {
                   </div>
                 ))}
 
-                {/* Front cover (flips open first) */}
+                {/* Front cover */}
                 <div
                   ref={coverRef}
                   className="absolute inset-0"
@@ -376,7 +371,6 @@ export const HeroSection = () => {
                     zIndex: bookPages.length + 1,
                   }}
                 >
-                  {/* Cover front */}
                   <div
                     className="absolute inset-0 rounded-r-md overflow-hidden"
                     style={{
@@ -390,7 +384,6 @@ export const HeroSection = () => {
                       alt="Constitution of India"
                       className="w-full h-full object-cover"
                     />
-                    {/* Subtle shine overlay */}
                     <div
                       className="absolute inset-0 pointer-events-none"
                       style={{
@@ -399,7 +392,6 @@ export const HeroSection = () => {
                     />
                   </div>
 
-                  {/* Cover back (inside cover) */}
                   <div
                     className="absolute inset-0 rounded-l-md overflow-hidden"
                     style={{

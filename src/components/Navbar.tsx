@@ -1,20 +1,28 @@
 import { useState } from "react";
 import { Menu, X, Globe, Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const languages = ["English", "हिन्दी", "தமிழ்", "తెలుగు", "বাংলা", "मराठी", "ಕನ್ನಡ", "ગુજરાતી"];
+import { useTranslation } from "react-i18next";
+import { languages } from "@/i18n";
 
 export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const currentLang = languages.find((l) => l.code === i18n.language) || languages[0];
 
   const navItems = [
-    { label: "Laws", href: "#laws" },
-    { label: "Cases", href: "#cases" },
-    { label: "Analytics", href: "#analytics" },
-    { label: "Find Help", href: "#directory" },
-    { label: "News", href: "#news" },
+    { label: t("nav.laws"), href: "#laws" },
+    { label: t("nav.cases"), href: "#cases" },
+    { label: t("nav.analytics"), href: "#analytics" },
+    { label: t("nav.findHelp"), href: "#directory" },
+    { label: t("nav.news"), href: "#news" },
   ];
+
+  const changeLanguage = (code: string) => {
+    i18n.changeLanguage(code);
+    setLangOpen(false);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
@@ -47,17 +55,19 @@ export const Navbar = () => {
               className="gap-1.5 text-muted-foreground"
             >
               <Globe className="w-4 h-4" />
-              <span className="hidden sm:inline text-xs">EN</span>
+              <span className="hidden sm:inline text-xs">{currentLang.short}</span>
             </Button>
             {langOpen && (
-              <div className="absolute right-0 top-full mt-1 bg-card border border-border rounded-lg shadow-lg p-1 min-w-[140px]">
+              <div className="absolute right-0 top-full mt-1 bg-card border border-border rounded-lg shadow-lg p-1 min-w-[140px] z-50">
                 {languages.map((lang) => (
                   <button
-                    key={lang}
-                    onClick={() => setLangOpen(false)}
-                    className="w-full text-left px-3 py-1.5 text-sm rounded-md hover:bg-muted transition-colors"
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`w-full text-left px-3 py-1.5 text-sm rounded-md hover:bg-muted transition-colors ${
+                      i18n.language === lang.code ? "bg-muted font-semibold text-foreground" : ""
+                    }`}
                   >
-                    {lang}
+                    {lang.label}
                   </button>
                 ))}
               </div>
@@ -65,7 +75,7 @@ export const Navbar = () => {
           </div>
 
           <Button variant="hero" size="sm" className="hidden sm:flex">
-            Vidhi Sahayak
+            {t("nav.vidhiSahayak")}
           </Button>
 
           <button
@@ -90,7 +100,7 @@ export const Navbar = () => {
             </a>
           ))}
           <Button variant="hero" size="sm" className="w-full mt-2">
-            Vidhi Sahayak
+            {t("nav.vidhiSahayak")}
           </Button>
         </div>
       )}
