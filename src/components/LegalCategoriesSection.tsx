@@ -33,11 +33,11 @@ export const LegalCategoriesSection = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {categories.map((cat, i) => (
             <ScrollReveal key={cat.label} delay={i * 60}>
-              <button className={`w-full text-left bg-card rounded-xl p-5 border-l-4 ${cat.accent} shadow-sm hover:shadow-md transition-all active:scale-[0.98] group border border-border/40`}>
+              <Link to={`/laws/${cat.slug}`} className={`block w-full text-left bg-card rounded-xl p-5 border-l-4 ${cat.accent} shadow-sm hover:shadow-md transition-all active:scale-[0.98] group border border-border/40`}>
                 <cat.icon className="w-6 h-6 text-muted-foreground group-hover:text-foreground transition-colors mb-3" />
                 <h3 className="font-semibold text-foreground text-sm mb-1">{cat.label}</h3>
                 <p className="text-xs text-muted-foreground">{cat.count}</p>
-              </button>
+              </Link>
             </ScrollReveal>
           ))}
         </div>
