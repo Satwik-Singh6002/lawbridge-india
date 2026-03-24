@@ -18,7 +18,9 @@ const typeLabels: Record<string, string> = {
   constitutional: "Constitutional",
   statutory: "Statutory Law",
   ipc: "Indian Penal Code",
+  bns: "Bharatiya Nyaya Sanhita",
   special: "Special Act",
+};
 };
 
 const LegalCategoryPage = () => {
