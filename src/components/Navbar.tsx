@@ -92,14 +92,14 @@ export const Navbar = () => {
       {mobileOpen && (
         <div className="md:hidden bg-card border-b border-border px-4 pb-4 space-y-1">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
+              to={item.href}
               onClick={() => setMobileOpen(false)}
               className="block px-3 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground rounded-md hover:bg-muted"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
           <Button variant="hero" size="sm" className="w-full mt-2">
             {t("nav.vidhiSahayak")}
