@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { legalCategoriesData } from "@/data/legalCategories";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Navbar } from "@/components/Navbar";
@@ -24,6 +25,7 @@ const typeLabels: Record<string, string> = {
 };
 
 const LegalCategoryPage = () => {
+  const { t } = useTranslation();
   const { slug } = useParams<{ slug: string }>();
   const category = slug ? legalCategoriesData[slug] : null;
 
@@ -32,8 +34,8 @@ const LegalCategoryPage = () => {
       <div className="min-h-screen">
         <Navbar />
         <div className="container py-32 text-center">
-          <h1 className="text-3xl font-bold text-foreground mb-4">Category Not Found</h1>
-          <Link to="/#laws" className="text-primary hover:underline">← Back to all categories</Link>
+          <h1 className="text-3xl font-bold text-foreground mb-4">{t("legalCategory.notFound")}</h1>
+          <Link to="/#laws" className="text-primary hover:underline">← {t("legalCategory.backToAll")}</Link>
         </div>
         <Footer />
       </div>
@@ -44,11 +46,10 @@ const LegalCategoryPage = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* Hero */}
       <section className="bg-navy text-white py-20 pt-28">
         <div className="container">
           <Link to="/#laws" className="inline-flex items-center gap-2 text-saffron hover:underline text-sm mb-6">
-            <ArrowLeft className="w-4 h-4" /> Back to all categories
+            <ArrowLeft className="w-4 h-4" /> {t("legalCategory.backToAll")}
           </Link>
           <h1 className="text-3xl sm:text-5xl font-bold mb-3">{category.label}</h1>
           <p className="text-lg text-white/70">{category.subtitle}</p>
@@ -56,13 +57,12 @@ const LegalCategoryPage = () => {
         </div>
       </section>
 
-      {/* Laws */}
       <section className="py-16">
         <div className="container">
           <ScrollReveal>
             <div className="flex items-center gap-3 mb-8">
               <Scale className="w-6 h-6 text-saffron" />
-              <h2 className="text-2xl font-bold text-foreground">Applicable Laws & Provisions</h2>
+              <h2 className="text-2xl font-bold text-foreground">{t("legalCategory.lawsTitle")}</h2>
             </div>
           </ScrollReveal>
 
@@ -84,13 +84,12 @@ const LegalCategoryPage = () => {
         </div>
       </section>
 
-      {/* Fundamental Rights */}
       <section className="py-16 bg-muted/30">
         <div className="container">
           <ScrollReveal>
             <div className="flex items-center gap-3 mb-8">
               <Shield className="w-6 h-6 text-saffron" />
-              <h2 className="text-2xl font-bold text-foreground">Fundamental Rights & Constitutional Protections</h2>
+              <h2 className="text-2xl font-bold text-foreground">{t("legalCategory.rightsTitle")}</h2>
             </div>
           </ScrollReveal>
 
@@ -107,13 +106,12 @@ const LegalCategoryPage = () => {
         </div>
       </section>
 
-      {/* Key Judgments */}
       <section className="py-16">
         <div className="container">
           <ScrollReveal>
             <div className="flex items-center gap-3 mb-8">
               <Landmark className="w-6 h-6 text-saffron" />
-              <h2 className="text-2xl font-bold text-foreground">Landmark Judgments</h2>
+              <h2 className="text-2xl font-bold text-foreground">{t("legalCategory.judgmentsTitle")}</h2>
             </div>
           </ScrollReveal>
 
@@ -131,16 +129,13 @@ const LegalCategoryPage = () => {
         </div>
       </section>
 
-      {/* Category Analytics Graph */}
       <CategoryAnalyticsGraph slug={category.slug} label={category.label} />
 
-      {/* Disclaimer */}
       <section className="pb-16">
         <div className="container">
           <div className="bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800 rounded-xl p-5 text-center">
             <p className="text-sm text-amber-800 dark:text-amber-200">
-              <strong>Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice.
-              Please consult a qualified advocate for specific legal matters.
+              <strong>Disclaimer:</strong> {t("legalCategory.disclaimer")}
             </p>
           </div>
         </div>

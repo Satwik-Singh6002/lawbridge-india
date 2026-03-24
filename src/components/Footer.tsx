@@ -1,6 +1,12 @@
 import { Scale } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+  const platformLinks = t("footer.platformLinks", { returnObjects: true }) as string[];
+  const resourceLinks = t("footer.resourceLinks", { returnObjects: true }) as string[];
+  const legalLinks = t("footer.legalLinks", { returnObjects: true }) as string[];
+
   return (
     <footer className="bg-navy text-primary-foreground/70 py-16">
       <div className="container">
@@ -12,33 +18,31 @@ export const Footer = () => {
               </div>
               <span className="text-lg font-bold text-primary-foreground">ADHIKAR</span>
             </div>
-            <p className="text-sm leading-relaxed">
-              India's unified platform for legal awareness, democratic empowerment, and citizen rights.
-            </p>
+            <p className="text-sm leading-relaxed">{t("footer.tagline")}</p>
           </div>
 
           <div>
-            <h4 className="text-primary-foreground font-semibold text-sm mb-4">Platform</h4>
+            <h4 className="text-primary-foreground font-semibold text-sm mb-4">{t("footer.platform")}</h4>
             <ul className="space-y-2.5 text-sm">
-              {["Legal Database", "Case Repository", "Crime Analytics", "AI Assistant", "Advocate Directory"].map((item) => (
+              {Array.isArray(platformLinks) && platformLinks.map((item) => (
                 <li key={item}><a href="#" className="hover:text-saffron transition-colors">{item}</a></li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h4 className="text-primary-foreground font-semibold text-sm mb-4">Resources</h4>
+            <h4 className="text-primary-foreground font-semibold text-sm mb-4">{t("footer.resources")}</h4>
             <ul className="space-y-2.5 text-sm">
-              {["Know Your Rights", "File an FIR", "RTI Guide", "Consumer Complaint", "Cyber Crime Report"].map((item) => (
+              {Array.isArray(resourceLinks) && resourceLinks.map((item) => (
                 <li key={item}><a href="#" className="hover:text-saffron transition-colors">{item}</a></li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h4 className="text-primary-foreground font-semibold text-sm mb-4">Legal</h4>
+            <h4 className="text-primary-foreground font-semibold text-sm mb-4">{t("footer.legal")}</h4>
             <ul className="space-y-2.5 text-sm">
-              {["Privacy Policy", "Terms of Service", "Disclaimer", "Contact Us"].map((item) => (
+              {Array.isArray(legalLinks) && legalLinks.map((item) => (
                 <li key={item}><a href="#" className="hover:text-saffron transition-colors">{item}</a></li>
               ))}
             </ul>
@@ -46,8 +50,8 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© 2026 ADHIKAR. For informational purposes only — not legal advice.</p>
-          <p>Data sourced from NCRB, IndiaCode, eCourts & government publications.</p>
+          <p>{t("footer.copyright")}</p>
+          <p>{t("footer.dataSource")}</p>
         </div>
       </div>
     </footer>

@@ -1,4 +1,5 @@
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 import { ExternalLink } from "lucide-react";
 
 const portals = [
@@ -11,17 +12,15 @@ const portals = [
 ];
 
 export const GovernmentPortalsSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 bg-cream" id="news">
       <div className="container">
         <ScrollReveal className="text-center mb-12">
-          <p className="text-saffron font-semibold text-sm tracking-widest uppercase mb-3">Quick Access</p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy tracking-tight">
-            Government Portals
-          </h2>
-          <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Direct links to essential government services for filing complaints, checking case status, and more.
-          </p>
+          <p className="text-saffron font-semibold text-sm tracking-widest uppercase mb-3">{t("portals.sectionLabel")}</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy tracking-tight">{t("portals.title")}</h2>
+          <p className="text-muted-foreground mt-4 max-w-xl mx-auto">{t("portals.description")}</p>
         </ScrollReveal>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">

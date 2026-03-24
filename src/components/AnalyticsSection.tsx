@@ -1,4 +1,5 @@
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from "recharts";
 import { useState } from "react";
 
@@ -37,6 +38,7 @@ const stateData: Record<string, typeof nationalData> = {
 const states = ["National", "Uttar Pradesh", "Maharashtra", "Delhi"];
 
 export const AnalyticsSection = () => {
+  const { t } = useTranslation();
   const [selectedState, setSelectedState] = useState("National");
   const data = selectedState === "National" ? nationalData : stateData[selectedState];
 
@@ -44,13 +46,9 @@ export const AnalyticsSection = () => {
     <section className="py-24 bg-cream" id="analytics">
       <div className="container">
         <ScrollReveal className="text-center mb-12">
-          <p className="text-saffron font-semibold text-sm tracking-widest uppercase mb-3">Crime Analytics</p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy tracking-tight">
-            Case Trends Across India
-          </h2>
-          <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Data sourced from NCRB reports. Select a state to view regional trends.
-          </p>
+          <p className="text-saffron font-semibold text-sm tracking-widest uppercase mb-3">{t("analytics.sectionLabel")}</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy tracking-tight">{t("analytics.title")}</h2>
+          <p className="text-muted-foreground mt-4 max-w-xl mx-auto">{t("analytics.description")}</p>
         </ScrollReveal>
 
         <ScrollReveal>
@@ -65,7 +63,7 @@ export const AnalyticsSection = () => {
                     : "bg-card text-muted-foreground hover:bg-muted border border-border"
                 }`}
               >
-                {s}
+                {s === "National" ? t("analytics.national") : s}
               </button>
             ))}
           </div>
@@ -74,8 +72,8 @@ export const AnalyticsSection = () => {
         <div className="grid lg:grid-cols-2 gap-6">
           <ScrollReveal direction="left">
             <div className="bg-card rounded-xl p-6 shadow-sm border border-border/50">
-              <h3 className="font-semibold text-foreground mb-1">Cases by Category</h3>
-              <p className="text-xs text-muted-foreground mb-6">2018–2022 · {selectedState}</p>
+              <h3 className="font-semibold text-foreground mb-1">{t("analytics.casesByCategory")}</h3>
+              <p className="text-xs text-muted-foreground mb-6">2018–2022 · {selectedState === "National" ? t("analytics.national") : selectedState}</p>
               <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={data} barCategoryGap="20%">
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(220 15% 90%)" />
@@ -92,8 +90,8 @@ export const AnalyticsSection = () => {
 
           <ScrollReveal direction="right">
             <div className="bg-card rounded-xl p-6 shadow-sm border border-border/50">
-              <h3 className="font-semibold text-foreground mb-1">Kidnapping Trend</h3>
-              <p className="text-xs text-muted-foreground mb-6">2018–2022 · {selectedState}</p>
+              <h3 className="font-semibold text-foreground mb-1">{t("analytics.kidnappingTrend")}</h3>
+              <p className="text-xs text-muted-foreground mb-6">2018–2022 · {selectedState === "National" ? t("analytics.national") : selectedState}</p>
               <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={data}>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(220 15% 90%)" />
