@@ -10,6 +10,7 @@ const typeColors: Record<string, string> = {
   constitutional: "bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200",
   statutory: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200",
   ipc: "bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-200",
+  bns: "bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200",
   special: "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200",
 };
 
