@@ -256,35 +256,6 @@ export const HeroSection = () => {
                   transform: "rotateY(-8deg) rotateX(2deg)",
                 }}
               >
-                {/* Page edges (right side - visible thickness) */}
-                <div
-                  className="absolute"
-                  style={{
-                    right: "-2px",
-                    top: "8px",
-                    bottom: "8px",
-                    width: "28px",
-                    transform: "rotateY(90deg) translateZ(318px)",
-                    background: "repeating-linear-gradient(to bottom, hsl(42 30% 92%), hsl(38 20% 86%) 1px, hsl(42 30% 92%) 1px, hsl(42 30% 92%) 3px)",
-                    borderRadius: "0 2px 2px 0",
-                    boxShadow: "2px 0 8px rgba(0,0,0,0.15)",
-                  }}
-                />
-
-                {/* Page edges (bottom - visible thickness) */}
-                <div
-                  className="absolute"
-                  style={{
-                    bottom: "-2px",
-                    left: "12px",
-                    right: "8px",
-                    height: "28px",
-                    transform: "rotateX(-90deg) translateZ(438px)",
-                    background: "repeating-linear-gradient(to right, hsl(42 30% 90%), hsl(38 20% 84%) 1px, hsl(42 30% 90%) 1px, hsl(42 30% 90%) 3px)",
-                    borderRadius: "0 0 2px 2px",
-                    boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-                  }}
-                />
 
                 {/* Spine */}
                 <div
