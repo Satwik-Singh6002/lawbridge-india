@@ -376,6 +376,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Ambrish Kumar Shukla v. Ferrero Rocher", year: "2015", summary: "National Consumer Commission addressed misleading advertisements by food companies and liability for false claims on packaging." },
       { name: "Morgan Stanley MFW v. Kartick Das", year: "2009", summary: "Supreme Court held that deficiency in financial services (banking, insurance, mutual funds) is covered under Consumer Protection Act." },
       { name: "Pioneer Urban Land v. Union of India", year: "2019", summary: "Supreme Court upheld homebuyers as 'financial creditors' under IBC and 'consumers' under CPA. Can seek simultaneous remedies under both acts." },
+      { name: "CCPA v. Online Marketplace (Dark Pattern Order)", year: "2024", summary: "Central Consumer Protection Authority issued landmark order penalizing major e-commerce platforms for 'dark patterns' – deceptive UI designs that trick consumers into unintended purchases, subscriptions, or data sharing." },
+      { name: "In Re: Regulation of Quick Commerce and Delivery Platforms", year: "2025", summary: "Supreme Court directed CCPA to frame guidelines for quick commerce platforms ensuring product quality, return policies, and fair pricing, extending CPA 2019 protections to instant delivery services." },
+      { name: "Consumer Unity v. Pharma Companies (Drug Pricing)", year: "2025", summary: "National Consumer Commission held that selling medicines above NPPA ceiling price constitutes unfair trade practice, ordering compensation and directing NPPA to strengthen price monitoring." },
     ],
   },
   "parliamentary-law": {
