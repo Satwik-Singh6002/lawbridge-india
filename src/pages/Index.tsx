@@ -7,8 +7,11 @@ import { ChatbotSection } from "@/components/ChatbotSection";
 import { DirectorySection } from "@/components/DirectorySection";
 import { GovernmentPortalsSection } from "@/components/GovernmentPortalsSection";
 import { Footer } from "@/components/Footer";
+import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 
 const Index = () => {
+  useSmoothScroll();
+
   return (
     <div className="min-h-screen">
       <Navbar />
