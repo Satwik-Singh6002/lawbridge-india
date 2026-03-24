@@ -426,6 +426,9 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "S.R. Bommai v. Union of India", year: "1994", summary: "Landmark case on Article 356 (President's Rule). Court held that President's Rule is subject to judicial review, floor test is mandatory to determine majority, and secularism is part of basic structure." },
       { name: "Lily Thomas v. Union of India", year: "2013", summary: "Supreme Court struck down Section 8(4) of RPA 1951 which allowed convicted legislators to continue by filing appeal. Now disqualification is immediate upon conviction (2+ years sentence)." },
       { name: "Association for Democratic Reforms v. Union of India", year: "2002", summary: "Supreme Court directed disclosure of criminal background, assets, and educational qualifications of election candidates. Right of voters to know is part of freedom of expression." },
+      { name: "Subhash Desai v. Principal Secretary, Maharashtra", year: "2023", summary: "Supreme Court's landmark ruling on the Maharashtra political crisis – clarified the scope of Tenth Schedule, held that Speaker cannot recognize a rival faction as the 'real' party, and laid down tests for determining party whip authority." },
+      { name: "In Re: Electoral Bond Scheme", year: "2024", summary: "Supreme Court struck down the Electoral Bond Scheme as unconstitutional for violating voters' right to information under Article 19(1)(a). Directed SBI to disclose all bond details and political party recipients." },
+      { name: "ADR v. ECI (Criminalization of Politics)", year: "2025", summary: "Supreme Court directed Election Commission to mandate prominent disclosure of criminal cases against candidates in all campaign materials and ads, and recommended Parliament to debar persons with serious criminal charges from contesting." },
     ],
   },
 };
