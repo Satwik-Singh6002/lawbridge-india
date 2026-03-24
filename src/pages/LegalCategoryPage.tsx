@@ -131,6 +131,9 @@ const LegalCategoryPage = () => {
         </div>
       </section>
 
+      {/* Category Analytics Graph */}
+      <CategoryAnalyticsGraph slug={category.slug} label={category.label} />
+
       {/* Disclaimer */}
       <section className="pb-16">
         <div className="container">
