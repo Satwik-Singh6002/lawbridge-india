@@ -182,6 +182,8 @@ export const legalCategoriesData: Record<string, LegalCategoryData> = {
       { name: "Chhajju Ram v. State of Punjab", year: "1968", summary: "Court held that 'enticing' under Section 361 means using some effort to draw the minor away. Mere persuasion or suggestion may suffice." },
       { name: "State of UP v. Deoman Upadhyaya", year: "1960", summary: "Supreme Court established that kidnapping is a continuing offence – it continues as long as the minor is kept away from lawful guardian's custody." },
       { name: "Budhan v. State of Bihar", year: "2006", summary: "Court examined intersection of kidnapping with forced marriage and held that kidnapping a minor girl for marriage is an aggravated offence." },
+      { name: "Trafficking of Persons (Prevention, Protection and Rehabilitation) Bill Directions", year: "2023", summary: "Supreme Court directed faster implementation of anti-trafficking measures and established guidelines for inter-state coordination in kidnapping-for-trafficking cases under BNS provisions." },
+      { name: "In Re: Missing Children and Trafficking", year: "2024", summary: "Supreme Court directed all states to establish Anti-Human Trafficking Units, mandated linking of missing children databases with NCRB's Track Child portal, and required 24-hour helplines for reporting." },
     ],
   },
   "murder-homicide": {
