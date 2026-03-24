@@ -410,13 +410,21 @@ export const HeroSection = () => {
                     className="absolute inset-0 rounded-r-md overflow-hidden"
                     style={{
                       backfaceVisibility: "hidden",
-                      boxShadow: "5px 5px 30px rgba(0,0,0,0.4), 0 0 80px rgba(218,165,32,0.15)",
+                      boxShadow: "8px 8px 40px rgba(0,0,0,0.5), 0 0 100px rgba(218,165,32,0.12), inset 0 0 0 1px rgba(218,165,32,0.1)",
+                      border: "1px solid rgba(218,165,32,0.15)",
                     }}
                   >
                     <img
                       src={constitutionBook}
                       alt="Constitution of India"
                       className="w-full h-full object-cover"
+                    />
+                    {/* Subtle shine overlay */}
+                    <div
+                      className="absolute inset-0 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(135deg, rgba(255,255,255,0.08) 0%, transparent 50%, rgba(0,0,0,0.1) 100%)",
+                      }}
                     />
                   </div>
 
