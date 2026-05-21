@@ -119,23 +119,13 @@ export const LegalNewsSection = () => {
                         ))}
                       </div>
 
-                      <div className="flex items-center justify-between gap-4 mt-2">
+                      <div className="flex items-center gap-4 mt-2">
                         <Link 
                           to={`/news/${item.id}`} 
                           className="inline-flex items-center gap-1.5 text-xs font-bold text-saffron hover:text-saffron-light transition-colors"
                         >
                           Read Analysis <ArrowRight className="w-3.5 h-3.5" />
                         </Link>
-                        {item.sourceUrl && (
-                          <a 
-                            href={item.sourceUrl} 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="inline-flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-lg bg-white/[0.04] border border-white/5 text-white/60 hover:text-white hover:bg-white/[0.08] hover:border-white/10 transition-all"
-                          >
-                            {item.sourceName || "Source"} <ExternalLink className="w-3 h-3 text-saffron/80" />
-                          </a>
-                        )}
                       </div>
                     </div>
                   </div>

@@ -146,7 +146,7 @@ export const newsItems: NewsItem[] = [
     title: "Right to Privacy: SC Declares Privacy a Fundamental Right",
     category: "Privacy Law",
     date: "2017",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f2?q=80&w=1000",
+    image: "/privacy_law.png",
     summary: "A nine-judge bench unanimously ruled that the Right to Privacy is a fundamental right protected under Article 21, life and personal liberty, of the Constitution.",
     content: "In Justice K.S. Puttaswamy (Retd.) v. Union of India, a nine-judge Constitution Bench of the Supreme Court of India unanimously held that the Right to Privacy is an integral part of the Right to Life and Personal Liberty guaranteed under Article 21 of the Constitution. The judgment overruled previous long-standing rulings in M.P. Sharma (1954) and Kharak Singh (1962), establishing that privacy encompasses bodily autonomy, informational privacy, and spatial privacy.",
     tags: ["Article 21", "Right to Privacy", "Aadhaar Act", "Information Security"],
@@ -164,5 +164,41 @@ export const newsItems: NewsItem[] = [
     tags: ["Section 377 IPC", "Article 21", "LGBTQ Rights", "Human Rights"],
     sourceUrl: "https://www.aajtak.in/india/story/supreme-court-verdict-on-section-377-homosexuality-article-377-548480-2018-09-06",
     sourceName: "Aaj Tak"
+  },
+  {
+    id: 14,
+    title: "Vishaka Case: Landmark Guidelines Against Sexual Harassment at Workplace",
+    category: "Civil Rights",
+    date: "1997",
+    image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1200&h=600&fit=crop",
+    summary: "A landmark judgment where the SC defined sexual harassment at the workplace and laid down the historic 'Vishaka Guidelines', which were later codified into the POSH Act of 2013.",
+    content: "In Vishaka & Others v. State of Rajasthan, a three-judge bench of the Supreme Court of India led by Chief Justice J.S. Verma formulated guidelines to address sexual harassment in work environments. In the absence of legislative enactment, the court invoked Article 141 and international conventions like CEDAW to design these binding rules. This case established that sexual harassment is a clear violation of Articles 14, 15, and 21 of the Constitution, establishing safety and equality as fundamental rights for women at work.",
+    tags: ["Vishaka Guidelines", "Article 21", "POSH Act", "Gender Equality"],
+    sourceUrl: "https://www.bhaskar.com/uttar-pradesh/lucknow/news/vishaka-guidelines-what-is-posh-act-and-rules-for-women-safety-at-workplace-127814421.html",
+    sourceName: "Dainik Bhaskar"
+  },
+  {
+    id: 15,
+    title: "Maneka Gandhi v. Union of India: Expansion of Personal Liberty under Article 21",
+    category: "Constitutional Law",
+    date: "1978",
+    image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600&h=400&fit=crop",
+    summary: "The Supreme Court greatly expanded the meaning of Article 21 (Right to Life and Personal Liberty), ruling that any law depriving personal liberty must be 'just, fair, and reasonable' rather than merely existing.",
+    content: "In Maneka Gandhi v. Union of India, the seven-judge bench of the Supreme Court evaluated the impoundment of the petitioner's passport under the Passport Act. The court famously ruled that 'Personal Liberty' under Article 21 has the widest amplitude and includes the right to travel abroad. Crucially, the judgment imported the American doctrine of 'Due Process of Law' into Indian jurisprudence, stating that procedure depriving life or liberty must not be arbitrary, but must be just, fair, and reasonable.",
+    tags: ["Article 21", "Personal Liberty", "Due Process", "Passport Act"],
+    sourceUrl: "https://www.aajtak.in/national/story/maneka-gandhi-passport-case-supreme-court-verdict-on-article-21-right-to-life-history-1789524-2023-09-29",
+    sourceName: "Aaj Tak"
+  },
+  {
+    id: 16,
+    title: "Shreya Singhal v. Union of India: Striking Down Section 66A of the IT Act",
+    category: "Privacy Law",
+    date: "2015",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop",
+    summary: "A historic free speech judgment where the Supreme Court struck down Section 66A of the Information Technology Act, 2000, which allowed arrests for offensive online posts, calling it vague and overbroad.",
+    content: "In Shreya Singhal v. Union of India, a two-judge bench of the Supreme Court struck down Section 66A of the IT Act in its entirety. The court held that the provision went far beyond reasonable restrictions on free speech allowed under Article 19(2). It ruled that the section was unconstitutionally vague, creating a 'chilling effect' on free speech and expression online. The court distinguished between 'discussion', 'advocacy', and 'incitement', declaring that only the latter could be restricted.",
+    tags: ["Section 66A IT Act", "Article 19(1)(a)", "Free Speech", "Cyber Law"],
+    sourceUrl: "https://www.news18.com/news/india/shreya-singhal-on-supreme-court-verdict-striking-down-section-66a-of-it-act-980753.html",
+    sourceName: "News18 India"
   }
 ];

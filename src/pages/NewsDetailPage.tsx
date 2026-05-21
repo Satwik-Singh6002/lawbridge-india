@@ -43,7 +43,7 @@ export default function NewsDetailPage() {
             </Link>
 
             <div className="relative h-[400px] w-full rounded-[3rem] overflow-hidden mb-12 border border-white/5">
-              <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+              <img src={item.image} alt={item.title} className="w-full h-full object-cover object-[center_30%]" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
               <div className="absolute top-8 left-8">
                 <Badge className="px-4 py-1.5 rounded-xl bg-saffron/90 backdrop-blur-md text-[10px] font-black text-white uppercase tracking-widest border-none">
@@ -74,7 +74,7 @@ export default function NewsDetailPage() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-6 h-14 rounded-2xl bg-white/[0.04] border border-white/10 text-xs font-black uppercase tracking-widest text-white hover:bg-white/[0.08] hover:border-saffron/30 transition-all shadow-lg cursor-pointer"
                   >
-                    View on {item.sourceName || "Source"}
+                    Read News Coverage
                     <ExternalLink className="w-4 h-4 text-saffron" />
                   </a>
                 )}
@@ -82,6 +82,7 @@ export default function NewsDetailPage() {
                   <Share2 className="w-5 h-5" />
                 </button>
               </div>
+
             </div>
 
             <div className="prose prose-invert max-w-none">
