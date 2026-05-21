@@ -35,7 +35,7 @@ export const LegalCategoriesSection = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tighter">
             {t("categories.title").split(" ").slice(0, -1).join(" ")} <span className="text-gradient">{t("categories.title").split(" ").slice(-1)}</span>
           </h2>
-          <p className="text-white/40 mt-6 max-w-2xl mx-auto font-medium leading-relaxed text-lg">
+          <p className="text-white/60 mt-6 max-w-2xl mx-auto font-medium leading-relaxed text-lg">
             {t("categories.description")}
           </p>
         </ScrollReveal>
@@ -45,7 +45,7 @@ export const LegalCategoriesSection = () => {
             <ScrollReveal key={cat.label} delay={i * 50}>
               <Link 
                 to={`/laws/${cat.slug}`} 
-                className={`group relative block w-full text-left rounded-2xl border border-white/[0.06] bg-white/[0.02] backdrop-blur-sm p-7 transition-all duration-500 hover:-translate-y-1 ${cat.borderColor} overflow-hidden`}
+                className="group relative block w-full text-left rounded-2xl p-7 transition-all duration-500 hover:-translate-y-1 overflow-hidden spotlight-card"
               >
                 {/* Gradient glow on hover */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-100 transition-opacity duration-700 rounded-2xl`} />
@@ -55,9 +55,9 @@ export const LegalCategoriesSection = () => {
                     <cat.icon className={`w-5 h-5 ${cat.iconColor} opacity-70 group-hover:opacity-100 transition-opacity`} />
                   </div>
                   <h3 className="font-bold text-white text-[15px] mb-2 group-hover:text-white transition-colors tracking-tight">{cat.label}</h3>
-                  <p className="text-[10px] text-white/30 font-black uppercase tracking-[0.15em] mb-6">{cat.count}</p>
+                  <p className="text-[10px] text-white/50 font-black uppercase tracking-[0.15em] mb-6">{cat.count}</p>
                   
-                  <div className="flex items-center gap-1.5 text-white/20 group-hover:text-saffron transition-all">
+                  <div className="flex items-center gap-1.5 text-white/40 group-hover:text-saffron transition-all">
                     <span className="text-[10px] font-black uppercase tracking-widest">Explore</span>
                     <ChevronRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                   </div>

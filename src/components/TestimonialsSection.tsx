@@ -14,7 +14,7 @@ export const TestimonialsSection = () => {
   const safeItems = Array.isArray(items) ? items : [];
 
   return (
-    <section className="py-16 sm:py-20 bg-[#0a0a0a] relative overflow-hidden">
+    <section className="py-16 sm:py-20 bg-background relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-saffron/5 rounded-full blur-[120px] -z-10" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-green-india/5 rounded-full blur-[120px] -z-10" />
       
@@ -29,7 +29,7 @@ export const TestimonialsSection = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {safeItems.map((item, i) => (
             <ScrollReveal key={i} delay={i * 100}>
-              <div className="group rounded-3xl p-8 sm:p-10 transition-all duration-500 h-full flex flex-col border border-white/[0.06] bg-white/[0.02] hover:border-saffron/20 hover:-translate-y-1 relative overflow-hidden">
+              <div className="group rounded-3xl p-8 sm:p-10 transition-all duration-500 h-full flex flex-col hover:-translate-y-1 relative overflow-hidden spotlight-card">
                 <Star className="absolute -top-4 -right-4 w-24 h-24 text-white/5 -rotate-12 group-hover:rotate-0 transition-transform duration-700" />
                 
                 <div className="flex gap-1 mb-6 relative">
@@ -38,7 +38,7 @@ export const TestimonialsSection = () => {
                   ))}
                 </div>
                 
-                <p className="text-base sm:text-lg text-gray-300 leading-relaxed flex-1 italic relative mb-8">
+                <p className="text-base sm:text-lg text-white/80 leading-relaxed flex-1 italic relative mb-8">
                   "{item.quote}"
                 </p>
                 
@@ -48,7 +48,7 @@ export const TestimonialsSection = () => {
                   </div>
                   <div>
                     <p className="font-bold text-lg text-white group-hover:text-saffron transition-colors">{item.name}</p>
-                    <p className="text-sm text-gray-500 font-medium">{item.role}</p>
+                    <p className="text-sm text-white/40 font-medium">{item.role}</p>
                   </div>
                 </div>
               </div>

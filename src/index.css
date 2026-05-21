@@ -6,56 +6,56 @@
 
 @layer base {
   :root {
-    --background: 0 0% 4%; /* True dark - #0A0A0A */
-    --foreground: 30 10% 90%; /* #E5E2E1 - warm white text */
+    --background: 240 25% 4.5%; /* Midnight Onyx - #050508 */
+    --foreground: 240 10% 92%; /* Cool bright off-white - #EBEBF2 */
 
-    --card: 0 0% 8%; /* #141414 - dark card surface */
-    --card-foreground: 30 10% 88%;
+    --card: 240 20% 7.5%; /* Dark Indigo-Slate Card - #0C0C14 */
+    --card-foreground: 240 10% 88%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 30 10% 90%;
+    --popover: 240 20% 7.5%;
+    --popover-foreground: 240 10% 92%;
 
-    --primary: 35 100% 55%; /* Saffron Orange - #FF9933 */
+    --primary: 38 100% 55%; /* Glowing Amber Saffron - #FF9F1C */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 142 70% 45%; /* Indian Green - #138808 */
+    --secondary: 160 84% 39%; /* Bright Mint Emerald - #0EBA6B */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 12%; /* #1F1F1F - muted surfaces */
-    --muted-foreground: 0 0% 55%; /* #8C8C8C - muted text */
+    --muted: 240 15% 10%; /* Slate Indigo Muted - #14141F */
+    --muted-foreground: 240 10% 60%; /* Soft readability slate-gray - #9494B8 */
 
-    --accent: 35 100% 55%;
+    --accent: 38 100% 55%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 72% 51%;
+    --destructive: 355 85% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 14%; /* #242424 - subtle borders */
-    --input: 0 0% 14%;
-    --ring: 35 100% 55%; /* Saffron ring */
+    --border: 240 15% 12%; /* #181824 - subtle borders */
+    --input: 240 15% 12%;
+    --ring: 38 100% 55%;
 
     --radius: 0.75rem;
 
     /* ═══ Sovereign Theme Tokens ═══ */
-    --navy: 222 47% 7%; /* Deep Navy - #090E1A */
-    --navy-light: 222 35% 14%; /* Lighter Navy - #151D2E */
-    --saffron: 35 100% 55%; /* Official Saffron - #FF9933 */
-    --saffron-light: 35 100% 72%; /* Warm gold - for gradients */
-    --saffron-pale: 35 100% 55% / 0.08; /* Tinted saffron bg */
-    --green-india: 142 70% 45%; /* Official Green - #138808 */
-    --green-india-pale: 142 70% 45% / 0.08;
-    --cream: 0 0% 6%; /* Dark cream (dark theme!) - #0F0F0F */
-    --warm-white: 0 0% 8%; /* Dark warm surface - #141414 */
-    --surface-high: 0 0% 12%; /* Elevated dark surface - #1F1F1F */
+    --navy: 240 25% 4.5%; 
+    --navy-light: 240 20% 8%;
+    --saffron: 38 100% 55%; 
+    --saffron-light: 38 100% 72%; 
+    --saffron-pale: 38 100% 55% / 0.08; 
+    --green-india: 160 84% 39%; 
+    --green-india-pale: 160 84% 39% / 0.08;
+    --cream: 240 25% 4.5%; 
+    --warm-white: 240 20% 7.5%; 
+    --surface-high: 240 15% 10%;
 
-    --sidebar-background: 0 0% 6%;
-    --sidebar-foreground: 0 0% 80%;
-    --sidebar-primary: 35 100% 55%;
+    --sidebar-background: 240 25% 4.5%;
+    --sidebar-foreground: 240 10% 80%;
+    --sidebar-primary: 38 100% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 10%;
-    --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 0 0% 14%;
-    --sidebar-ring: 35 100% 55%;
+    --sidebar-accent: 240 20% 7.5%;
+    --sidebar-accent-foreground: 240 10% 90%;
+    --sidebar-border: 240 15% 12%;
+    --sidebar-ring: 38 100% 55%;
   }
 }
 
@@ -218,7 +218,73 @@
 
 .glassy-card:hover {
   background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 153, 51, 0.15);
+  border-color: rgba(255, 159, 28, 0.15);
+}
+
+/* Spotlight Hover Card Effect */
+.spotlight-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.spotlight-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), transparent 50%, rgba(255, 255, 255, 0.02));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+.spotlight-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-4px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 159, 28, 0.05);
+}
+
+.spotlight-card:hover::before {
+  background: linear-gradient(135deg, rgba(255, 159, 28, 0.4), transparent 50%, rgba(16, 185, 129, 0.3));
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #ffffff 0%, #ffdfa9 50%, #ff9f1c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotateY(-8deg) rotateX(2deg);
+  }
+  50% {
+    transform: translateY(-12px) rotateY(-5deg) rotateX(4deg);
+  }
+}
+
+.animate-float-book {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes slow-rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: slow-rotate 40s linear infinite;
 }
 
 .ambient-shadow {

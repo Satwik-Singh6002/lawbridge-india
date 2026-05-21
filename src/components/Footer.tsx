@@ -28,8 +28,8 @@ export const Footer = () => {
   const legalLinks = t("footer.legalLinks", { returnObjects: true }) as string[];
 
   return (
-    <footer className="relative bg-[#050505] pt-16 pb-10 border-t border-white/5 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_var(--navy-light),_transparent_40%)]" />
+    <footer className="relative bg-background pt-16 pb-10 border-t border-white/5 overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(255,159,28,0.02),_transparent_50%)]" />
       
       <div className="container relative z-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
@@ -43,21 +43,21 @@ export const Footer = () => {
                 <span className="text-[9px] font-bold text-saffron/40 tracking-[0.4em] uppercase mt-1">{t("footer.sovereignEdition")}</span>
               </div>
             </Link>
-            <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-8 italic">
+            <p className="text-white/60 text-sm leading-relaxed max-w-xs mb-8 italic">
               {t("footer.tagline")}
             </p>
-            <div className="flex items-center gap-3 text-white/20">
-              <Sparkles className="w-4 h-4 text-saffron/30" />
+            <div className="flex items-center gap-3 text-white/30">
+              <Sparkles className="w-4 h-4 text-saffron/55" />
               <span className="text-[10px] font-black uppercase tracking-widest">{t("footer.builtWith")}</span>
             </div>
           </div>
-
+ 
           <div className="space-y-6">
             <h4 className="text-white font-black text-[10px] uppercase tracking-[0.3em]">{t("footer.platform")}</h4>
             <ul className="space-y-4">
               {Array.isArray(platformLinks) && platformLinks.map((item) => (
                 <li key={item}>
-                  <Link to={resolveFooterLink(item)} className="text-sm font-medium text-white/40 hover:text-saffron transition-all flex items-center gap-2 group/link">
+                  <Link to={resolveFooterLink(item)} className="text-sm font-medium text-white/55 hover:text-saffron transition-all flex items-center gap-2 group/link">
                     <span className="w-1.5 h-1.5 rounded-full bg-saffron/0 group-hover/link:bg-saffron/50 transition-all" />
                     {item}
                   </Link>
@@ -71,7 +71,7 @@ export const Footer = () => {
             <ul className="space-y-4">
               {Array.isArray(resourceLinks) && resourceLinks.map((item) => (
                 <li key={item}>
-                  <Link to={resolveFooterLink(item)} className="text-sm font-medium text-white/40 hover:text-saffron transition-all flex items-center gap-2 group/link">
+                  <Link to={resolveFooterLink(item)} className="text-sm font-medium text-white/55 hover:text-saffron transition-all flex items-center gap-2 group/link">
                     <span className="w-1.5 h-1.5 rounded-full bg-saffron/0 group-hover/link:bg-saffron/50 transition-all" />
                     {item}
                   </Link>
@@ -85,7 +85,7 @@ export const Footer = () => {
             <ul className="space-y-4">
               {Array.isArray(legalLinks) && legalLinks.map((item) => (
                 <li key={item}>
-                  <Link to={resolveFooterLink(item)} className="text-sm font-medium text-white/40 hover:text-saffron transition-all flex items-center gap-2 group/link">
+                  <Link to={resolveFooterLink(item)} className="text-sm font-medium text-white/55 hover:text-saffron transition-all flex items-center gap-2 group/link">
                     <span className="w-1.5 h-1.5 rounded-full bg-saffron/0 group-hover/link:bg-saffron/50 transition-all" />
                     {item}
                   </Link>

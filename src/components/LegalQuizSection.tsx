@@ -67,20 +67,20 @@ export const LegalQuizSection = () => {
   };
 
   return (
-    <section className="py-16 sm:py-20 bg-[#07080a] relative overflow-hidden" id="legal-quiz">
+    <section className="py-16 sm:py-20 bg-background relative overflow-hidden" id="legal-quiz">
       <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-violet-500/[0.03] rounded-full blur-[150px] pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-saffron/[0.03] rounded-full blur-[120px] pointer-events-none" />
 
       <div className="container relative z-10">
         <ScrollReveal className="text-center mb-14">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-500/10 border border-violet-500/20 mb-6">
-            <Brain className="w-3.5 h-3.5 text-violet-400" />
-            <span className="text-violet-400 text-[10px] font-black tracking-[0.3em] uppercase">{t("quiz.sectionLabel")}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-saffron/[0.08] border border-saffron/20 mb-6">
+            <Brain className="w-3.5 h-3.5 text-saffron" />
+            <span className="text-saffron text-[10px] font-black tracking-[0.3em] uppercase">{t("quiz.sectionLabel")}</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tighter">
             {t("quiz.title").split(" ").slice(0, -1).join(" ")} <span className="text-gradient">{t("quiz.title").split(" ").slice(-1)}</span>
           </h2>
-          <p className="text-white/40 mt-4 max-w-xl mx-auto text-lg font-medium">
+          <p className="text-white/60 mt-4 max-w-xl mx-auto text-lg font-medium">
             {t("quiz.description")}
           </p>
         </ScrollReveal>
@@ -88,7 +88,7 @@ export const LegalQuizSection = () => {
         <div className="max-w-2xl mx-auto">
           {!quizComplete ? (
             <ScrollReveal>
-              <div className="rounded-3xl border border-white/[0.07] bg-white/[0.02] backdrop-blur-sm overflow-hidden">
+              <div className="spotlight-card rounded-3xl overflow-hidden">
                 <div className="h-1.5 bg-white/5 w-full">
                   <div className="h-full bg-gradient-to-r from-violet-500 to-saffron transition-all duration-700 ease-out"
                     style={{ width: `${progressPercent}%` }} />
@@ -163,10 +163,10 @@ export const LegalQuizSection = () => {
             </ScrollReveal>
           ) : (
             <ScrollReveal>
-              <div className="rounded-3xl border border-white/[0.07] bg-white/[0.02] backdrop-blur-sm p-10 text-center">
+              <div className="spotlight-card rounded-3xl p-10 text-center">
                 <div className="text-6xl mb-4">{getScoreLabel().emoji}</div>
                 <h3 className={`text-3xl font-black mb-2 ${getScoreLabel().color}`}>{getScoreLabel().text}</h3>
-                <p className="text-white/40 text-lg mb-8">
+                <p className="text-white/60 text-lg mb-8">
                   {t("quiz.scored", { score, total: safeQuestions.length })}
                 </p>
 

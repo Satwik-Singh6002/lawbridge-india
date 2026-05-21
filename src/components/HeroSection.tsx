@@ -69,13 +69,14 @@ export const HeroSection = () => {
 
   return (
     <section ref={sectionRef} className="relative min-h-[100dvh] flex items-center overflow-hidden pt-20 pb-12">
-      <div className="absolute inset-0" style={{ background: "linear-gradient(170deg, hsl(220 35% 5%) 0%, hsl(220 40% 8%) 40%, hsl(220 30% 6%) 100%)" }} />
-      <div ref={glowRef} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full opacity-25 pointer-events-none"
-        style={{ background: "radial-gradient(circle, hsl(35 85% 55% / 0.2) 0%, hsl(220 50% 25% / 0.08) 35%, transparent 65%)" }} />
-      <div className="absolute inset-0 opacity-[0.015]"
+      <div className="absolute inset-0 bg-background" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,159,28,0.02),transparent_40%,rgba(16,185,129,0.01)_100%)] pointer-events-none" />
+      <div ref={glowRef} className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full opacity-35 pointer-events-none"
+        style={{ background: "radial-gradient(circle, hsl(38 100% 55% / 0.12) 0%, hsl(240 50% 25% / 0.03) 50%, transparent 70%)" }} />
+      <div className="absolute inset-0 opacity-[0.02] mix-blend-overlay"
         style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='1'%3E%3Cpath d='M0 0h1v40H0zM40 0h1v40h-1zM0 0v1h40V0zM0 40v1h40v-1z'/%3E%3C/g%3E%3C/svg%3E")` }} />
       <div ref={particlesRef} className="absolute inset-0 pointer-events-none overflow-hidden" />
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-saffron to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-saffron/40 to-transparent" />
 
       <div className="container relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -87,19 +88,19 @@ export const HeroSection = () => {
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-[4rem] font-black text-white leading-[1.05] tracking-tighter mb-6 italic">
-              <span className="hero-title-line block">{t("hero.title1")}</span>
-              <span className="hero-title-line block mt-1 text-gradient">{t("hero.title2")}</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-[4.2rem] font-extrabold text-white leading-[1.05] tracking-tight mb-6">
+              <span className="hero-title-line block text-white/95">{t("hero.title1")}</span>
+              <span className="hero-title-line block mt-2 text-gradient-gold drop-shadow-[0_2px_10px_rgba(255,159,28,0.15)]">{t("hero.title2")}</span>
             </h1>
 
-            <p className="hero-subtitle text-white/50 text-base sm:text-lg max-w-lg mb-8 leading-relaxed font-medium mx-auto lg:mx-0">
+            <p className="hero-subtitle text-white/60 text-base sm:text-lg max-w-lg mb-8 leading-relaxed font-medium mx-auto lg:mx-0">
               {t("hero.description")}
             </p>
 
             <div className="hero-search relative max-w-xl mb-8 group/search mx-auto lg:mx-0">
               <div className={cn(
-                "relative flex items-center h-16 px-6 rounded-2xl bg-white/[0.03] border transition-all duration-300 backdrop-blur-md",
-                isSearchFocused ? "border-saffron/50 bg-white/[0.06] shadow-[0_0_30px_rgba(255,153,51,0.15)]" : "border-white/10 group-hover/search:border-white/20"
+                "relative flex items-center h-16 px-6 rounded-2xl bg-white/[0.02] border transition-all duration-500 backdrop-blur-xl glassy-card",
+                isSearchFocused ? "border-saffron/40 bg-white/[0.05] shadow-[0_0_40px_rgba(255,159,28,0.15)]" : "border-white/10 group-hover/search:border-white/20"
               )}>
                 <Search className={cn("w-5 h-5 transition-colors duration-300", isSearchFocused ? "text-saffron" : "text-white/30")} />
                 <input
@@ -207,8 +208,8 @@ export const HeroSection = () => {
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <div ref={bookRef} className="relative will-change-transform group/book" style={{ perspective: "1200px" }}>
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[200px] h-[40px] rounded-full blur-2xl pointer-events-none bg-saffron/10 group-hover/book:bg-saffron/20 transition-all duration-700" />
-              <div className="relative w-[260px] sm:w-[300px] h-[360px] sm:h-[400px] transition-transform duration-700 group-hover/book:rotate-y-[-5deg] group-hover/book:scale-105"
-                style={{ transformStyle: "preserve-3d", transform: "rotateY(-8deg) rotateX(2deg)" }}>
+              <div className="relative w-[260px] sm:w-[300px] h-[360px] sm:h-[400px] transition-all duration-700 group-hover/book:rotate-y-[-5deg] group-hover/book:scale-105 animate-float-book"
+                style={{ transformStyle: "preserve-3d" }}>
                 <div className="absolute" style={{
                   left: "-20px", top: "-1px", bottom: "-1px", width: "22px",
                   transform: "rotateY(-90deg) translateZ(0px)",

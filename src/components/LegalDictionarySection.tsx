@@ -39,7 +39,7 @@ export const LegalDictionarySection = () => {
   }, [activeLetter, search]);
 
   return (
-    <section className="py-24 bg-[#0a0a0c] relative overflow-hidden" id="dictionary">
+    <section className="py-24 bg-background relative overflow-hidden" id="dictionary">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/5 to-transparent" />
       
       <div className="container relative z-10">
@@ -52,7 +52,7 @@ export const LegalDictionarySection = () => {
             <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tighter">
               Legal <span className="text-gradient">Dictionary</span>
             </h2>
-            <p className="text-white/40 mt-4 max-w-xl font-medium leading-relaxed">
+            <p className="text-white/60 mt-4 max-w-xl font-medium leading-relaxed">
               Demystifying complex legal jargon. Search through common terms used in Indian courts and legal documents.
             </p>
           </ScrollReveal>
@@ -61,7 +61,7 @@ export const LegalDictionarySection = () => {
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-saffron/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition duration-500" />
               <div className="relative flex items-center h-14 bg-white/[0.03] border border-white/10 rounded-2xl px-5 backdrop-blur-xl">
-                <Search className="w-4 h-4 text-white/20 mr-4" />
+                <Search className="w-4 h-4 text-white/35 mr-4" />
                 <input 
                   type="text" 
                   value={search}
@@ -84,7 +84,7 @@ export const LegalDictionarySection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((item, i) => (
             <ScrollReveal key={item.term} delay={i * 30}>
-              <div className="group relative p-8 rounded-3xl bg-white/[0.02] border border-white/5 hover:border-white/10 hover:bg-white/[0.04] transition-all duration-500 overflow-hidden h-full">
+              <div className="group relative p-8 rounded-3xl transition-all duration-500 overflow-hidden h-full spotlight-card">
                 <div className="absolute top-0 right-0 p-6 opacity-0 group-hover:opacity-10 transition-opacity">
                   <Languages className="w-20 h-20 text-saffron" />
                 </div>
@@ -96,7 +96,7 @@ export const LegalDictionarySection = () => {
                   <h3 className="text-2xl font-black text-white mb-4 tracking-tight group-hover:text-saffron transition-colors">
                     {item.term}
                   </h3>
-                  <p className="text-white/40 text-sm leading-relaxed font-medium">
+                  <p className="text-white/60 text-sm leading-relaxed font-medium">
                     {item.definition}
                   </p>
                   
@@ -108,7 +108,7 @@ export const LegalDictionarySection = () => {
                             })
                         );
                     }}
-                    className="mt-8 flex items-center gap-2 text-[10px] font-black text-white/20 uppercase tracking-[0.2em] group-hover:text-saffron transition-colors"
+                    className="mt-8 flex items-center gap-2 text-[10px] font-black text-white/40 uppercase tracking-[0.2em] group-hover:text-saffron transition-colors"
                   >
                     Contextual AI Analysis <Sparkles className="w-3 h-3" />
                   </button>

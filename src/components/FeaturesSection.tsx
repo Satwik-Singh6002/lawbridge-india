@@ -19,7 +19,7 @@ export const FeaturesSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-16 sm:py-20 bg-[#060606] relative overflow-hidden" id="features">
+    <section className="py-16 sm:py-20 bg-background relative overflow-hidden" id="features">
       {/* Ambient background orbs */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-saffron/[0.02] rounded-full blur-[150px]" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-emerald-500/[0.02] rounded-full blur-[120px]" />
@@ -33,7 +33,7 @@ export const FeaturesSection = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tighter">
             {t("features.title")}
           </h2>
-          <p className="text-white/40 mt-6 max-w-xl mx-auto text-lg font-medium leading-relaxed">
+          <p className="text-white/45 mt-6 max-w-xl mx-auto text-lg font-medium leading-relaxed">
             {t("features.description")}
           </p>
         </ScrollReveal>
@@ -50,19 +50,19 @@ export const FeaturesSection = () => {
               )}
             >
               <Link to={f.href} className="block h-full">
-                <div className="group relative rounded-2xl p-7 h-full border border-white/[0.06] bg-white/[0.02] hover:border-saffron/20 hover:-translate-y-1 transition-all duration-500 overflow-hidden flex flex-col justify-between">
+                <div className="group relative rounded-[2rem] p-8 h-full transition-all duration-500 overflow-hidden flex flex-col justify-between spotlight-card">
                   {/* Hover gradient */}
-                  <div className={`absolute inset-0 bg-gradient-to-br ${f.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-700 rounded-2xl`} />
+                  <div className={`absolute inset-0 bg-gradient-to-br ${f.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
                   
                   <div className="relative z-10">
-                    <div className={`w-12 h-12 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center mb-6 group-hover:bg-white/[0.08] group-hover:scale-110 transition-all duration-500`}>
+                    <div className={`w-12 h-12 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-center justify-center mb-6 group-hover:bg-white/[0.06] group-hover:scale-110 transition-all duration-500`}>
                       <f.icon className={`w-5 h-5 ${f.iconColor} opacity-70 group-hover:opacity-100 transition-opacity`} />
                     </div>
                     <h3 className="font-bold text-white mb-3 text-[15px] leading-tight group-hover:text-white transition-colors tracking-tight">{t(`features.items.${f.key}.title`)}</h3>
-                    <p className="text-sm text-white/30 group-hover:text-white/50 leading-relaxed mb-6 font-medium">{t(`features.items.${f.key}.desc`)}</p>
+                    <p className="text-sm text-white/45 group-hover:text-white/60 leading-relaxed mb-6 font-medium">{t(`features.items.${f.key}.desc`)}</p>
                   </div>
                   
-                  <div className="relative z-10 flex items-center gap-2 text-white/20 group-hover:text-saffron transition-all mt-auto">
+                  <div className="relative z-10 flex items-center gap-2 text-white/30 group-hover:text-saffron transition-all mt-auto">
                     <span className="text-[10px] font-black uppercase tracking-widest">{t("features.learnMore")}</span>
                     <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                   </div>

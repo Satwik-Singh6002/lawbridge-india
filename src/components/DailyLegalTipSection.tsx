@@ -52,26 +52,26 @@ export const DailyLegalTipSection = () => {
   const tip = safeTips[currentIndex];
 
   return (
-    <section className="py-16 sm:py-20 bg-[#060608] relative overflow-hidden" id="daily-tip">
+    <section className="py-16 sm:py-20 bg-background relative overflow-hidden" id="daily-tip">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-saffron/20 to-transparent" />
 
       <div className="container relative z-10">
         <ScrollReveal className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 mb-6">
-            <Lightbulb className="w-3.5 h-3.5 text-amber-400" />
-            <span className="text-amber-400 text-[10px] font-black tracking-[0.3em] uppercase">{t("dailyTip.sectionLabel")}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-saffron/[0.08] border border-saffron/20 mb-6">
+            <Lightbulb className="w-3.5 h-3.5 text-saffron" />
+            <span className="text-saffron text-[10px] font-black tracking-[0.3em] uppercase">{t("dailyTip.sectionLabel")}</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tighter">
             {t("dailyTip.title").split(" ").slice(0, -1).join(" ")} <span className="text-gradient">{t("dailyTip.title").split(" ").slice(-1)}</span>
           </h2>
-          <p className="text-white/40 mt-4 max-w-xl mx-auto text-lg font-medium">
+          <p className="text-white/60 mt-4 max-w-xl mx-auto text-lg font-medium">
             {t("dailyTip.description")}
           </p>
         </ScrollReveal>
 
         <div className="max-w-3xl mx-auto">
           <ScrollReveal>
-            <div className={`relative rounded-3xl border border-amber-500/[0.15] bg-amber-500/[0.03] overflow-hidden transition-opacity duration-200 ${isAnimating ? "opacity-0" : "opacity-100"}`}>
+            <div className={`relative rounded-3xl spotlight-card overflow-hidden transition-opacity duration-200 border-saffron/20 shadow-[0_0_40px_rgba(255,159,28,0.06)] ${isAnimating ? "opacity-0" : "opacity-100"}`}>
               <div className="h-1 bg-gradient-to-r from-saffron via-amber-400 to-saffron" />
 
               <div className="p-8 sm:p-12">

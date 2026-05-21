@@ -46,7 +46,7 @@ export const EmergencyHelplinesSection = () => {
             {t("helplines.title").split(" ").slice(0, -1).join(" ")}{" "}
             <span className="text-gradient">{t("helplines.title").split(" ").slice(-1)}</span>
           </h2>
-          <p className="text-white/40 mt-4 max-w-2xl mx-auto text-lg font-medium">
+          <p className="text-white/60 mt-4 max-w-2xl mx-auto text-lg font-medium">
             {t("helplines.description")}
           </p>
         </ScrollReveal>
@@ -57,27 +57,27 @@ export const EmergencyHelplinesSection = () => {
             const colors = colorMap[i] || colorMap[0];
             return (
               <ScrollReveal key={i} delay={i * 50}>
-                <div className={`group relative rounded-2xl p-6 border ${colors.borderColor} bg-white/[0.02] hover:bg-white/[0.04] hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full flex flex-col`}>
+                <div className="group relative rounded-2xl p-6 hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full flex flex-col spotlight-card">
                   <div className={`absolute inset-0 bg-gradient-to-br ${colors.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl`} />
 
                   <div className="relative z-10 flex flex-col h-full">
                     <div className="flex items-start justify-between mb-4">
-                      <div className={`w-11 h-11 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                      <div className="w-11 h-11 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                         <Icon className={`w-5 h-5 ${colors.iconColor}`} />
                       </div>
-                      <span className="text-[9px] font-black tracking-[0.2em] uppercase text-white/25 bg-white/[0.04] px-2.5 py-1 rounded-full border border-white/[0.06]">
+                      <span className="text-[9px] font-black tracking-[0.2em] uppercase text-white/40 bg-white/[0.04] px-2.5 py-1 rounded-full border border-white/[0.06]">
                         {h.available}
                       </span>
                     </div>
 
                     <div className="mb-4 flex-1">
-                      <p className="text-[9px] font-black tracking-[0.2em] uppercase text-white/30 mb-1">{h.shortName}</p>
+                      <p className="text-[9px] font-black tracking-[0.2em] uppercase text-white/50 mb-1">{h.shortName}</p>
                       <h3 className="text-white font-bold text-sm leading-snug mb-2">{h.name}</h3>
-                      <p className="text-white/40 text-xs leading-relaxed">{h.description}</p>
+                      <p className="text-white/60 text-xs leading-relaxed">{h.description}</p>
                     </div>
 
                     <a href={`tel:${h.number}`} className="flex items-center gap-3 mt-auto pt-4 border-t border-white/[0.06] group/link">
-                      <div className={`w-9 h-9 rounded-xl flex items-center justify-center bg-white/[0.04] border border-white/[0.06] group-hover/link:scale-110 transition-transform`}>
+                      <div className="w-9 h-9 rounded-xl flex items-center justify-center bg-white/[0.04] border border-white/[0.06] group-hover/link:scale-110 transition-transform">
                         <Phone className={`w-3.5 h-3.5 ${colors.iconColor}`} />
                       </div>
                       <span className={`text-2xl font-black ${colors.iconColor} tracking-wider`}>{h.number}</span>
@@ -90,8 +90,8 @@ export const EmergencyHelplinesSection = () => {
         </div>
 
         <ScrollReveal>
-          <div className="max-w-5xl mx-auto rounded-2xl border border-white/[0.07] bg-white/[0.02] p-8">
-            <p className="text-white/30 text-[10px] font-black tracking-[0.3em] uppercase mb-5 text-center">
+          <div className="max-w-5xl mx-auto rounded-2xl p-8 spotlight-card">
+            <p className="text-white/50 text-[10px] font-black tracking-[0.3em] uppercase mb-5 text-center">
               {t("helplines.quickLinks")}
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
