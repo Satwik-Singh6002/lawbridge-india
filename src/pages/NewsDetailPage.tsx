@@ -4,7 +4,7 @@ import { newsItems } from "@/data/legalNews";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { VidhiSahayak } from "@/components/VidhiSahayak";
-import { ArrowLeft, Calendar, Sparkles, AlertCircle, Share2, Clock, Tag } from "lucide-react";
+import { ArrowLeft, Calendar, Sparkles, AlertCircle, Share2, Clock, Tag, ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ScrollReveal } from "@/components/ScrollReveal";
 
@@ -67,6 +67,17 @@ export default function NewsDetailPage() {
               </div>
               
               <div className="flex items-center gap-3">
+                {item.sourceUrl && (
+                  <a
+                    href={item.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-6 h-14 rounded-2xl bg-white/[0.04] border border-white/10 text-xs font-black uppercase tracking-widest text-white hover:bg-white/[0.08] hover:border-saffron/30 transition-all shadow-lg cursor-pointer"
+                  >
+                    View on {item.sourceName || "Source"}
+                    <ExternalLink className="w-4 h-4 text-saffron" />
+                  </a>
+                )}
                 <button className="flex items-center justify-center w-14 h-14 rounded-2xl bg-white/[0.03] border border-white/10 text-white/40 hover:border-white/20 hover:text-white transition-all">
                   <Share2 className="w-5 h-5" />
                 </button>
