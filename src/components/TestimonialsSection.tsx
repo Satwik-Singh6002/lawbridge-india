@@ -1,53 +1,55 @@
 import { ScrollReveal } from "@/components/ScrollReveal";
+import { useTranslation } from "react-i18next";
 import { Star } from "lucide-react";
 
-const testimonials = [
-  {
-    name: "Priya Sharma",
-    role: "Law Student, Delhi University",
-    quote: "ADHIKAR helped me understand the BNS provisions in minutes. The AI chatbot explains complex sections better than many textbooks.",
-    rating: 5,
-  },
-  {
-    name: "Rajesh Kumar",
-    role: "RTI Activist, Bihar",
-    quote: "The RTI filing guide and government portal links saved me hours. Everything I need is in one place.",
-    rating: 5,
-  },
-  {
-    name: "Fatima Sheikh",
-    role: "Social Worker, Maharashtra",
-    quote: "Being able to read about women's rights in Marathi made all the difference for the communities I work with.",
-    rating: 5,
-  },
-];
+interface TestimonialItem {
+  name: string;
+  role: string;
+  quote: string;
+}
 
 export const TestimonialsSection = () => {
+  const { t } = useTranslation();
+  const items = t("testimonials.items", { returnObjects: true }) as TestimonialItem[];
+  const safeItems = Array.isArray(items) ? items : [];
+
   return (
-    <section className="py-20 sm:py-28 bg-cream">
-      <div className="container">
-        <ScrollReveal className="text-center mb-14">
-          <p className="text-saffron font-semibold text-xs sm:text-sm tracking-widest uppercase mb-3">Trusted by Citizens</p>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-navy tracking-tight">
-            What People Are Saying
+    <section className="py-16 sm:py-20 bg-[#0a0a0a] relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-saffron/5 rounded-full blur-[120px] -z-10" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-green-india/5 rounded-full blur-[120px] -z-10" />
+      
+      <div className="container px-4 sm:px-0">
+        <ScrollReveal className="text-center mb-16 sm:mb-20">
+          <p className="text-saffron font-bold text-xs sm:text-sm tracking-[0.3em] uppercase mb-4">{t("testimonials.sectionLabel")}</p>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
+            {t("testimonials.title").split(" ").slice(0, -1).join(" ")} <span className="text-gradient">{t("testimonials.title").split(" ").slice(-1)}</span>
           </h2>
         </ScrollReveal>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 max-w-5xl mx-auto">
-          {testimonials.map((item, i) => (
-            <ScrollReveal key={item.name} delay={i * 80}>
-              <div className="bg-card rounded-2xl p-6 sm:p-7 shadow-sm border border-border/50 hover:shadow-md transition-all duration-300 h-full flex flex-col">
-                <div className="flex gap-0.5 mb-4">
-                  {Array.from({ length: item.rating }).map((_, j) => (
-                    <Star key={j} className="w-4 h-4 fill-saffron text-saffron" />
+ 
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+          {safeItems.map((item, i) => (
+            <ScrollReveal key={i} delay={i * 100}>
+              <div className="group rounded-3xl p-8 sm:p-10 transition-all duration-500 h-full flex flex-col border border-white/[0.06] bg-white/[0.02] hover:border-saffron/20 hover:-translate-y-1 relative overflow-hidden">
+                <Star className="absolute -top-4 -right-4 w-24 h-24 text-white/5 -rotate-12 group-hover:rotate-0 transition-transform duration-700" />
+                
+                <div className="flex gap-1 mb-6 relative">
+                  {Array.from({ length: 5 }).map((_, j) => (
+                    <Star key={j} className="w-5 h-5 fill-saffron text-saffron drop-shadow-[0_0_8px_rgba(255,153,51,0.5)]" />
                   ))}
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed flex-1 italic">
+                
+                <p className="text-base sm:text-lg text-gray-300 leading-relaxed flex-1 italic relative mb-8">
                   "{item.quote}"
                 </p>
-                <div className="mt-5 pt-4 border-t border-border/50">
-                  <p className="font-semibold text-sm text-foreground">{item.name}</p>
-                  <p className="text-xs text-muted-foreground mt-0.5">{item.role}</p>
+                
+                <div className="mt-auto pt-6 border-t border-white/10 flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-saffron to-orange-600 flex items-center justify-center font-bold text-white shadow-lg">
+                    {item.name[0]}
+                  </div>
+                  <div>
+                    <p className="font-bold text-lg text-white group-hover:text-saffron transition-colors">{item.name}</p>
+                    <p className="text-sm text-gray-500 font-medium">{item.role}</p>
+                  </div>
                 </div>
               </div>
             </ScrollReveal>

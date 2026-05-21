@@ -11,16 +11,18 @@
     "subtitle": "India's Legal & Democratic Empowerment Platform",
     "title1": "Know Your Laws.",
     "title2": "Claim Your Rights.",
-    "description": "Search any Indian law, explore landmark cases, find advocates, and get AI-powered legal guidance — all in your language.",
+    "description": "Explore the Constitution, landmark cases, and AI legal aid with Vidhi Sahayak—your gateway to justice.",
     "searchPlaceholder": "Search laws, acts, cases… e.g. \"Section 302 IPC\"",
-    "popular": "Popular:",
+    "popular": "Trending",
     "scrollToOpen": "Scroll to open",
     "tags": ["POCSO Act", "RTI Filing", "Cybercrime", "Consumer Rights", "FIR Process"],
+    "browseLaws": "Browse Laws",
+    "askVidhi": "Ask Vidhi Sahayak",
     "stats": {
-      "acts": "Central & State Acts",
-      "cases": "Case Summaries",
-      "languages": "Indian Languages",
-      "ai": "AI Legal Assistant"
+      "acts": "Acts",
+      "cases": "Cases",
+      "languages": "Languages",
+      "ai": "AI"
     }
   },
   "features": {
@@ -33,23 +35,37 @@
       "aiAssistant": { "title": "AI Legal Assistant", "desc": "Vidhi Sahayak explains complex laws in simple language, in Hindi, English, and 10+ languages." },
       "crimeAnalytics": { "title": "Crime Analytics", "desc": "National and state-wise case trend graphs sourced from NCRB data, filterable by offence type." },
       "advocateDir": { "title": "Advocate Directory", "desc": "Find verified advocates by location, language, specialization, and fee range." },
-      "policeLocator": { "title": "Police & Court Locator", "desc": "Locate nearby police stations, women's help desks, and courts on an interactive map." },
+      "policeLocator": { "title": "Find help nearby", "desc": "Locate legal aid, advocates, and relevant portals when you need professional assistance." },
       "knowRights": { "title": "Know Your Rights", "desc": "Interactive guides on fundamental rights, RTI filing, FIR procedures, and more." },
       "govPortals": { "title": "Government Portals", "desc": "Direct links to NHRC, eCourts, Cyber Crime Portal, Consumer Helpline, and more." }
-    }
+    },
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "sectionLabel": "About ADHIKAR",
+    "title": "A citizen-first platform for legal clarity",
+    "description": "ADHIKAR brings laws, case context, and AI-assisted explanations into one place—so people can understand options, document next steps, and know when to seek professional help.",
+    "steps": [
+      { "title": "Search laws & procedures", "description": "Find acts, sections, and step-by-step citizen procedures with plain-language summaries." },
+      { "title": "Understand your rights", "description": "Explore constitutional protections, common remedies, and practical next steps." },
+      { "title": "Ask Vidhi Sahayak", "description": "Get multilingual explanations with clear disclaimers and suggested questions to continue." },
+      { "title": "Find help nearby", "description": "Locate legal aid, advocates, and relevant portals when you need professional assistance." }
+    ]
   },
   "categories": {
-    "sectionLabel": "Legal Knowledge Base",
-    "title": "Browse by Case Type",
-    "description": "Pre-filtered collections of laws, judgments, and case studies for every major category."
+    "sectionLabel": "Legal Directory",
+    "title": "Legal Spheres",
+    "description": "Explore comprehensive legal categories covering criminal, civil, and constitutional law.",
+    "explore": "Explore"
   },
   "analytics": {
-    "sectionLabel": "Crime Analytics",
-    "title": "Case Trends Across India",
-    "description": "Data sourced from NCRB reports. Select a state to view regional trends.",
+    "sectionLabel": "DATA INSIGHTS",
+    "title": "Justice in Numbers",
+    "description": "Exploring crime trends and justice metrics across India through authenticated national data.",
     "national": "National",
-    "casesByCategory": "Cases by Category",
-    "kidnappingTrend": "Kidnapping Trend"
+    "casesByCategory": "Crime Distribution",
+    "kidnappingTrend": "Historical Trends",
+    "source": "Source: National Crime Records Bureau (NCRB) of India"
   },
   "chatbot": {
     "sectionLabel": "AI Legal Assistant",
@@ -67,6 +83,226 @@
     "placeholder": "Ask about any law or right…",
     "mockReply": "Thank you for your question. This feature will be powered by our RAG-based AI system. For now, please explore the legal knowledge base above for detailed information. ⚖️\n\n⚠️ Disclaimer: For informational purposes only — not legal advice."
   },
+  "dailyTip": {
+    "sectionLabel": "Daily Legal Tip",
+    "title": "Know Your Rights",
+    "description": "A new legal insight delivered every day. Scroll through expert tips on Indian law.",
+    "category": "Category",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "share": "Share",
+    "tipOf": "Tip {{current}} of {{total}} — A new tip is featured daily. All information is for general awareness only and does not constitute legal advice.",
+    "tips": [
+      {
+        "tip": "You have the right to remain silent during police questioning. Under Article 20(3) of the Constitution, no person accused of an offence can be compelled to be a witness against themselves.",
+        "category": "Fundamental Rights",
+        "article": "Article 20(3)",
+        "icon": "🛡️"
+      },
+      {
+        "tip": "Under the RTI Act 2005, you can request information from any public authority within 30 days. For matters involving life or liberty, the response must come within 48 hours.",
+        "category": "RTI",
+        "article": "RTI Act, 2005",
+        "icon": "📋"
+      },
+      {
+        "tip": "Every arrested person must be produced before a magistrate within 24 hours of arrest. This is a fundamental right under Article 22(2) of the Constitution.",
+        "category": "Arrest Rights",
+        "article": "Article 22(2)",
+        "icon": "⚖️"
+      },
+      {
+        "tip": "If you're a victim of a crime, you can file a Zero FIR at any police station regardless of jurisdiction. The station is then required to transfer it to the appropriate station.",
+        "category": "FIR Rights",
+        "article": "Section 154 CrPC",
+        "icon": "📝"
+      },
+      {
+        "tip": "Under the Consumer Protection Act 2019, you can file a complaint about defective goods or deficient services without a lawyer through the Consumer Forum.",
+        "category": "Consumer Rights",
+        "article": "Consumer Protection Act, 2019",
+        "icon": "🛒"
+      },
+      {
+        "tip": "The Domestic Violence Act 2005 protects not just wives but also sisters, mothers, and daughters living in the same household from physical, verbal, and economic abuse.",
+        "category": "Women's Rights",
+        "article": "PWDVA, 2005",
+        "icon": "👩‍⚖️"
+      },
+      {
+        "tip": "As a tenant, you cannot be evicted without proper notice as specified in your rental agreement or state rent laws. Sudden eviction by a landlord is illegal.",
+        "category": "Tenant Rights",
+        "article": "Transfer of Property Act",
+        "icon": "🏠"
+      },
+      {
+        "tip": "Under the Factories Act, workers are entitled to overtime wages at twice the ordinary wage rate for work beyond normal working hours.",
+        "category": "Labour Rights",
+        "article": "Factories Act, 1948",
+        "icon": "👷"
+      },
+      {
+        "tip": "Any citizen can challenge a law or government action violating Fundamental Rights by filing a Public Interest Litigation (PIL) directly in the High Court or Supreme Court.",
+        "category": "PIL",
+        "article": "Article 32 & 226",
+        "icon": "⚖️"
+      },
+      {
+        "tip": "Under POCSO Act, any person who suspects child sexual abuse is legally bound to report it to the police or Special Juvenile Police Unit. Non-reporting is itself an offence.",
+        "category": "Child Rights",
+        "article": "POCSO Act, 2012",
+        "icon": "🧒"
+      },
+      {
+        "tip": "Every person is entitled to free legal aid in India, regardless of income, if they're accused in a case where imprisonment is possible.",
+        "category": "Legal Aid",
+        "article": "Section 304 CrPC",
+        "icon": "🆓"
+      },
+      {
+        "tip": "Under the Hindu Succession Act, daughters have equal rights to ancestral property as sons — even if they were born before the 2005 amendment to the Act.",
+        "category": "Property Rights",
+        "article": "Hindu Succession Act, 2005",
+        "icon": "🏡"
+      }
+    ]
+  },
+  "quiz": {
+    "sectionLabel": "Know Your Rights",
+    "title": "Legal Quiz",
+    "description": "Test your knowledge of Indian law. Questions covering constitutional rights, landmark judgments, and more.",
+    "question": "Question {{current}} of {{total}}",
+    "nextQuestion": "Next Question",
+    "seeResults": "See Results",
+    "tryAgain": "Try Again",
+    "explanation": "Explanation:",
+    "scored": "You scored {{score}} out of {{total}} questions correctly.",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "scorePercent": "Score %",
+    "expert": "Legal Expert!",
+    "good": "Good Citizen!",
+    "learning": "Keep Learning!",
+    "start": "Start Your Journey",
+    "questions": [
+      {
+        "question": "Under which Article of the Indian Constitution is the Right to Life and Personal Liberty guaranteed?",
+        "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+        "correct": 2,
+        "explanation": "Article 21 guarantees that no person shall be deprived of his life or personal liberty except according to procedure established by law."
+      },
+      {
+        "question": "Which act governs the protection of children from sexual offences in India?",
+        "options": ["Juvenile Justice Act", "POCSO Act, 2012", "IPC Section 375", "Child Labour Act"],
+        "correct": 1,
+        "explanation": "The Protection of Children from Sexual Offences (POCSO) Act, 2012 specifically deals with sexual crimes against children."
+      },
+      {
+        "question": "What is the maximum period a person can be detained under preventive detention without the approval of an Advisory Board?",
+        "options": ["15 Days", "30 Days", "60 Days", "3 Months"],
+        "correct": 3,
+        "explanation": "Under Article 22(4), a person can be detained for a maximum of 3 months without board approval."
+      },
+      {
+        "question": "The Right to Information (RTI) Act was enacted in which year?",
+        "options": ["2003", "2005", "2007", "2009"],
+        "correct": 1,
+        "explanation": "The RTI Act was enacted in 2005. It empowers citizens to seek information from any public authority."
+      },
+      {
+        "question": "Which body is responsible for making recommendations for appointments to the Supreme Court of India?",
+        "options": ["President of India", "Parliament", "Collegium System", "Union Public Service Commission"],
+        "correct": 2,
+        "explanation": "The Collegium System, comprising the Chief Justice of India and the 4 most senior judges, makes binding recommendations."
+      },
+      {
+        "question": "Under Indian law, what is the minimum age for a valid marriage for a woman?",
+        "options": ["16 years", "18 years", "21 years", "No minimum"],
+        "correct": 1,
+        "explanation": "Currently the minimum marriage age for women is 18 years under the Prohibition of Child Marriage Act, 2006."
+      },
+      {
+        "question": "Which Article of the Indian Constitution abolishes untouchability?",
+        "options": ["Article 14", "Article 15", "Article 17", "Article 23"],
+        "correct": 2,
+        "explanation": "Article 17 abolishes 'Untouchability' in any form and makes its practice a punishable offence."
+      },
+      {
+        "question": "The concept of 'Basic Structure Doctrine' was established in which landmark case?",
+        "options": ["Golaknath Case (1967)", "Kesavananda Bharati Case (1973)", "Minerva Mills Case (1980)", "Maneka Gandhi Case (1978)"],
+        "correct": 1,
+        "explanation": "The Basic Structure Doctrine was established in the Kesavananda Bharati v. State of Kerala (1973) case."
+      }
+    ]
+  },
+  "helplines": {
+    "sectionLabel": "Emergency Legal Help",
+    "title": "Helplines & Resources",
+    "description": "When you need immediate legal help, these government helplines are available free of charge for every citizen of India.",
+    "quickLinks": "Quick Government Links",
+    "items": [
+      { "name": "National Legal Services Authority", "shortName": "NALSA", "number": "1516", "description": "Free legal aid and advice for all citizens. 24/7 helpline for legal assistance.", "available": "24/7" },
+      { "name": "National Commission for Women", "shortName": "NCW", "number": "7827170170", "description": "Support for women facing domestic violence, harassment, or rights violation.", "available": "24/7" },
+      { "name": "Police Emergency", "shortName": "POLICE", "number": "100", "description": "Immediate police assistance for any crime in progress or emergency situation.", "available": "24/7" },
+      { "name": "Child Helpline", "shortName": "CHILDLINE", "number": "1098", "description": "Emergency phone service for children in distress anywhere in India.", "available": "24/7" },
+      { "name": "Cyber Crime Helpline", "shortName": "CYBER CELL", "number": "1930", "description": "Report online fraud, financial cyber crime, and digital harassment.", "available": "24/7" },
+      { "name": "Human Rights Commission", "shortName": "NHRC", "number": "14433", "description": "Report violations of human rights by state or central authorities.", "available": "Mon–Fri" }
+    ],
+    "links": [
+      { "name": "Supreme Court of India", "url": "https://www.sci.gov.in/" },
+      { "name": "e-Courts Services", "url": "https://services.ecourts.gov.in/" },
+      { "name": "NALSA — Free Legal Aid", "url": "https://nalsa.gov.in/" },
+      { "name": "National Human Rights Commission", "url": "https://nhrc.nic.in/" }
+    ]
+  },
+  "trust": {
+    "sectionLabel": "Trust & Safety",
+    "title": "Built for responsible use",
+    "description": "We're opinionated about safety: disclaimers are explicit, sources are stated, and privacy risks are called out.",
+    "tip": "If you're dealing with an active case, share only non-identifying facts (dates, sections, procedure steps). For emergencies, contact local authorities.",
+    "items": [
+      { "title": "Educational, not legal advice", "description": "ADHIKAR helps you learn and prepare. For case-specific decisions, consult a qualified advocate." },
+      { "title": "Transparent data sources", "description": "Content is sourced from public/government publications such as IndiaCode, eCourts, NCRB reports, and official documents." },
+      { "title": "Privacy-first posture", "description": "Avoid sharing sensitive personal information in the chatbot. Treat AI outputs as guidance, not instructions." },
+      { "title": "Clear limitations", "description": "Laws change, and context matters. We prioritize clarity and citations, but accuracy depends on the prompt and sources available." }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "title": "Common questions",
+    "description": "Clear answers about what the platform is (and isn't), how to use it responsibly, and where the information comes from.",
+    "items": [
+      { "q": "Is ADHIKAR a law firm?", "a": "No. ADHIKAR is an educational platform that helps you understand laws and procedures. It does not replace professional legal counsel." },
+      { "q": "Can I rely on Vidhi Sahayak for a court filing?", "a": "Use it to learn and prepare questions. For filings, evidence strategy, or deadlines, consult a qualified advocate because context matters." },
+      { "q": "Which laws are covered?", "a": "The platform focuses on Indian law broadly—constitutional rights, key criminal/civil procedures, and commonly used acts. Coverage expands over time." },
+      { "q": "Do you store my personal data from the chatbot?", "a": "Avoid sharing sensitive personal information. Treat the chat as public-facing and only share non-identifying facts." },
+      { "q": "How do you decide the 'right' section of an act?", "a": "We surface likely relevant sections and procedures based on your description, but a qualified professional should validate applicability." },
+      { "q": "What should I do in an emergency?", "a": "Contact local emergency services or the nearest police station immediately. This platform is not an emergency response channel." }
+    ]
+  },
+  "cta": {
+    "sectionLabel": "Know Your Constitution",
+    "title1": "Your Rights.",
+    "title2": "Simplified.",
+    "description": "Empowering every Indian citizen with clear, AI-driven legal intelligence. Experience the future of legal awareness.",
+    "browseLaws": "Browse Laws",
+    "exploreCases": "Explore Cases"
+  },
+  "testimonials": {
+    "sectionLabel": "Trusted Presence",
+    "title": "Voices of Justice",
+    "items": [
+      { "name": "Priya Sharma", "role": "Law Student, Delhi University", "quote": "ADHIKAR helped me understand the BNS provisions in minutes. The AI chatbot explains complex sections better than many textbooks." },
+      { "name": "Rajesh Kumar", "role": "RTI Activist, Bihar", "quote": "The RTI filing guide and government portal links saved me hours. Everything I need is in one place." },
+      { "name": "Fatima Sheikh", "role": "Social Worker, Maharashtra", "quote": "Being able to read about women's rights in Marathi made all the difference for the communities I work with." }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Get in touch",
+    "description": "Want to contribute, report a data issue, or suggest improvements? Reach out and we'll iterate fast.",
+    "location": "India • Remote-first"
+  },
   "directory": {
     "sectionLabel": "Find Help Near You",
     "title": "Advocates & Police Stations",
@@ -78,8 +314,9 @@
   },
   "portals": {
     "sectionLabel": "Quick Access",
-    "title": "Government Portals",
-    "description": "Direct links to essential government services for filing complaints, checking case status, and more."
+    "title": "Digital Gateways",
+    "description": "Direct links to essential government services for filing complaints, checking case status, and more.",
+    "visitPortal": "Visit Portal"
   },
   "footer": {
     "tagline": "India's unified platform for legal awareness, democratic empowerment, and citizen rights.",
@@ -90,7 +327,9 @@
     "legal": "Legal",
     "legalLinks": ["Privacy Policy", "Terms of Service", "Disclaimer", "Contact Us"],
     "copyright": "© 2026 ADHIKAR. For informational purposes only — not legal advice.",
-    "dataSource": "Data sourced from NCRB, IndiaCode, eCourts & government publications."
+    "dataSource": "Data sourced from NCRB, IndiaCode, eCourts & government publications.",
+    "sovereignEdition": "Sovereign Edition",
+    "builtWith": "Built with Sovereign AI"
   },
   "legalCategory": {
     "backToAll": "Back to all categories",
@@ -99,5 +338,32 @@
     "rightsTitle": "Fundamental Rights & Constitutional Protections",
     "judgmentsTitle": "Landmark Judgments",
     "disclaimer": "This information is for educational purposes only and does not constitute legal advice. Please consult a qualified advocate for specific legal matters."
-  }
+  },
+  "news": {
+    "sectionLabel": "Legal Headlines",
+    "title": "Landmark Cases & Legal News",
+    "description": "Explore the most significant legal cases and rulings that have shaped India's legal landscape.",
+    "readMore": "Read More",
+    "loadMore": "Load More Cases",
+    "all": "All"
+  },
+  "vidhi": {
+    "title": "Vidhi Sahayak",
+    "badge": "Sovereign Legal AI",
+    "greeting": "Namaste! I am Vidhi Sahayak, your legal intelligence assistant. How can I assist you with Indian law today?",
+    "suggestedQueries": "Suggested Queries",
+    "you": "YOU",
+    "botLabel": "Vidhi Sahayak • AI",
+    "sent": "Sent",
+    "placeholder": "Type your legal query...",
+    "pressEnter": "Press Enter",
+    "disclaimer": "Educational Intelligence • Not Legal Counsel",
+    "commonQuestions": [
+      "How to register a trademark in India?",
+      "Fundamental Rights in Constitution",
+      "RTI application process",
+      "Consumer protection laws"
+    ]
+  },
+  "selectLanguage": "Select Language"
 }

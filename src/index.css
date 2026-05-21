@@ -6,55 +6,56 @@
 
 @layer base {
   :root {
-    --background: 40 20% 98%;
-    --foreground: 220 25% 12%;
+    --background: 0 0% 4%; /* True dark - #0A0A0A */
+    --foreground: 30 10% 90%; /* #E5E2E1 - warm white text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 25% 12%;
+    --card: 0 0% 8%; /* #141414 - dark card surface */
+    --card-foreground: 30 10% 88%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 12%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 30 10% 90%;
 
-    --primary: 220 45% 20%;
-    --primary-foreground: 40 20% 98%;
+    --primary: 35 100% 55%; /* Saffron Orange - #FF9933 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 80% 52%;
+    --secondary: 142 70% 45%; /* Indian Green - #138808 */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 15% 94%;
-    --muted-foreground: 220 10% 46%;
+    --muted: 0 0% 12%; /* #1F1F1F - muted surfaces */
+    --muted-foreground: 0 0% 55%; /* #8C8C8C - muted text */
 
-    --accent: 35 80% 52%;
+    --accent: 35 100% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 90%;
-    --input: 220 15% 90%;
-    --ring: 35 80% 52%;
+    --border: 0 0% 14%; /* #242424 - subtle borders */
+    --input: 0 0% 14%;
+    --ring: 35 100% 55%; /* Saffron ring */
 
-    --radius: 0.625rem;
+    --radius: 0.75rem;
 
-    /* Custom tokens */
-    --navy: 220 45% 20%;
-    --navy-light: 220 35% 30%;
-    --saffron: 35 80% 52%;
-    --saffron-light: 35 85% 62%;
-    --saffron-pale: 35 60% 95%;
-    --green-india: 140 45% 35%;
-    --green-india-pale: 140 30% 94%;
-    --cream: 40 30% 96%;
-    --warm-white: 40 20% 98%;
+    /* ═══ Sovereign Theme Tokens ═══ */
+    --navy: 222 47% 7%; /* Deep Navy - #090E1A */
+    --navy-light: 222 35% 14%; /* Lighter Navy - #151D2E */
+    --saffron: 35 100% 55%; /* Official Saffron - #FF9933 */
+    --saffron-light: 35 100% 72%; /* Warm gold - for gradients */
+    --saffron-pale: 35 100% 55% / 0.08; /* Tinted saffron bg */
+    --green-india: 142 70% 45%; /* Official Green - #138808 */
+    --green-india-pale: 142 70% 45% / 0.08;
+    --cream: 0 0% 6%; /* Dark cream (dark theme!) - #0F0F0F */
+    --warm-white: 0 0% 8%; /* Dark warm surface - #141414 */
+    --surface-high: 0 0% 12%; /* Elevated dark surface - #1F1F1F */
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 0 0% 80%;
+    --sidebar-primary: 35 100% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 0% 14%;
+    --sidebar-ring: 35 100% 55%;
   }
 }
 
@@ -63,8 +64,17 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
   body {
     @apply bg-background text-foreground font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -75,6 +85,33 @@
   p {
     text-wrap: pretty;
     overflow-wrap: break-word;
+  }
+
+  /* Improve touch targets on mobile */
+  @media (max-width: 640px) {
+    button, a {
+      min-height: 44px;
+    }
+  }
+
+  /* Reduce motion for accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Off-screen section optimization */
+  section {
+    contain: layout style;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -169,3 +206,66 @@
 .animation-delay-400 { animation-delay: 320ms; }
 .animation-delay-500 { animation-delay: 400ms; }
 .animation-delay-600 { animation-delay: 480ms; }
+
+/* Premium Utilities */
+.glassy-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.glassy-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 153, 51, 0.15);
+}
+
+.ambient-shadow {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+.gavel-line {
+  @apply relative;
+}
+.gavel-line::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-[2px] bg-saffron transition-all duration-300;
+}
+.gavel-line:focus-within::after {
+  @apply w-full;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-saffron via-saffron-light to-saffron;
+}
+
+.glow-sm {
+  box-shadow: 0 0 24px rgba(255, 153, 51, 0.12);
+}
+
+.hover-glow {
+  @apply transition-all duration-500;
+}
+.hover-glow:hover {
+  box-shadow: 0 0 40px rgba(255, 153, 51, 0.15), 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.glow-border {
+  @apply border border-saffron/20 hover:border-saffron/50 transition-colors;
+}
+
+/* Custom scrollbar for dark theme */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 153, 51, 0.3);
+}
