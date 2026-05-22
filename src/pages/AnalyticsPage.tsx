@@ -5,7 +5,7 @@ import { VidhiSahayak } from "@/components/VidhiSahayak";
 import { ScrollReveal } from "@/components/ScrollReveal";
 
 const AnalyticsPage = () => (
-  <div className="min-h-screen">
+  <div className="min-h-screen bg-background">
     <Navbar />
     <main className="pt-24">
       <section className="py-16">

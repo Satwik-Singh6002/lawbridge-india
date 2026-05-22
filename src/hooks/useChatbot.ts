@@ -154,7 +154,9 @@ Rules:
         try {
           const errJson = JSON.parse(errText);
           errMsg = errJson?.error?.message || errJson?.message || errMsg;
-        } catch {}
+        } catch {
+          // Ignore parsing error, fallback to raw response status
+        }
         throw new Error(errMsg);
       }
 

@@ -1,6 +1,6 @@
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { useTranslation } from "react-i18next";
-import { XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from "recharts";
+import { XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area, BarChart, Bar } from "recharts";
 import { useState, useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { Info, TrendingUp, Sparkles, BarChart3, Search, MapPin, X } from "lucide-react";
@@ -204,14 +204,15 @@ export const AnalyticsSection = () => {
   const [activeMetric, setActiveMetric] = useState<"rape" | "murder" | "cyber" | "kidnapping">("cyber");
   const [selectedState, setSelectedState] = useState("National");
   const [searchQuery, setSearchQuery] = useState("");
+  const [chartType, setChartType] = useState<"trend" | "comparison">("trend");
 
   const data = useMemo(() => {
     if (selectedState === "National") return nationalData;
     if (stateData[selectedState]) return stateData[selectedState];
     
-    // Generate deterministic mock data for custom cities/districts/pincodes
+    // Generate deterministic mock data for custom inputs
     const seed = selectedState.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    const multiplier = (seed % 100) / 100 * 0.05 + 0.005; // 0.5% to 5.5% of national data
+    const multiplier = (seed % 100) / 100 * 0.05 + 0.005;
     
     return nationalData.map(d => ({
       year: d.year,
@@ -221,6 +222,7 @@ export const AnalyticsSection = () => {
       kidnapping: Math.max(1, Math.round(d.kidnapping * multiplier)),
     }));
   }, [selectedState]);
+
   const filteredStates = useMemo(() =>
     ALL_STATES.filter(s => s.toLowerCase().includes(searchQuery.toLowerCase())),
     [searchQuery]
@@ -234,26 +236,38 @@ export const AnalyticsSection = () => {
 
   const currentValues = data[data.length - 1];
 
+  const comparisonData = useMemo(() => {
+    return Object.entries(stateData).map(([stateName, yearsArray]) => {
+      const year2026Data = yearsArray.find(y => y.year === "2026");
+      return {
+        state: stateName,
+        value: year2026Data ? year2026Data[activeMetric] : 0
+      };
+    }).sort((a, b) => b.value - a.value).slice(0, 8);
+  }, [activeMetric]);
 
   return (
-    <section className="py-24 bg-[#050505] relative overflow-hidden" id="analytics">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-saffron/5 rounded-full blur-[150px] -z-10 pointer-events-none" />
+    <section className="py-20 bg-background relative overflow-hidden" id="analytics">
+      {/* Ambient background glows */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-gradient-to-r from-saffron/5 via-violet-500/5 to-emerald-500/5 rounded-full blur-[150px] -z-10 pointer-events-none" />
 
       <div className="container relative z-10">
-        <ScrollReveal className="text-center mb-16">
-          <p className="text-saffron font-black text-[10px] tracking-[0.4em] uppercase mb-4">India Crime Index</p>
-          <h2 className="text-4xl sm:text-6xl font-black text-white tracking-tighter mb-6 uppercase">
-            Data <span className="text-gradient">Transparency</span>
+        <ScrollReveal className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-saffron/[0.08] border border-saffron/20 mb-4">
+            <BarChart3 className="w-3.5 h-3.5 text-saffron" />
+            <span className="text-saffron text-[10px] font-black tracking-[0.3em] uppercase">India Crime Index</span>
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
+            Data <span className="text-gradient">Transparency Dashboard</span>
           </h2>
-          <p className="text-white/40 text-lg font-medium max-w-2xl mx-auto leading-relaxed">
-            Real-time insights into national crime statistics. We believe that an informed citizen is a protected citizen.
+          <p className="text-white/50 mt-3 max-w-xl mx-auto text-base sm:text-lg font-medium">
+            Real-time trends and comparative analyses based on historical crime records.
           </p>
         </ScrollReveal>
 
         {/* State Selector Row */}
         <div className="mb-10">
-          {/* Top row: search + badge */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-5">
             {/* Search bar */}
             <div className="relative flex-1 max-w-sm group">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20 group-focus-within:text-saffron transition-colors" />
@@ -262,7 +276,7 @@ export const AnalyticsSection = () => {
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
                 placeholder="Search state, city, district or pincode..."
-                className="w-full h-12 pl-11 pr-10 rounded-2xl bg-white/[0.04] border border-white/10 text-sm text-white placeholder:text-white/20 outline-none focus:border-saffron/30 font-medium tracking-wide transition-all"
+                className="w-full h-11 pl-11 pr-10 rounded-xl bg-white/[0.02] border border-white/5 text-xs text-white placeholder:text-white/20 outline-none focus:border-saffron/30 font-medium tracking-wide transition-all"
               />
               {searchQuery && (
                 <button
@@ -274,10 +288,30 @@ export const AnalyticsSection = () => {
               )}
             </div>
 
-            {/* Badge */}
-            <div className="flex items-center gap-2 px-5 py-3 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-xl flex-shrink-0">
-              <TrendingUp className="w-4 h-4 text-saffron" />
-              <span className="text-[10px] font-black text-white/60 uppercase tracking-widest">Analytics Dashboard · 2026</span>
+            {/* Toggle chart views */}
+            <div className="inline-flex p-1 rounded-xl bg-white/[0.02] border border-white/5 gap-1 self-start sm:self-auto">
+              <button
+                onClick={() => setChartType("trend")}
+                className={cn(
+                  "px-4 py-2 rounded-lg text-[9px] font-black uppercase tracking-wider transition-all",
+                  chartType === "trend"
+                    ? "bg-saffron text-white shadow-md shadow-saffron/20"
+                    : "text-white/40 hover:text-white"
+                )}
+              >
+                Trend Chart
+              </button>
+              <button
+                onClick={() => setChartType("comparison")}
+                className={cn(
+                  "px-4 py-2 rounded-lg text-[9px] font-black uppercase tracking-wider transition-all",
+                  chartType === "comparison"
+                    ? "bg-saffron text-white shadow-md shadow-saffron/20"
+                    : "text-white/40 hover:text-white"
+                )}
+              >
+                State Comparison
+              </button>
             </div>
           </div>
 
@@ -285,21 +319,21 @@ export const AnalyticsSection = () => {
           <div className="flex flex-wrap gap-2">
             {searchQuery === "" && (
               <button
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all bg-saffron text-white shadow-lg shadow-saffron/20 scale-105"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all bg-saffron text-white shadow-lg shadow-saffron/25"
               >
                 <MapPin className="w-3 h-3 flex-shrink-0" />
                 {selectedState}
               </button>
             )}
-            {searchQuery !== "" && filteredStates.map(state => (
+            {searchQuery !== "" && filteredStates.slice(0, 10).map(state => (
               <button
                 key={state}
                 onClick={() => { setSelectedState(state); setSearchQuery(""); }}
                 className={cn(
-                  "flex items-center gap-1.5 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all",
+                  "flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all",
                   selectedState === state
-                    ? "bg-saffron text-white shadow-lg shadow-saffron/20 scale-105"
-                    : "bg-white/[0.03] border border-white/8 text-white/40 hover:text-white hover:bg-white/[0.06] hover:border-white/15"
+                    ? "bg-saffron text-white"
+                    : "bg-white/[0.02] border border-white/5 text-white/40 hover:text-white hover:bg-white/5"
                 )}
               >
                 <MapPin className="w-3 h-3 flex-shrink-0" />
@@ -309,7 +343,7 @@ export const AnalyticsSection = () => {
             {searchQuery !== "" && filteredStates.length === 0 && (
               <button
                 onClick={() => { setSelectedState(searchQuery); setSearchQuery(""); }}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all bg-white/[0.03] border border-white/8 text-white/40 hover:text-white hover:bg-white/[0.06] hover:border-white/15"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all bg-white/[0.02] border border-white/5 text-white/40 hover:text-white hover:bg-white/5"
               >
                 <MapPin className="w-3 h-3 flex-shrink-0" />
                 Analyze "{searchQuery}"
@@ -317,36 +351,37 @@ export const AnalyticsSection = () => {
             )}
           </div>
         </div>
+
         {/* Metric Cards */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           {(["rape", "murder", "cyber", "kidnapping"] as const).map((m, i) => (
-            <ScrollReveal key={m} delay={i * 50}>
+            <ScrollReveal key={m} delay={i * 40}>
               <button
                 onClick={() => setActiveMetric(m)}
                 className={cn(
-                  "w-full p-8 rounded-[2.5rem] border transition-all text-left relative overflow-hidden group",
+                  "w-full p-6 sm:p-7 rounded-3xl border transition-all text-left relative overflow-hidden group spotlight-card",
                   activeMetric === m
-                    ? "bg-saffron/10 border-saffron/40 shadow-2xl shadow-saffron/5"
-                    : "bg-white/[0.02] border-white/5 hover:border-white/10"
+                    ? "bg-saffron/10 border-saffron/40 shadow-xl shadow-saffron/5"
+                    : "bg-white/[0.01] border-white/5 hover:border-white/10"
                 )}
               >
-                <div className="flex items-center justify-between mb-8 relative z-10">
+                <div className="flex items-center justify-between mb-6 relative z-10">
                   <div className={cn(
-                    "w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-500",
-                    activeMetric === m ? "bg-saffron text-white scale-110 rotate-3" : "bg-white/5 text-white/20 group-hover:bg-white/10 group-hover:text-white"
+                    "w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-500",
+                    activeMetric === m ? "bg-saffron text-white scale-110" : "bg-white/5 text-white/20 group-hover:bg-white/10 group-hover:text-white"
                   )}>
-                    {m === 'cyber' ? <Sparkles className="w-6 h-6" /> : <BarChart3 className="w-6 h-6" />}
+                    {m === 'cyber' ? <Sparkles className="w-5 h-5" /> : <BarChart3 className="w-5 h-5" />}
                   </div>
                   <div className={cn(
-                    "px-2 py-1 rounded-lg text-[9px] font-black uppercase tracking-tighter",
+                    "px-2 py-0.5 rounded-md text-[8px] font-black uppercase tracking-tighter",
                     parseFloat(getGrowth(m)) > 0 ? "bg-red-500/10 text-red-400" : "bg-green-500/10 text-green-400"
                   )}>
                     {parseFloat(getGrowth(m)) > 0 ? "▲" : "▼"}{Math.abs(parseFloat(getGrowth(m)))}%
                   </div>
                 </div>
                 <div className="relative z-10">
-                  <div className="text-[10px] font-black text-white/20 uppercase tracking-[0.3em] mb-2">{m} cases</div>
-                  <div className="text-3xl font-black text-white tracking-tighter">{currentValues[m].toLocaleString()}</div>
+                  <div className="text-[9px] font-black text-white/30 uppercase tracking-[0.25em] mb-1">{m} cases</div>
+                  <div className="text-2xl font-black text-white tracking-tight">{currentValues[m].toLocaleString()}</div>
                 </div>
               </button>
             </ScrollReveal>
@@ -354,103 +389,157 @@ export const AnalyticsSection = () => {
         </div>
 
         {/* Chart + Insights */}
-        <div className="grid lg:grid-cols-12 gap-8 h-[550px]">
-          <ScrollReveal delay={300} className="lg:col-span-8 bg-white/[0.02] border border-white/5 rounded-[3rem] p-10 backdrop-blur-3xl relative overflow-hidden group/chart h-full">
-            <div className="absolute top-10 right-10 flex items-center gap-3 px-4 py-2 rounded-xl bg-white/5 border border-white/10 opacity-0 group-hover/chart:opacity-100 transition-all duration-700">
-               <div className="w-2 h-2 rounded-full bg-saffron animate-pulse" />
-               <span className="text-[9px] font-black text-white/40 uppercase tracking-widest">NCRB · 2018–2026</span>
+        <div className="grid lg:grid-cols-12 gap-8 lg:h-[460px] items-stretch">
+          <ScrollReveal className="lg:col-span-8 bg-white/[0.01] border border-white/5 rounded-3xl p-6 sm:p-8 backdrop-blur-xl relative overflow-hidden group/chart flex flex-col justify-between">
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-saffron animate-pulse" />
+                <span className="text-[9px] font-black text-white/30 uppercase tracking-widest">
+                  {chartType === "trend" ? `${selectedState} - Case Progression` : `State Comparison (Year 2026)`}
+                </span>
+              </div>
+              <span className="text-[8px] font-black text-white/20 uppercase tracking-widest">Source: NCRB Reports</span>
             </div>
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={data} margin={{ top: 20, right: 10, left: 0, bottom: 0 }}>
-                <defs>
-                  <linearGradient id="colorMetric" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%"  stopColor="#FF9933" stopOpacity={0.4}/>
-                    <stop offset="95%" stopColor="#FF9933" stopOpacity={0}/>
-                  </linearGradient>
-                </defs>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.03)" vertical={false} />
-                <XAxis
-                  dataKey="year"
-                  axisLine={false}
-                  tickLine={false}
-                  tick={{ fill: 'rgba(255,255,255,0.2)', fontSize: 10, fontWeight: 900 }}
-                />
-                <YAxis
-                  axisLine={false}
-                  tickLine={false}
-                  tick={{ fill: 'rgba(255,255,255,0.2)', fontSize: 10, fontWeight: 900 }}
-                  tickFormatter={(val) => val >= 1000 ? `${(val/1000).toFixed(1)}k` : val}
-                />
-                <Tooltip
-                  cursor={{ stroke: 'rgba(255,153,51,0.2)', strokeWidth: 2 }}
-                  contentStyle={{
-                    backgroundColor: 'rgba(10,10,12,0.95)',
-                    border: '1px solid rgba(255,153,51,0.2)',
-                    borderRadius: '24px',
-                    padding: '20px',
-                    backdropFilter: 'blur(20px)',
-                    boxShadow: '0 20px 50px rgba(0,0,0,0.5)'
-                  }}
-                  itemStyle={{ fontSize: '12px', fontWeight: '900', color: '#fff', textTransform: 'uppercase' }}
-                  labelStyle={{ color: 'rgba(255,255,255,0.4)', fontSize: '10px', fontWeight: '900', marginBottom: '8px', letterSpacing: '0.2em' }}
-                />
-                <Area
-                  type="monotone"
-                  dataKey={activeMetric}
-                  stroke="#FF9933"
-                  strokeWidth={5}
-                  fillOpacity={1}
-                  fill="url(#colorMetric)"
-                  animationDuration={1200}
-                  animationEasing="ease-in-out"
-                />
-              </AreaChart>
-            </ResponsiveContainer>
+
+            <div className="h-[280px] sm:h-[320px] w-full flex-1">
+              <ResponsiveContainer width="100%" height="100%">
+                {chartType === "trend" ? (
+                  <AreaChart data={data} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                    <defs>
+                      <linearGradient id="colorMetric" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor="#f97316" stopOpacity={0.35}/>
+                        <stop offset="95%" stopColor="#f97316" stopOpacity={0}/>
+                      </linearGradient>
+                    </defs>
+                    <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.03)" vertical={false} />
+                    <XAxis
+                      dataKey="year"
+                      axisLine={false}
+                      tickLine={false}
+                      tick={{ fill: 'rgba(255,255,255,0.2)', fontSize: 9, fontWeight: 900 }}
+                    />
+                    <YAxis
+                      axisLine={false}
+                      tickLine={false}
+                      tick={{ fill: 'rgba(255,255,255,0.2)', fontSize: 9, fontWeight: 900 }}
+                      tickFormatter={(val) => val >= 1000 ? `${(val/1000).toFixed(0)}k` : val}
+                    />
+                    <Tooltip
+                      cursor={{ stroke: 'rgba(249,115,22,0.15)', strokeWidth: 2 }}
+                      contentStyle={{
+                        backgroundColor: 'rgba(10,10,12,0.95)',
+                        border: '1px solid rgba(255,255,255,0.08)',
+                        borderRadius: '16px',
+                        padding: '12px 16px',
+                        backdropFilter: 'blur(20px)',
+                      }}
+                      itemStyle={{ fontSize: '11px', fontWeight: '900', color: '#fff', textTransform: 'uppercase' }}
+                      labelStyle={{ color: 'rgba(255,255,255,0.4)', fontSize: '8px', fontWeight: '900', marginBottom: '4px', letterSpacing: '0.2em' }}
+                    />
+                    <Area
+                      type="monotone"
+                      dataKey={activeMetric}
+                      stroke="#f97316"
+                      strokeWidth={3}
+                      fillOpacity={1}
+                      fill="url(#colorMetric)"
+                      animationDuration={800}
+                    />
+                  </AreaChart>
+                ) : (
+                  <BarChart data={comparisonData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                    <defs>
+                      <linearGradient id="colorBar" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor="#10b981" stopOpacity={0.8}/>
+                        <stop offset="95%" stopColor="#10b981" stopOpacity={0.2}/>
+                      </linearGradient>
+                    </defs>
+                    <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.03)" vertical={false} />
+                    <XAxis
+                      dataKey="state"
+                      axisLine={false}
+                      tickLine={false}
+                      tick={{ fill: 'rgba(255,255,255,0.2)', fontSize: 8, fontWeight: 900 }}
+                    />
+                    <YAxis
+                      axisLine={false}
+                      tickLine={false}
+                      tick={{ fill: 'rgba(255,255,255,0.2)', fontSize: 9, fontWeight: 900 }}
+                      tickFormatter={(val) => val >= 1000 ? `${(val/1000).toFixed(0)}k` : val}
+                    />
+                    <Tooltip
+                      cursor={{ fill: 'rgba(255,255,255,0.02)' }}
+                      contentStyle={{
+                        backgroundColor: 'rgba(10,10,12,0.95)',
+                        border: '1px solid rgba(255,255,255,0.08)',
+                        borderRadius: '16px',
+                        padding: '12px 16px',
+                        backdropFilter: 'blur(20px)',
+                      }}
+                      itemStyle={{ fontSize: '11px', fontWeight: '900', color: '#fff', textTransform: 'uppercase' }}
+                      labelStyle={{ color: 'rgba(255,255,255,0.4)', fontSize: '8px', fontWeight: '900', marginBottom: '4px', letterSpacing: '0.2em' }}
+                    />
+                    <Bar
+                      dataKey="value"
+                      fill="url(#colorBar)"
+                      radius={[6, 6, 0, 0]}
+                      animationDuration={800}
+                    />
+                  </BarChart>
+                )}
+              </ResponsiveContainer>
+            </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={400} className="lg:col-span-4 h-full">
-            <div className="bg-white/[0.02] border border-white/5 rounded-[3rem] p-10 h-full flex flex-col relative overflow-hidden">
-              <div className="absolute -top-24 -right-24 w-48 h-48 bg-saffron/10 rounded-full blur-[80px]" />
-
-              <div className="w-14 h-14 rounded-[1.5rem] bg-saffron/10 border border-saffron/20 flex items-center justify-center mb-8">
-                <Info className="w-7 h-7 text-saffron" />
+          <ScrollReveal className="lg:col-span-4 flex flex-col gap-6">
+            <div className="bg-white/[0.01] border border-white/5 rounded-3xl p-6 sm:p-8 flex-1 flex flex-col justify-between relative overflow-hidden">
+              <div className="absolute -top-16 -right-16 w-36 h-36 bg-saffron/5 rounded-full blur-[60px]" />
+              
+              <div>
+                <div className="flex items-center justify-between mb-6">
+                  <span className="text-[9px] font-black text-saffron uppercase tracking-[0.25em]">State Ranker</span>
+                  <span className="text-[8px] font-black text-white/25 uppercase tracking-wider">Top States (2026)</span>
+                </div>
+                
+                {/* Ranking List */}
+                <div className="space-y-2 mb-6">
+                  {comparisonData.slice(0, 4).map((item, idx) => (
+                    <div key={item.state} className="flex items-center justify-between p-3 rounded-2xl bg-white/[0.01] border border-white/5 hover:bg-white/[0.03] transition-colors">
+                      <div className="flex items-center gap-3">
+                        <span className={cn(
+                          "w-5 h-5 rounded-md flex items-center justify-center text-[9px] font-black border",
+                          idx === 0
+                            ? "border-saffron/30 bg-saffron/10 text-saffron"
+                            : "border-white/5 bg-white/5 text-white/30"
+                        )}>
+                          {idx + 1}
+                        </span>
+                        <span className="text-[11px] font-bold text-white/80">{item.state}</span>
+                      </div>
+                      <span className="text-[10px] font-black text-white/40">{item.value.toLocaleString()}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
 
-              <h4 className="text-white font-black text-2xl mb-4 tracking-tighter uppercase leading-tight">
-                {selectedState === "National" ? "National Trend" : selectedState}<br/>Insights
-              </h4>
-
-              <p className="text-white/40 text-base leading-relaxed mb-10 font-medium">
-                The statistical breakdown for <span className="text-white font-bold">{selectedState === "National" ? "India" : selectedState}</span> indicates a{" "}
-                <span className={cn("px-2 py-0.5 rounded-lg border",
-                  parseFloat(getGrowth(activeMetric)) > 0
-                    ? "bg-red-500/10 border-red-500/20 text-red-100"
-                    : "bg-green-500/10 border-green-500/20 text-green-100"
-                )}>
-                  {getGrowth(activeMetric)}% trend
-                </span>{" "}
-                in {activeMetric} cases during this recording period.
-              </p>
-
-              <div className="mt-auto p-8 rounded-[2rem] bg-white/[0.03] border border-white/10 relative group/insight">
-                <div className="absolute top-0 right-0 p-4 opacity-0 group-hover/insight:opacity-100 transition-opacity">
-                  <Sparkles className="w-4 h-4 text-saffron" />
-                </div>
-                <div className="text-[9px] font-black text-saffron uppercase tracking-[0.3em] mb-3">Policy Note</div>
-                <p className="text-white/80 text-sm leading-[1.6] italic font-bold tracking-tight">
-                  "Data is the sunlight that disinfects systemic corruption. Transparency in reporting is the only way forward."
+              {/* Policy note */}
+              <div className="p-4 rounded-xl bg-white/[0.02] border border-white/5 relative group/insight">
+                <div className="text-[8px] font-black text-saffron uppercase tracking-widest mb-1.5">Statistical Analysis</div>
+                <p className="text-white/50 text-[11px] leading-relaxed font-semibold">
+                  This dashboard reflects registered offences reported under legal categories. Variations may indicate recording transparency improvements rather than actual rate changes.
                 </p>
               </div>
             </div>
           </ScrollReveal>
         </div>
 
-        <ScrollReveal delay={500} className="mt-16 flex items-center justify-center gap-6">
-           <div className="h-px flex-1 bg-gradient-to-r from-transparent to-white/10" />
-           <p className="text-[10px] font-black text-white/10 uppercase tracking-[0.6em] whitespace-nowrap italic">Source: National Crime Records Bureau (NCRB) · 2018–2026</p>
-           <div className="h-px flex-1 bg-gradient-to-l from-transparent to-white/10" />
+        <ScrollReveal className="mt-16 flex items-center justify-center gap-6">
+          <div className="h-px flex-1 bg-gradient-to-r from-transparent to-white/10" />
+          <p className="text-[9px] font-black text-white/10 uppercase tracking-[0.4em] whitespace-nowrap italic">Source: National Crime Records Bureau (NCRB) · 2018–2026</p>
+          <div className="h-px flex-1 bg-gradient-to-l from-transparent to-white/10" />
         </ScrollReveal>
       </div>
     </section>
   );
 };
+
