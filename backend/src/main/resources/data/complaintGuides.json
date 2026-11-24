@@ -1,0 +1,684 @@
+[
+  {
+    "id": "complaint-1",
+    "title": "How to Report Cyber Crime",
+    "slug": "cyber-crime",
+    "category": "Cyber Crime",
+    "icon": "Shield",
+    "description": "Step-by-step guide to reporting cyber fraud, hacking, online harassment, and other cyber crimes in India.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Document Everything",
+        "description": "Take screenshots of fraudulent messages, emails, transactions, and websites. Note down phone numbers, email addresses, and UPI IDs used by scammers. Save all evidence before it disappears."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Call the Cyber Crime Helpline",
+        "description": "Call 1930 immediately. This is the national cyber crime helpline that operates 24/7. For financial fraud, calling within the \"golden hour\" (first few hours) significantly increases chances of recovery."
+      },
+      {
+        "stepNumber": 3,
+        "title": "File an Online Complaint",
+        "description": "Visit cybercrime.gov.in and register your complaint. Select the appropriate category (financial fraud, women/child-related, or other cyber crime). You will receive a complaint acknowledgment number."
+      },
+      {
+        "stepNumber": 4,
+        "title": "File an FIR",
+        "description": "Visit your nearest police station and file a First Information Report (FIR). You can file a Zero FIR at any police station regardless of where the crime occurred. Carry all your evidence and the online complaint number."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Contact Your Bank",
+        "description": "If financial fraud is involved, immediately contact your bank's customer care. Request them to block the transaction if possible. Report the unauthorized transaction in writing and get an acknowledgment."
+      }
+    ],
+    "requiredDocuments": [
+      "Screenshots of fraud (messages, emails, websites)",
+      "Transaction IDs and bank statements",
+      "Scammer's phone number, email, UPI ID, or bank account",
+      "Your identification documents (Aadhaar, PAN)",
+      "Online complaint acknowledgment number"
+    ],
+    "officialLinks": [
+      {
+        "name": "National Cyber Crime Portal",
+        "url": "https://cybercrime.gov.in"
+      },
+      {
+        "name": "Cyber Crime Helpline: 1930",
+        "url": "tel:1930"
+      }
+    ],
+    "importantWarnings": [
+      "Report financial fraud within 3 days for better chances of recovery",
+      "Do not delete any evidence — even if scammers ask you to",
+      "Police cannot refuse to file an FIR for cognizable offenses",
+      "Keep your complaint acknowledgment number safe for follow-up"
+    ],
+    "followUpSteps": [
+      "Track your complaint status on cybercrime.gov.in",
+      "Follow up with the investigating officer assigned to your case",
+      "If no action is taken within 30 days, escalate to the SP/DIG",
+      "You can approach the court directly if police do not act"
+    ],
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "complaint-2",
+    "title": "How to File a Consumer Complaint",
+    "slug": "consumer-complaint",
+    "category": "Consumer Complaint",
+    "icon": "ShoppingBag",
+    "description": "Guide to filing complaints about defective products, poor services, or unfair trade practices.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Write to the Company",
+        "description": "Send a written complaint to the company/seller first. Use email or registered post. Give them 15-30 days to respond. Keep a copy of the complaint and delivery proof."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Call National Consumer Helpline",
+        "description": "Call 1800-11-4000 (toll-free) for guidance and mediation. They can help resolve complaints through direct intervention with companies."
+      },
+      {
+        "stepNumber": 3,
+        "title": "File on e-Daakhil Portal",
+        "description": "If the company does not resolve your issue, file a formal complaint on edaakhil.nic.in. This is the official online consumer complaint filing system. Choose the appropriate Consumer Commission based on your claim value."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Pay the Filing Fee",
+        "description": "Pay the applicable filing fee online. Fees vary based on claim amount — starting from ₹100 for claims up to ₹5 lakh. Fee is waived for certain categories."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Attend the Hearing",
+        "description": "You will receive a hearing date. You can represent yourself or hire a lawyer. Present your evidence and arguments. Consumer courts typically resolve cases faster than civil courts."
+      }
+    ],
+    "requiredDocuments": [
+      "Purchase invoice/receipt",
+      "Product warranty/guarantee card",
+      "Photos/videos of defective product or poor service",
+      "Written complaint sent to company and their response",
+      "Bank/payment transaction records",
+      "Any misleading advertisement (if applicable)"
+    ],
+    "officialLinks": [
+      {
+        "name": "National Consumer Helpline",
+        "url": "https://consumerhelpline.gov.in"
+      },
+      {
+        "name": "e-Daakhil Portal",
+        "url": "https://edaakhil.nic.in"
+      }
+    ],
+    "importantWarnings": [
+      "File within 2 years of the cause of complaint",
+      "Keep all original documents safe — courts may need originals",
+      "You do not need a lawyer for consumer court — you can argue yourself",
+      "District Commission handles claims up to ₹1 crore, State Commission up to ₹10 crore"
+    ],
+    "followUpSteps": [
+      "Track your case status on edaakhil.nic.in",
+      "Attend all hearings on scheduled dates",
+      "If dissatisfied with the order, appeal to the next higher commission",
+      "Consumer Commission orders are legally enforceable"
+    ],
+    "lastReviewed": "2026-07-20"
+  },
+  {
+    "id": "complaint-3",
+    "title": "How to File a Banking Complaint",
+    "slug": "banking-complaint",
+    "category": "Banking Complaint",
+    "icon": "Landmark",
+    "description": "Guide to resolving disputes with banks regarding unauthorized transactions, service issues, and loan problems.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Complain to Your Bank",
+        "description": "File a written complaint with your bank's Grievance Redressal Officer. Every bank is required to acknowledge your complaint and assign a reference number. They must respond within 30 days."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Escalate to Banking Ombudsman",
+        "description": "If the bank doesn't resolve your complaint in 30 days, file with the RBI Banking Ombudsman on cms.rbi.org.in. This is a free service."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Submit Supporting Documents",
+        "description": "Upload all relevant documents — bank statements, transaction records, communication with bank, complaint acknowledgment, etc."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Await Mediation/Resolution",
+        "description": "The Ombudsman will mediate between you and the bank. Most cases are resolved within 30-45 days. The Ombudsman can award compensation."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Appeal if Unsatisfied",
+        "description": "If dissatisfied with the Ombudsman's decision, you can appeal to the RBI Deputy Governor. You can also approach the Consumer Forum or civil court."
+      }
+    ],
+    "requiredDocuments": [
+      "Bank account statements",
+      "Transaction details (date, amount, reference number)",
+      "Written complaint to bank and acknowledgment",
+      "Loan agreement or fixed deposit receipt (if applicable)",
+      "Communication with bank officials",
+      "FIR copy (for fraud cases)"
+    ],
+    "officialLinks": [
+      {
+        "name": "RBI Banking Ombudsman (CMS)",
+        "url": "https://cms.rbi.org.in"
+      },
+      {
+        "name": "RBI Sachet",
+        "url": "https://sachet.rbi.org.in"
+      }
+    ],
+    "importantWarnings": [
+      "For unauthorized electronic transactions, report to bank within 3 days for zero liability",
+      "Keep complaint reference numbers for tracking",
+      "Banks must credit the disputed amount within 10 days of receiving your complaint (as per RBI guidelines)",
+      "The Ombudsman service is completely free"
+    ],
+    "followUpSteps": [
+      "Track complaint status on cms.rbi.org.in",
+      "If the bank doesn't comply with the Ombudsman's order, report to RBI",
+      "Consider filing a consumer complaint for compensation beyond the disputed amount",
+      "Keep records of all interactions for future reference"
+    ],
+    "lastReviewed": "2026-08-05"
+  },
+  {
+    "id": "complaint-4",
+    "title": "How to File a Police Complaint (FIR)",
+    "slug": "police-complaint",
+    "category": "Police Complaint",
+    "icon": "FileWarning",
+    "description": "Complete guide to filing an FIR, understanding your rights, and what to do if police refuse your complaint.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Visit the Police Station",
+        "description": "Go to the nearest police station. For cognizable offenses (serious crimes like theft, assault, fraud), the police are legally bound to file an FIR. You can also file a Zero FIR at any police station regardless of jurisdiction."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Provide Your Statement",
+        "description": "Clearly narrate what happened — include details like date, time, location, description of the accused, and what occurred. Be factual and include all relevant details."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Get FIR Copy",
+        "description": "Once the FIR is registered, you have the RIGHT to a free copy of the FIR. The FIR number is important for all future reference and legal proceedings."
+      },
+      {
+        "stepNumber": 4,
+        "title": "If Police Refuse to File FIR",
+        "description": "If police refuse, you have options: (1) Send a written complaint by registered post to the SP/SSP, (2) File a private complaint before the Magistrate under Section 190 CrPC, (3) File a complaint with the Police Complaints Authority, (4) Approach the High Court."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Follow Up",
+        "description": "Note the investigating officer's name and contact. Follow up regularly on the investigation status. You can check FIR status online in some states through the police department website."
+      }
+    ],
+    "requiredDocuments": [
+      "Your identification (Aadhaar, Voter ID)",
+      "Written description of the incident",
+      "Evidence (photos, videos, messages)",
+      "Witness details (if any)",
+      "Medical report (in case of physical assault)",
+      "Previous complaints (if any) related to the incident"
+    ],
+    "officialLinks": [
+      {
+        "name": "Police Emergency: 112",
+        "url": "tel:112"
+      },
+      {
+        "name": "Women Helpline: 181",
+        "url": "tel:181"
+      },
+      {
+        "name": "NALSA (Free Legal Aid)",
+        "url": "https://nalsa.gov.in"
+      }
+    ],
+    "importantWarnings": [
+      "Police CANNOT refuse to file an FIR for a cognizable offense — it is a criminal offense to do so",
+      "You can file a Zero FIR at ANY police station",
+      "Women have the right to give statements at their place of choice",
+      "Free legal aid is available for economically weaker sections",
+      "Keep the FIR copy — it is your primary legal document"
+    ],
+    "followUpSteps": [
+      "Track investigation progress with the SHO/IO",
+      "If investigation is slow, write to the SP/DIG",
+      "You can approach the Magistrate for directions to the police",
+      "Consult a lawyer for serious cases"
+    ],
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "complaint-5",
+    "title": "How to File a Government Complaint (CPGRAMS)",
+    "slug": "government-complaint",
+    "category": "Government Complaint",
+    "icon": "Building2",
+    "description": "Guide to filing grievances against central government departments and officers.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Register on CPGRAMS",
+        "description": "Visit pgportal.gov.in and create an account. CPGRAMS (Centralized Public Grievance Redress and Monitoring System) handles complaints against all central government departments."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Select the Right Department",
+        "description": "Choose the relevant ministry/department your complaint relates to. Be specific — selecting the right department ensures faster processing."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Write Clear Complaint",
+        "description": "Describe your grievance clearly with dates, reference numbers, and specific issues. Attach supporting documents. Keep the complaint factual and concise."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Track Progress",
+        "description": "You will receive a unique registration number. Use this to track your complaint status online. Departments are expected to respond within 60 days."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Escalate if Needed",
+        "description": "If unsatisfied with the response, you can reopen the grievance or file an appeal. You can also write to the Cabinet Secretary or approach the Administrative Tribunal."
+      }
+    ],
+    "requiredDocuments": [
+      "Complaint description with specific details",
+      "Reference numbers of previous applications/complaints",
+      "Supporting documents",
+      "Government order/notification relevant to your issue",
+      "Previous communication with the department"
+    ],
+    "officialLinks": [
+      {
+        "name": "CPGRAMS",
+        "url": "https://pgportal.gov.in"
+      },
+      {
+        "name": "RTI Online",
+        "url": "https://rtionline.gov.in"
+      }
+    ],
+    "importantWarnings": [
+      "CPGRAMS is for central government departments only — use state grievance portals for state matters",
+      "Anonymous complaints are generally not acted upon",
+      "File an RTI application if the department doesn't provide information you requested",
+      "Keep the registration number for tracking"
+    ],
+    "followUpSteps": [
+      "Check status regularly on pgportal.gov.in",
+      "If closed without resolution, file an appeal",
+      "Consider filing an RTI to understand why your complaint was closed",
+      "Approach the concerned parliamentary committee if needed"
+    ],
+    "lastReviewed": "2026-07-15"
+  },
+  {
+    "id": "complaint-6",
+    "title": "How to File a Workplace Complaint",
+    "slug": "workplace-complaint",
+    "category": "Workplace Complaint",
+    "icon": "Briefcase",
+    "description": "Guide to addressing workplace issues including harassment, unpaid wages, and unfair treatment.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Internal Complaint",
+        "description": "First, file a written complaint with your HR department or Internal Complaints Committee (ICC). For sexual harassment, every organization with 10+ employees must have an ICC. Document everything."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Contact Labour Commissioner",
+        "description": "If internal resolution fails, approach the Labour Commissioner's office for issues like unpaid wages, illegal termination, or unsafe working conditions. File a written complaint with supporting documents."
+      },
+      {
+        "stepNumber": 3,
+        "title": "File on Shram Suvidha Portal",
+        "description": "For central government labor law violations, you can file complaints on shramsuvidha.gov.in. State labor departments also have their own portals."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Seek Legal Aid",
+        "description": "Contact NALSA or your District Legal Services Authority for free legal aid. They can provide a lawyer to represent you in the Labour Court."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Approach Labour Court",
+        "description": "For wrongful termination or major disputes, file a case before the Labour Court or Industrial Tribunal. Your lawyer or legal aid lawyer will guide the process."
+      }
+    ],
+    "requiredDocuments": [
+      "Appointment letter / employment contract",
+      "Salary slips / payment records",
+      "Written complaint to employer and their response",
+      "Evidence of workplace issue (emails, messages, photos)",
+      "Termination letter (if applicable)",
+      "PF/ESI records"
+    ],
+    "officialLinks": [
+      {
+        "name": "Shram Suvidha Portal",
+        "url": "https://shramsuvidha.gov.in"
+      },
+      {
+        "name": "She-Box (Workplace Harassment)",
+        "url": "http://shebox.nic.in"
+      },
+      {
+        "name": "NALSA",
+        "url": "https://nalsa.gov.in"
+      }
+    ],
+    "importantWarnings": [
+      "Document all workplace issues from the beginning",
+      "Sexual harassment complaints must be filed within 3 months of the incident",
+      "You cannot be terminated for filing a complaint — retaliation is illegal",
+      "Labour laws apply even to contract/temporary workers"
+    ],
+    "followUpSteps": [
+      "Follow up with the ICC for harassment complaints (they must complete inquiry within 90 days)",
+      "Track your Labour Commissioner complaint",
+      "Attend all hearings at Labour Court",
+      "Keep records of any retaliation after filing complaint"
+    ],
+    "lastReviewed": "2026-07-25"
+  },
+  {
+    "id": "complaint-7",
+    "title": "How to Report Online Fraud",
+    "slug": "online-fraud",
+    "category": "Online Fraud",
+    "icon": "AlertTriangle",
+    "description": "Quick guide to reporting online shopping fraud, e-commerce scams, and digital payment fraud.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Report to the Platform",
+        "description": "First, report the issue to the e-commerce platform (Amazon, Flipkart, etc.) through their customer service. Request a refund or return. Keep the complaint reference number."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Report Payment Fraud",
+        "description": "If money was fraudulently deducted, contact your bank/UPI provider immediately. For UPI fraud, raise a dispute in the UPI app. For credit card fraud, call the card issuer to block the card."
+      },
+      {
+        "stepNumber": 3,
+        "title": "File Cyber Crime Complaint",
+        "description": "Report on cybercrime.gov.in and call 1930. Provide transaction details, screenshots, and the seller's information."
+      },
+      {
+        "stepNumber": 4,
+        "title": "File Consumer Complaint",
+        "description": "If the e-commerce platform doesn't resolve the issue, file a consumer complaint on edaakhil.nic.in. E-commerce companies are liable under the Consumer Protection Act."
+      },
+      {
+        "stepNumber": 5,
+        "title": "File FIR if Necessary",
+        "description": "For large amounts or criminal fraud, file an FIR at your local police station. This provides legal backing for further investigation and recovery."
+      }
+    ],
+    "requiredDocuments": [
+      "Order details and confirmation",
+      "Payment transaction records",
+      "Product photos (received vs. advertised)",
+      "Communication with seller/platform",
+      "Screenshots of the listing/advertisement",
+      "Complaint acknowledgments from platform"
+    ],
+    "officialLinks": [
+      {
+        "name": "National Cyber Crime Portal",
+        "url": "https://cybercrime.gov.in"
+      },
+      {
+        "name": "National Consumer Helpline",
+        "url": "https://consumerhelpline.gov.in"
+      },
+      {
+        "name": "e-Daakhil Portal",
+        "url": "https://edaakhil.nic.in"
+      }
+    ],
+    "importantWarnings": [
+      "Act quickly — report financial fraud within hours for best recovery chances",
+      "Don't agree to deals outside the official platform (direct transfers)",
+      "Screenshot everything before the seller removes the listing",
+      "Keep communication within the platform for evidence"
+    ],
+    "followUpSteps": [
+      "Track refund status on the platform",
+      "Follow up on cyber crime complaint status",
+      "If platform closes your case unfairly, escalate to CCPA or consumer forum",
+      "Review and warn others about the fraudulent seller"
+    ],
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "complaint-8",
+    "title": "How to Report a Traffic Violation",
+    "slug": "traffic-violation",
+    "category": "Traffic Violation",
+    "icon": "Car",
+    "description": "Guide to reporting traffic violations, checking e-challans, and addressing traffic-related issues.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Document the Violation",
+        "description": "Take a photo or video of the traffic violation including the vehicle number, date, time, and location. Dash cam footage is also acceptable evidence."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Report Online",
+        "description": "Many states have online traffic violation reporting systems. You can also report via the traffic police's social media handles (Twitter/X is commonly used by traffic police)."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Use the Parivahan App",
+        "description": "Download the mParivahan app for checking vehicle details and reporting violations. You can also check your own e-challan status on echallan.parivahan.gov.in."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Visit Traffic Police Station",
+        "description": "For serious violations or accidents, visit the nearest traffic police station. File a written complaint with evidence."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Check & Pay E-Challans",
+        "description": "Regularly check for e-challans on echallan.parivahan.gov.in using your vehicle number. Pay legitimate challans online to avoid penalties."
+      }
+    ],
+    "requiredDocuments": [
+      "Photo/video evidence of the violation",
+      "Vehicle registration number",
+      "Date, time, and location details",
+      "Your identification (for filing complaint)",
+      "Dash cam footage (if available)"
+    ],
+    "officialLinks": [
+      {
+        "name": "e-Challan Parivahan",
+        "url": "https://echallan.parivahan.gov.in"
+      },
+      {
+        "name": "mParivahan App",
+        "url": "https://parivahan.gov.in"
+      },
+      {
+        "name": "Traffic Police Emergency: 112",
+        "url": "tel:112"
+      }
+    ],
+    "importantWarnings": [
+      "Only pay e-challans through official government portals",
+      "Do not pay fines to individuals claiming to be traffic police (unless in proper uniform with ID)",
+      "You have the right to see the challan receipt",
+      "Beware of fake e-challan SMS scams"
+    ],
+    "followUpSteps": [
+      "Track your complaint through the traffic police portal",
+      "If issued an unfair challan, file a dispute through the online portal",
+      "For accident-related complaints, follow up with the investigating officer",
+      "Approach the Motor Accident Claims Tribunal for accident compensation"
+    ],
+    "lastReviewed": "2026-07-10"
+  },
+  {
+    "id": "complaint-9",
+    "title": "How to File a Tax Complaint",
+    "slug": "tax-complaint",
+    "category": "Tax Complaint",
+    "icon": "Receipt",
+    "description": "Guide to addressing tax-related issues including refund delays, TDS disputes, and GST problems.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Contact CPC/Assessing Officer",
+        "description": "For income tax issues, first contact the Centralized Processing Centre (CPC) or your jurisdictional Assessing Officer. Log into the Income Tax e-filing portal and raise a grievance."
+      },
+      {
+        "stepNumber": 2,
+        "title": "File Online Grievance",
+        "description": "Use the e-Nivaran facility on incometax.gov.in for income tax grievances. For GST issues, use the GST portal's grievance section."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Escalate to Ombudsman",
+        "description": "If not resolved within 30 days, escalate to the Income Tax Ombudsman. The Ombudsman is an independent authority that handles taxpayer grievances."
+      },
+      {
+        "stepNumber": 4,
+        "title": "File CPC Grievance",
+        "description": "For refund-related issues, track your refund on the IT portal. If delayed beyond expected timelines, file a specific refund-related grievance."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Approach ITAT",
+        "description": "For disputes with assessment orders, you can appeal to the Commissioner of Income Tax (Appeals) and then to the Income Tax Appellate Tribunal (ITAT)."
+      }
+    ],
+    "requiredDocuments": [
+      "PAN card",
+      "ITR acknowledgment",
+      "Assessment order (if received)",
+      "TDS certificates (Form 16/16A)",
+      "Bank statements showing tax payments",
+      "Communication with tax authorities"
+    ],
+    "officialLinks": [
+      {
+        "name": "Income Tax e-Filing",
+        "url": "https://incometax.gov.in"
+      },
+      {
+        "name": "GST Portal",
+        "url": "https://www.gst.gov.in"
+      },
+      {
+        "name": "Income Tax e-Nivaran",
+        "url": "https://incometax.gov.in"
+      }
+    ],
+    "importantWarnings": [
+      "File returns and respond to notices within the deadline to avoid penalties",
+      "Keep all tax-related documents for at least 6 years",
+      "Never share your e-filing password with tax \"consultants\" you don't trust",
+      "Beware of fake income tax refund SMS/emails"
+    ],
+    "followUpSteps": [
+      "Track grievance status on the IT portal",
+      "Check refund status online",
+      "If assessment order is unfair, file appeal within 30 days",
+      "Consult a chartered accountant for complex tax disputes"
+    ],
+    "lastReviewed": "2026-07-20"
+  },
+  {
+    "id": "complaint-10",
+    "title": "How to Report Environmental Violations",
+    "slug": "environmental-complaint",
+    "category": "Environmental Complaint",
+    "icon": "TreePine",
+    "description": "Guide to reporting pollution, illegal construction, deforestation, and other environmental violations.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Document the Violation",
+        "description": "Take photos and videos of the environmental violation. Note the location, date, time, and nature of the violation (air pollution, water contamination, illegal construction, noise pollution, deforestation, etc.)."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Report to Pollution Control Board",
+        "description": "File a complaint with your State Pollution Control Board (SPCB) or Central Pollution Control Board (CPCB). Many SPCBs have online complaint systems."
+      },
+      {
+        "stepNumber": 3,
+        "title": "File on CPGRAMS",
+        "description": "File a grievance on pgportal.gov.in addressed to the Ministry of Environment, Forest & Climate Change."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Approach NGT",
+        "description": "For serious environmental issues, file an application with the National Green Tribunal (NGT). You don't need a lawyer — individuals can file directly."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Contact Local Authorities",
+        "description": "Report to the Municipal Corporation, District Collector, or Forest Department depending on the nature of the violation."
+      }
+    ],
+    "requiredDocuments": [
+      "Photos/videos of the violation",
+      "Location details (GPS coordinates if possible)",
+      "Details of the polluting entity",
+      "Impact description (on health, water, air)",
+      "Previous complaints filed (if any)",
+      "Medical reports (if health is affected)"
+    ],
+    "officialLinks": [
+      {
+        "name": "CPCB",
+        "url": "https://cpcb.nic.in"
+      },
+      {
+        "name": "National Green Tribunal",
+        "url": "https://greentribunal.gov.in"
+      },
+      {
+        "name": "Ministry of Environment",
+        "url": "https://moef.gov.in"
+      }
+    ],
+    "importantWarnings": [
+      "Environmental protection is a fundamental right (Article 21)",
+      "You don't need to be directly affected to file an environmental complaint",
+      "NGT can award compensation and direct restoration",
+      "Document the impact on daily life and health"
+    ],
+    "followUpSteps": [
+      "Follow up with the Pollution Control Board",
+      "Track your NGT application status",
+      "If no action is taken, approach the High Court",
+      "Connect with local environmental organizations for support"
+    ],
+    "lastReviewed": "2026-07-15"
+  }
+]

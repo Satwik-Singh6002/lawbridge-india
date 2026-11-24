@@ -15,7 +15,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+        sans: ['"Inter"', '"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+        heading: ['"Plus Jakarta Sans"', '"Inter"', 'system-ui', 'sans-serif'],
         devanagari: ['"Noto Sans Devanagari"', 'sans-serif'],
       },
       colors: {
@@ -62,6 +63,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        /* Aadhikar Semantic Colors */
+        navy: {
+          DEFAULT: "hsl(var(--navy))",
+          light: "hsl(var(--navy-light))",
+          pale: "hsl(var(--navy-pale))",
+        },
         saffron: {
           DEFAULT: "hsl(var(--saffron))",
           light: "hsl(var(--saffron-light))",
@@ -69,11 +76,22 @@ export default {
         },
         "green-india": {
           DEFAULT: "hsl(var(--green-india))",
+          light: "hsl(var(--green-india-light))",
           pale: "hsl(var(--green-india-pale))",
         },
-        navy: {
-          DEFAULT: "hsl(var(--navy))",
-          light: "hsl(var(--navy-light))",
+        trust: {
+          DEFAULT: "hsl(var(--trust-blue))",
+          pale: "hsl(var(--trust-blue-pale))",
+        },
+        safe: {
+          DEFAULT: "hsl(var(--safe-green))",
+          pale: "hsl(var(--safe-green-pale))",
+        },
+        alert: {
+          DEFAULT: "hsl(var(--alert-red))",
+          pale: "hsl(var(--alert-red-pale))",
+          amber: "hsl(var(--alert-amber))",
+          "amber-pale": "hsl(var(--alert-amber-pale))",
         },
         cream: "hsl(var(--cream))",
         "warm-white": "hsl(var(--warm-white))",

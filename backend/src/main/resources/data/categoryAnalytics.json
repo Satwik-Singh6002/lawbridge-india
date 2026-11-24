@@ -1,0 +1,2184 @@
+{
+  "rape-sexual-assault": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 31677,
+        "convictions": 5765,
+        "pendency": 189234
+      },
+      {
+        "year": "2022",
+        "cases": 31516,
+        "convictions": 5890,
+        "pendency": 195670
+      },
+      {
+        "year": "2023",
+        "cases": 31890,
+        "convictions": 6120,
+        "pendency": 198450
+      },
+      {
+        "year": "2024",
+        "cases": 32450,
+        "convictions": 6380,
+        "pendency": 201200
+      },
+      {
+        "year": "2025",
+        "cases": 32100,
+        "convictions": 6650,
+        "pendency": 199800
+      },
+      {
+        "year": "2026",
+        "cases": 31800,
+        "convictions": 6900,
+        "pendency": 197500
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 2845,
+        "convictions": 520,
+        "pendency": 18900
+      },
+      {
+        "year": "2022",
+        "cases": 2921,
+        "convictions": 545,
+        "pendency": 19200
+      },
+      {
+        "year": "2023",
+        "cases": 2980,
+        "convictions": 570,
+        "pendency": 19500
+      },
+      {
+        "year": "2024",
+        "cases": 3050,
+        "convictions": 610,
+        "pendency": 19800
+      },
+      {
+        "year": "2025",
+        "cases": 2990,
+        "convictions": 640,
+        "pendency": 19400
+      },
+      {
+        "year": "2026",
+        "cases": 2950,
+        "convictions": 670,
+        "pendency": 19100
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 2156,
+        "convictions": 410,
+        "pendency": 12400
+      },
+      {
+        "year": "2022",
+        "cases": 2245,
+        "convictions": 430,
+        "pendency": 12800
+      },
+      {
+        "year": "2023",
+        "cases": 2310,
+        "convictions": 460,
+        "pendency": 13100
+      },
+      {
+        "year": "2024",
+        "cases": 2380,
+        "convictions": 490,
+        "pendency": 13400
+      },
+      {
+        "year": "2025",
+        "cases": 2350,
+        "convictions": 510,
+        "pendency": 13200
+      },
+      {
+        "year": "2026",
+        "cases": 2320,
+        "convictions": 530,
+        "pendency": 13000
+      }
+    ],
+    "Rajasthan": [
+      {
+        "year": "2021",
+        "cases": 5310,
+        "convictions": 890,
+        "pendency": 28900
+      },
+      {
+        "year": "2022",
+        "cases": 5467,
+        "convictions": 920,
+        "pendency": 29500
+      },
+      {
+        "year": "2023",
+        "cases": 5520,
+        "convictions": 960,
+        "pendency": 29800
+      },
+      {
+        "year": "2024",
+        "cases": 5600,
+        "convictions": 1010,
+        "pendency": 30100
+      },
+      {
+        "year": "2025",
+        "cases": 5550,
+        "convictions": 1050,
+        "pendency": 29700
+      },
+      {
+        "year": "2026",
+        "cases": 5480,
+        "convictions": 1080,
+        "pendency": 29300
+      }
+    ],
+    "Madhya Pradesh": [
+      {
+        "year": "2021",
+        "cases": 2856,
+        "convictions": 540,
+        "pendency": 15600
+      },
+      {
+        "year": "2022",
+        "cases": 2920,
+        "convictions": 560,
+        "pendency": 15900
+      },
+      {
+        "year": "2023",
+        "cases": 2980,
+        "convictions": 590,
+        "pendency": 16100
+      },
+      {
+        "year": "2024",
+        "cases": 3040,
+        "convictions": 620,
+        "pendency": 16400
+      },
+      {
+        "year": "2025",
+        "cases": 3010,
+        "convictions": 650,
+        "pendency": 16200
+      },
+      {
+        "year": "2026",
+        "cases": 2970,
+        "convictions": 670,
+        "pendency": 15900
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 1087,
+        "convictions": 210,
+        "pendency": 6800
+      },
+      {
+        "year": "2022",
+        "cases": 1145,
+        "convictions": 225,
+        "pendency": 7100
+      },
+      {
+        "year": "2023",
+        "cases": 1190,
+        "convictions": 240,
+        "pendency": 7300
+      },
+      {
+        "year": "2024",
+        "cases": 1230,
+        "convictions": 260,
+        "pendency": 7500
+      },
+      {
+        "year": "2025",
+        "cases": 1210,
+        "convictions": 275,
+        "pendency": 7400
+      },
+      {
+        "year": "2026",
+        "cases": 1180,
+        "convictions": 290,
+        "pendency": 7200
+      }
+    ],
+    "Kerala": [
+      {
+        "year": "2021",
+        "cases": 1245,
+        "convictions": 280,
+        "pendency": 7200
+      },
+      {
+        "year": "2022",
+        "cases": 1310,
+        "convictions": 300,
+        "pendency": 7500
+      },
+      {
+        "year": "2023",
+        "cases": 1350,
+        "convictions": 320,
+        "pendency": 7700
+      },
+      {
+        "year": "2024",
+        "cases": 1390,
+        "convictions": 340,
+        "pendency": 7900
+      },
+      {
+        "year": "2025",
+        "cases": 1370,
+        "convictions": 355,
+        "pendency": 7800
+      },
+      {
+        "year": "2026",
+        "cases": 1340,
+        "convictions": 370,
+        "pendency": 7600
+      }
+    ],
+    "Karnataka": [
+      {
+        "year": "2021",
+        "cases": 1456,
+        "convictions": 310,
+        "pendency": 8400
+      },
+      {
+        "year": "2022",
+        "cases": 1520,
+        "convictions": 330,
+        "pendency": 8700
+      },
+      {
+        "year": "2023",
+        "cases": 1570,
+        "convictions": 350,
+        "pendency": 8900
+      },
+      {
+        "year": "2024",
+        "cases": 1610,
+        "convictions": 370,
+        "pendency": 9100
+      },
+      {
+        "year": "2025",
+        "cases": 1590,
+        "convictions": 390,
+        "pendency": 9000
+      },
+      {
+        "year": "2026",
+        "cases": 1560,
+        "convictions": 410,
+        "pendency": 8800
+      }
+    ],
+    "Tamil Nadu": [
+      {
+        "year": "2021",
+        "cases": 645,
+        "convictions": 140,
+        "pendency": 3800
+      },
+      {
+        "year": "2022",
+        "cases": 680,
+        "convictions": 150,
+        "pendency": 4000
+      },
+      {
+        "year": "2023",
+        "cases": 710,
+        "convictions": 160,
+        "pendency": 4100
+      },
+      {
+        "year": "2024",
+        "cases": 740,
+        "convictions": 170,
+        "pendency": 4300
+      },
+      {
+        "year": "2025",
+        "cases": 730,
+        "convictions": 180,
+        "pendency": 4200
+      },
+      {
+        "year": "2026",
+        "cases": 710,
+        "convictions": 190,
+        "pendency": 4100
+      }
+    ],
+    "West Bengal": [
+      {
+        "year": "2021",
+        "cases": 1678,
+        "convictions": 290,
+        "pendency": 9800
+      },
+      {
+        "year": "2022",
+        "cases": 1720,
+        "convictions": 310,
+        "pendency": 10100
+      },
+      {
+        "year": "2023",
+        "cases": 1760,
+        "convictions": 330,
+        "pendency": 10300
+      },
+      {
+        "year": "2024",
+        "cases": 1800,
+        "convictions": 350,
+        "pendency": 10500
+      },
+      {
+        "year": "2025",
+        "cases": 1780,
+        "convictions": 370,
+        "pendency": 10400
+      },
+      {
+        "year": "2026",
+        "cases": 1750,
+        "convictions": 385,
+        "pendency": 10200
+      }
+    ],
+    "Bihar": [
+      {
+        "year": "2021",
+        "cases": 1423,
+        "convictions": 210,
+        "pendency": 8900
+      },
+      {
+        "year": "2022",
+        "cases": 1480,
+        "convictions": 225,
+        "pendency": 9200
+      },
+      {
+        "year": "2023",
+        "cases": 1520,
+        "convictions": 240,
+        "pendency": 9400
+      },
+      {
+        "year": "2024",
+        "cases": 1560,
+        "convictions": 260,
+        "pendency": 9600
+      },
+      {
+        "year": "2025",
+        "cases": 1540,
+        "convictions": 275,
+        "pendency": 9500
+      },
+      {
+        "year": "2026",
+        "cases": 1510,
+        "convictions": 290,
+        "pendency": 9300
+      }
+    ],
+    "Haryana": [
+      {
+        "year": "2021",
+        "cases": 1245,
+        "convictions": 230,
+        "pendency": 7100
+      },
+      {
+        "year": "2022",
+        "cases": 1290,
+        "convictions": 245,
+        "pendency": 7400
+      },
+      {
+        "year": "2023",
+        "cases": 1330,
+        "convictions": 260,
+        "pendency": 7600
+      },
+      {
+        "year": "2024",
+        "cases": 1370,
+        "convictions": 280,
+        "pendency": 7800
+      },
+      {
+        "year": "2025",
+        "cases": 1350,
+        "convictions": 295,
+        "pendency": 7700
+      },
+      {
+        "year": "2026",
+        "cases": 1320,
+        "convictions": 310,
+        "pendency": 7500
+      }
+    ],
+    "Gujarat": [
+      {
+        "year": "2021",
+        "cases": 789,
+        "convictions": 160,
+        "pendency": 4500
+      },
+      {
+        "year": "2022",
+        "cases": 820,
+        "convictions": 170,
+        "pendency": 4700
+      },
+      {
+        "year": "2023",
+        "cases": 850,
+        "convictions": 180,
+        "pendency": 4800
+      },
+      {
+        "year": "2024",
+        "cases": 880,
+        "convictions": 195,
+        "pendency": 5000
+      },
+      {
+        "year": "2025",
+        "cases": 870,
+        "convictions": 205,
+        "pendency": 4900
+      },
+      {
+        "year": "2026",
+        "cases": 850,
+        "convictions": 215,
+        "pendency": 4800
+      }
+    ]
+  },
+  "scam-fraud": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 29820,
+        "convictions": 4120,
+        "pendency": 167800
+      },
+      {
+        "year": "2022",
+        "cases": 31450,
+        "convictions": 4350,
+        "pendency": 175200
+      },
+      {
+        "year": "2023",
+        "cases": 34200,
+        "convictions": 4680,
+        "pendency": 182400
+      },
+      {
+        "year": "2024",
+        "cases": 37500,
+        "convictions": 5100,
+        "pendency": 190600
+      },
+      {
+        "year": "2025",
+        "cases": 39200,
+        "convictions": 5450,
+        "pendency": 196800
+      },
+      {
+        "year": "2026",
+        "cases": 40800,
+        "convictions": 5780,
+        "pendency": 201500
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 4230,
+        "convictions": 580,
+        "pendency": 24500
+      },
+      {
+        "year": "2022",
+        "cases": 4510,
+        "convictions": 610,
+        "pendency": 25800
+      },
+      {
+        "year": "2023",
+        "cases": 4890,
+        "convictions": 650,
+        "pendency": 27100
+      },
+      {
+        "year": "2024",
+        "cases": 5320,
+        "convictions": 710,
+        "pendency": 28500
+      },
+      {
+        "year": "2025",
+        "cases": 5560,
+        "convictions": 760,
+        "pendency": 29400
+      },
+      {
+        "year": "2026",
+        "cases": 5780,
+        "convictions": 800,
+        "pendency": 30100
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 3560,
+        "convictions": 520,
+        "pendency": 19800
+      },
+      {
+        "year": "2022",
+        "cases": 3780,
+        "convictions": 550,
+        "pendency": 20700
+      },
+      {
+        "year": "2023",
+        "cases": 4100,
+        "convictions": 590,
+        "pendency": 21600
+      },
+      {
+        "year": "2024",
+        "cases": 4480,
+        "convictions": 640,
+        "pendency": 22800
+      },
+      {
+        "year": "2025",
+        "cases": 4680,
+        "convictions": 690,
+        "pendency": 23500
+      },
+      {
+        "year": "2026",
+        "cases": 4850,
+        "convictions": 730,
+        "pendency": 24100
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 2890,
+        "convictions": 420,
+        "pendency": 15600
+      },
+      {
+        "year": "2022",
+        "cases": 3120,
+        "convictions": 450,
+        "pendency": 16400
+      },
+      {
+        "year": "2023",
+        "cases": 3450,
+        "convictions": 490,
+        "pendency": 17300
+      },
+      {
+        "year": "2024",
+        "cases": 3780,
+        "convictions": 540,
+        "pendency": 18200
+      },
+      {
+        "year": "2025",
+        "cases": 3950,
+        "convictions": 580,
+        "pendency": 18800
+      },
+      {
+        "year": "2026",
+        "cases": 4100,
+        "convictions": 610,
+        "pendency": 19300
+      }
+    ],
+    "Rajasthan": [
+      {
+        "year": "2021",
+        "cases": 2340,
+        "convictions": 320,
+        "pendency": 13200
+      },
+      {
+        "year": "2022",
+        "cases": 2480,
+        "convictions": 340,
+        "pendency": 13800
+      },
+      {
+        "year": "2023",
+        "cases": 2690,
+        "convictions": 370,
+        "pendency": 14500
+      },
+      {
+        "year": "2024",
+        "cases": 2920,
+        "convictions": 400,
+        "pendency": 15200
+      },
+      {
+        "year": "2025",
+        "cases": 3050,
+        "convictions": 430,
+        "pendency": 15700
+      },
+      {
+        "year": "2026",
+        "cases": 3180,
+        "convictions": 460,
+        "pendency": 16100
+      }
+    ],
+    "Tamil Nadu": [
+      {
+        "year": "2021",
+        "cases": 1980,
+        "convictions": 310,
+        "pendency": 11200
+      },
+      {
+        "year": "2022",
+        "cases": 2120,
+        "convictions": 330,
+        "pendency": 11800
+      },
+      {
+        "year": "2023",
+        "cases": 2310,
+        "convictions": 360,
+        "pendency": 12400
+      },
+      {
+        "year": "2024",
+        "cases": 2520,
+        "convictions": 390,
+        "pendency": 13100
+      },
+      {
+        "year": "2025",
+        "cases": 2630,
+        "convictions": 420,
+        "pendency": 13500
+      },
+      {
+        "year": "2026",
+        "cases": 2730,
+        "convictions": 450,
+        "pendency": 13900
+      }
+    ],
+    "Karnataka": [
+      {
+        "year": "2021",
+        "cases": 2120,
+        "convictions": 340,
+        "pendency": 11800
+      },
+      {
+        "year": "2022",
+        "cases": 2260,
+        "convictions": 360,
+        "pendency": 12400
+      },
+      {
+        "year": "2023",
+        "cases": 2450,
+        "convictions": 390,
+        "pendency": 13000
+      },
+      {
+        "year": "2024",
+        "cases": 2670,
+        "convictions": 430,
+        "pendency": 13700
+      },
+      {
+        "year": "2025",
+        "cases": 2790,
+        "convictions": 460,
+        "pendency": 14200
+      },
+      {
+        "year": "2026",
+        "cases": 2900,
+        "convictions": 490,
+        "pendency": 14600
+      }
+    ]
+  },
+  "kidnapping-abduction": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 101707,
+        "convictions": 12340,
+        "pendency": 245600
+      },
+      {
+        "year": "2022",
+        "cases": 107089,
+        "convictions": 12890,
+        "pendency": 258700
+      },
+      {
+        "year": "2023",
+        "cases": 109500,
+        "convictions": 13450,
+        "pendency": 265800
+      },
+      {
+        "year": "2024",
+        "cases": 112300,
+        "convictions": 14100,
+        "pendency": 272400
+      },
+      {
+        "year": "2025",
+        "cases": 110800,
+        "convictions": 14700,
+        "pendency": 268900
+      },
+      {
+        "year": "2026",
+        "cases": 109200,
+        "convictions": 15200,
+        "pendency": 265100
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 15678,
+        "convictions": 1890,
+        "pendency": 38900
+      },
+      {
+        "year": "2022",
+        "cases": 16120,
+        "convictions": 1980,
+        "pendency": 40200
+      },
+      {
+        "year": "2023",
+        "cases": 16500,
+        "convictions": 2080,
+        "pendency": 41300
+      },
+      {
+        "year": "2024",
+        "cases": 16900,
+        "convictions": 2180,
+        "pendency": 42500
+      },
+      {
+        "year": "2025",
+        "cases": 16700,
+        "convictions": 2270,
+        "pendency": 42000
+      },
+      {
+        "year": "2026",
+        "cases": 16400,
+        "convictions": 2350,
+        "pendency": 41400
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 6340,
+        "convictions": 780,
+        "pendency": 15800
+      },
+      {
+        "year": "2022",
+        "cases": 6780,
+        "convictions": 820,
+        "pendency": 16500
+      },
+      {
+        "year": "2023",
+        "cases": 6950,
+        "convictions": 860,
+        "pendency": 16900
+      },
+      {
+        "year": "2024",
+        "cases": 7120,
+        "convictions": 910,
+        "pendency": 17300
+      },
+      {
+        "year": "2025",
+        "cases": 7020,
+        "convictions": 950,
+        "pendency": 17100
+      },
+      {
+        "year": "2026",
+        "cases": 6900,
+        "convictions": 980,
+        "pendency": 16800
+      }
+    ],
+    "Madhya Pradesh": [
+      {
+        "year": "2021",
+        "cases": 8900,
+        "convictions": 1100,
+        "pendency": 22300
+      },
+      {
+        "year": "2022",
+        "cases": 9200,
+        "convictions": 1150,
+        "pendency": 23100
+      },
+      {
+        "year": "2023",
+        "cases": 9450,
+        "convictions": 1210,
+        "pendency": 23700
+      },
+      {
+        "year": "2024",
+        "cases": 9700,
+        "convictions": 1280,
+        "pendency": 24300
+      },
+      {
+        "year": "2025",
+        "cases": 9580,
+        "convictions": 1340,
+        "pendency": 24000
+      },
+      {
+        "year": "2026",
+        "cases": 9420,
+        "convictions": 1390,
+        "pendency": 23600
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 3780,
+        "convictions": 460,
+        "pendency": 9500
+      },
+      {
+        "year": "2022",
+        "cases": 3920,
+        "convictions": 490,
+        "pendency": 9900
+      },
+      {
+        "year": "2023",
+        "cases": 4050,
+        "convictions": 520,
+        "pendency": 10200
+      },
+      {
+        "year": "2024",
+        "cases": 4180,
+        "convictions": 550,
+        "pendency": 10500
+      },
+      {
+        "year": "2025",
+        "cases": 4120,
+        "convictions": 580,
+        "pendency": 10300
+      },
+      {
+        "year": "2026",
+        "cases": 4050,
+        "convictions": 600,
+        "pendency": 10100
+      }
+    ],
+    "Bihar": [
+      {
+        "year": "2021",
+        "cases": 7890,
+        "convictions": 920,
+        "pendency": 20100
+      },
+      {
+        "year": "2022",
+        "cases": 8150,
+        "convictions": 960,
+        "pendency": 20800
+      },
+      {
+        "year": "2023",
+        "cases": 8380,
+        "convictions": 1010,
+        "pendency": 21300
+      },
+      {
+        "year": "2024",
+        "cases": 8600,
+        "convictions": 1060,
+        "pendency": 21800
+      },
+      {
+        "year": "2025",
+        "cases": 8490,
+        "convictions": 1110,
+        "pendency": 21600
+      },
+      {
+        "year": "2026",
+        "cases": 8350,
+        "convictions": 1150,
+        "pendency": 21200
+      }
+    ],
+    "West Bengal": [
+      {
+        "year": "2021",
+        "cases": 6120,
+        "convictions": 720,
+        "pendency": 15400
+      },
+      {
+        "year": "2022",
+        "cases": 6350,
+        "convictions": 760,
+        "pendency": 16000
+      },
+      {
+        "year": "2023",
+        "cases": 6520,
+        "convictions": 800,
+        "pendency": 16400
+      },
+      {
+        "year": "2024",
+        "cases": 6700,
+        "convictions": 840,
+        "pendency": 16800
+      },
+      {
+        "year": "2025",
+        "cases": 6610,
+        "convictions": 880,
+        "pendency": 16600
+      },
+      {
+        "year": "2026",
+        "cases": 6500,
+        "convictions": 910,
+        "pendency": 16400
+      }
+    ]
+  },
+  "murder-homicide": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 29272,
+        "convictions": 9870,
+        "pendency": 98500
+      },
+      {
+        "year": "2022",
+        "cases": 28522,
+        "convictions": 10120,
+        "pendency": 96800
+      },
+      {
+        "year": "2023",
+        "cases": 28100,
+        "convictions": 10450,
+        "pendency": 95200
+      },
+      {
+        "year": "2024",
+        "cases": 27800,
+        "convictions": 10780,
+        "pendency": 93800
+      },
+      {
+        "year": "2025",
+        "cases": 27500,
+        "convictions": 11100,
+        "pendency": 92400
+      },
+      {
+        "year": "2026",
+        "cases": 27200,
+        "convictions": 11400,
+        "pendency": 91000
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 3832,
+        "convictions": 1280,
+        "pendency": 12900
+      },
+      {
+        "year": "2022",
+        "cases": 3614,
+        "convictions": 1320,
+        "pendency": 12500
+      },
+      {
+        "year": "2023",
+        "cases": 3540,
+        "convictions": 1360,
+        "pendency": 12200
+      },
+      {
+        "year": "2024",
+        "cases": 3480,
+        "convictions": 1400,
+        "pendency": 11900
+      },
+      {
+        "year": "2025",
+        "cases": 3420,
+        "convictions": 1440,
+        "pendency": 11700
+      },
+      {
+        "year": "2026",
+        "cases": 3370,
+        "convictions": 1480,
+        "pendency": 11500
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 2478,
+        "convictions": 840,
+        "pendency": 8300
+      },
+      {
+        "year": "2022",
+        "cases": 2356,
+        "convictions": 860,
+        "pendency": 8100
+      },
+      {
+        "year": "2023",
+        "cases": 2300,
+        "convictions": 890,
+        "pendency": 7900
+      },
+      {
+        "year": "2024",
+        "cases": 2250,
+        "convictions": 920,
+        "pendency": 7700
+      },
+      {
+        "year": "2025",
+        "cases": 2210,
+        "convictions": 950,
+        "pendency": 7500
+      },
+      {
+        "year": "2026",
+        "cases": 2170,
+        "convictions": 980,
+        "pendency": 7300
+      }
+    ],
+    "Bihar": [
+      {
+        "year": "2021",
+        "cases": 2890,
+        "convictions": 890,
+        "pendency": 9800
+      },
+      {
+        "year": "2022",
+        "cases": 2780,
+        "convictions": 910,
+        "pendency": 9600
+      },
+      {
+        "year": "2023",
+        "cases": 2710,
+        "convictions": 940,
+        "pendency": 9400
+      },
+      {
+        "year": "2024",
+        "cases": 2650,
+        "convictions": 970,
+        "pendency": 9200
+      },
+      {
+        "year": "2025",
+        "cases": 2600,
+        "convictions": 1000,
+        "pendency": 9000
+      },
+      {
+        "year": "2026",
+        "cases": 2560,
+        "convictions": 1030,
+        "pendency": 8800
+      }
+    ],
+    "Madhya Pradesh": [
+      {
+        "year": "2021",
+        "cases": 2340,
+        "convictions": 780,
+        "pendency": 7800
+      },
+      {
+        "year": "2022",
+        "cases": 2280,
+        "convictions": 800,
+        "pendency": 7600
+      },
+      {
+        "year": "2023",
+        "cases": 2230,
+        "convictions": 830,
+        "pendency": 7400
+      },
+      {
+        "year": "2024",
+        "cases": 2180,
+        "convictions": 860,
+        "pendency": 7200
+      },
+      {
+        "year": "2025",
+        "cases": 2140,
+        "convictions": 890,
+        "pendency": 7000
+      },
+      {
+        "year": "2026",
+        "cases": 2100,
+        "convictions": 910,
+        "pendency": 6900
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 489,
+        "convictions": 170,
+        "pendency": 1640
+      },
+      {
+        "year": "2022",
+        "cases": 501,
+        "convictions": 175,
+        "pendency": 1680
+      },
+      {
+        "year": "2023",
+        "cases": 495,
+        "convictions": 182,
+        "pendency": 1670
+      },
+      {
+        "year": "2024",
+        "cases": 488,
+        "convictions": 190,
+        "pendency": 1650
+      },
+      {
+        "year": "2025",
+        "cases": 480,
+        "convictions": 195,
+        "pendency": 1630
+      },
+      {
+        "year": "2026",
+        "cases": 475,
+        "convictions": 200,
+        "pendency": 1620
+      }
+    ],
+    "Rajasthan": [
+      {
+        "year": "2021",
+        "cases": 1890,
+        "convictions": 640,
+        "pendency": 6300
+      },
+      {
+        "year": "2022",
+        "cases": 1840,
+        "convictions": 660,
+        "pendency": 6100
+      },
+      {
+        "year": "2023",
+        "cases": 1800,
+        "convictions": 680,
+        "pendency": 5900
+      },
+      {
+        "year": "2024",
+        "cases": 1760,
+        "convictions": 700,
+        "pendency": 5800
+      },
+      {
+        "year": "2025",
+        "cases": 1730,
+        "convictions": 720,
+        "pendency": 5700
+      },
+      {
+        "year": "2026",
+        "cases": 1700,
+        "convictions": 740,
+        "pendency": 5600
+      }
+    ]
+  },
+  "cybercrime": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 52974,
+        "convictions": 1230,
+        "pendency": 78900
+      },
+      {
+        "year": "2022",
+        "cases": 65893,
+        "convictions": 1560,
+        "pendency": 95400
+      },
+      {
+        "year": "2023",
+        "cases": 78200,
+        "convictions": 2100,
+        "pendency": 112600
+      },
+      {
+        "year": "2024",
+        "cases": 92500,
+        "convictions": 2800,
+        "pendency": 132400
+      },
+      {
+        "year": "2025",
+        "cases": 105000,
+        "convictions": 3500,
+        "pendency": 148700
+      },
+      {
+        "year": "2026",
+        "cases": 118000,
+        "convictions": 4200,
+        "pendency": 162500
+      }
+    ],
+    "Karnataka": [
+      {
+        "year": "2021",
+        "cases": 8136,
+        "convictions": 210,
+        "pendency": 12400
+      },
+      {
+        "year": "2022",
+        "cases": 10200,
+        "convictions": 270,
+        "pendency": 15100
+      },
+      {
+        "year": "2023",
+        "cases": 12100,
+        "convictions": 360,
+        "pendency": 17800
+      },
+      {
+        "year": "2024",
+        "cases": 14300,
+        "convictions": 480,
+        "pendency": 20900
+      },
+      {
+        "year": "2025",
+        "cases": 16200,
+        "convictions": 600,
+        "pendency": 23400
+      },
+      {
+        "year": "2026",
+        "cases": 18100,
+        "convictions": 720,
+        "pendency": 25600
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 5124,
+        "convictions": 120,
+        "pendency": 7800
+      },
+      {
+        "year": "2022",
+        "cases": 6250,
+        "convictions": 150,
+        "pendency": 9400
+      },
+      {
+        "year": "2023",
+        "cases": 7400,
+        "convictions": 200,
+        "pendency": 11100
+      },
+      {
+        "year": "2024",
+        "cases": 8800,
+        "convictions": 270,
+        "pendency": 13000
+      },
+      {
+        "year": "2025",
+        "cases": 10000,
+        "convictions": 340,
+        "pendency": 14600
+      },
+      {
+        "year": "2026",
+        "cases": 11200,
+        "convictions": 410,
+        "pendency": 16000
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 7120,
+        "convictions": 180,
+        "pendency": 10800
+      },
+      {
+        "year": "2022",
+        "cases": 8910,
+        "convictions": 230,
+        "pendency": 13200
+      },
+      {
+        "year": "2023",
+        "cases": 10600,
+        "convictions": 310,
+        "pendency": 15600
+      },
+      {
+        "year": "2024",
+        "cases": 12500,
+        "convictions": 420,
+        "pendency": 18300
+      },
+      {
+        "year": "2025",
+        "cases": 14200,
+        "convictions": 530,
+        "pendency": 20500
+      },
+      {
+        "year": "2026",
+        "cases": 15900,
+        "convictions": 640,
+        "pendency": 22400
+      }
+    ],
+    "Telangana": [
+      {
+        "year": "2021",
+        "cases": 6890,
+        "convictions": 160,
+        "pendency": 10500
+      },
+      {
+        "year": "2022",
+        "cases": 8600,
+        "convictions": 210,
+        "pendency": 12800
+      },
+      {
+        "year": "2023",
+        "cases": 10200,
+        "convictions": 280,
+        "pendency": 15100
+      },
+      {
+        "year": "2024",
+        "cases": 12100,
+        "convictions": 370,
+        "pendency": 17800
+      },
+      {
+        "year": "2025",
+        "cases": 13700,
+        "convictions": 470,
+        "pendency": 19900
+      },
+      {
+        "year": "2026",
+        "cases": 15300,
+        "convictions": 570,
+        "pendency": 21800
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 5120,
+        "convictions": 130,
+        "pendency": 7800
+      },
+      {
+        "year": "2022",
+        "cases": 6340,
+        "convictions": 170,
+        "pendency": 9500
+      },
+      {
+        "year": "2023",
+        "cases": 7500,
+        "convictions": 230,
+        "pendency": 11200
+      },
+      {
+        "year": "2024",
+        "cases": 8900,
+        "convictions": 310,
+        "pendency": 13100
+      },
+      {
+        "year": "2025",
+        "cases": 10100,
+        "convictions": 390,
+        "pendency": 14700
+      },
+      {
+        "year": "2026",
+        "cases": 11300,
+        "convictions": 470,
+        "pendency": 16100
+      }
+    ],
+    "Rajasthan": [
+      {
+        "year": "2021",
+        "cases": 3450,
+        "convictions": 80,
+        "pendency": 5300
+      },
+      {
+        "year": "2022",
+        "cases": 4320,
+        "convictions": 100,
+        "pendency": 6500
+      },
+      {
+        "year": "2023",
+        "cases": 5100,
+        "convictions": 140,
+        "pendency": 7600
+      },
+      {
+        "year": "2024",
+        "cases": 6050,
+        "convictions": 190,
+        "pendency": 8900
+      },
+      {
+        "year": "2025",
+        "cases": 6870,
+        "convictions": 240,
+        "pendency": 10000
+      },
+      {
+        "year": "2026",
+        "cases": 7680,
+        "convictions": 290,
+        "pendency": 10900
+      }
+    ]
+  },
+  "domestic-violence": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 136234,
+        "convictions": 18900,
+        "pendency": 312400
+      },
+      {
+        "year": "2022",
+        "cases": 141890,
+        "convictions": 19800,
+        "pendency": 325600
+      },
+      {
+        "year": "2023",
+        "cases": 145200,
+        "convictions": 20800,
+        "pendency": 332100
+      },
+      {
+        "year": "2024",
+        "cases": 148700,
+        "convictions": 21900,
+        "pendency": 340500
+      },
+      {
+        "year": "2025",
+        "cases": 146800,
+        "convictions": 23000,
+        "pendency": 336700
+      },
+      {
+        "year": "2026",
+        "cases": 144500,
+        "convictions": 24100,
+        "pendency": 332400
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 18900,
+        "convictions": 2600,
+        "pendency": 43500
+      },
+      {
+        "year": "2022",
+        "cases": 19700,
+        "convictions": 2750,
+        "pendency": 45200
+      },
+      {
+        "year": "2023",
+        "cases": 20200,
+        "convictions": 2900,
+        "pendency": 46100
+      },
+      {
+        "year": "2024",
+        "cases": 20700,
+        "convictions": 3050,
+        "pendency": 47300
+      },
+      {
+        "year": "2025",
+        "cases": 20400,
+        "convictions": 3200,
+        "pendency": 46700
+      },
+      {
+        "year": "2026",
+        "cases": 20100,
+        "convictions": 3350,
+        "pendency": 46100
+      }
+    ],
+    "West Bengal": [
+      {
+        "year": "2021",
+        "cases": 16780,
+        "convictions": 2300,
+        "pendency": 38700
+      },
+      {
+        "year": "2022",
+        "cases": 17500,
+        "convictions": 2420,
+        "pendency": 40200
+      },
+      {
+        "year": "2023",
+        "cases": 17900,
+        "convictions": 2550,
+        "pendency": 41000
+      },
+      {
+        "year": "2024",
+        "cases": 18400,
+        "convictions": 2680,
+        "pendency": 42100
+      },
+      {
+        "year": "2025",
+        "cases": 18100,
+        "convictions": 2810,
+        "pendency": 41500
+      },
+      {
+        "year": "2026",
+        "cases": 17800,
+        "convictions": 2940,
+        "pendency": 40900
+      }
+    ],
+    "Rajasthan": [
+      {
+        "year": "2021",
+        "cases": 14200,
+        "convictions": 1980,
+        "pendency": 32700
+      },
+      {
+        "year": "2022",
+        "cases": 14800,
+        "convictions": 2080,
+        "pendency": 34000
+      },
+      {
+        "year": "2023",
+        "cases": 15100,
+        "convictions": 2190,
+        "pendency": 34700
+      },
+      {
+        "year": "2024",
+        "cases": 15500,
+        "convictions": 2310,
+        "pendency": 35600
+      },
+      {
+        "year": "2025",
+        "cases": 15300,
+        "convictions": 2420,
+        "pendency": 35100
+      },
+      {
+        "year": "2026",
+        "cases": 15000,
+        "convictions": 2530,
+        "pendency": 34600
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 11200,
+        "convictions": 1600,
+        "pendency": 25800
+      },
+      {
+        "year": "2022",
+        "cases": 11700,
+        "convictions": 1680,
+        "pendency": 26800
+      },
+      {
+        "year": "2023",
+        "cases": 12000,
+        "convictions": 1770,
+        "pendency": 27400
+      },
+      {
+        "year": "2024",
+        "cases": 12300,
+        "convictions": 1860,
+        "pendency": 28200
+      },
+      {
+        "year": "2025",
+        "cases": 12100,
+        "convictions": 1950,
+        "pendency": 27800
+      },
+      {
+        "year": "2026",
+        "cases": 11900,
+        "convictions": 2040,
+        "pendency": 27400
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 4560,
+        "convictions": 650,
+        "pendency": 10500
+      },
+      {
+        "year": "2022",
+        "cases": 4780,
+        "convictions": 680,
+        "pendency": 10900
+      },
+      {
+        "year": "2023",
+        "cases": 4900,
+        "convictions": 720,
+        "pendency": 11200
+      },
+      {
+        "year": "2024",
+        "cases": 5020,
+        "convictions": 760,
+        "pendency": 11500
+      },
+      {
+        "year": "2025",
+        "cases": 4950,
+        "convictions": 800,
+        "pendency": 11300
+      },
+      {
+        "year": "2026",
+        "cases": 4880,
+        "convictions": 840,
+        "pendency": 11100
+      }
+    ]
+  },
+  "consumer-grievances": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 42300,
+        "convictions": 8900,
+        "pendency": 456700
+      },
+      {
+        "year": "2022",
+        "cases": 45600,
+        "convictions": 9500,
+        "pendency": 478200
+      },
+      {
+        "year": "2023",
+        "cases": 49800,
+        "convictions": 10400,
+        "pendency": 498900
+      },
+      {
+        "year": "2024",
+        "cases": 54200,
+        "convictions": 11500,
+        "pendency": 520100
+      },
+      {
+        "year": "2025",
+        "cases": 57800,
+        "convictions": 12600,
+        "pendency": 535400
+      },
+      {
+        "year": "2026",
+        "cases": 60500,
+        "convictions": 13700,
+        "pendency": 548200
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 6780,
+        "convictions": 1450,
+        "pendency": 73200
+      },
+      {
+        "year": "2022",
+        "cases": 7300,
+        "convictions": 1540,
+        "pendency": 76800
+      },
+      {
+        "year": "2023",
+        "cases": 7960,
+        "convictions": 1690,
+        "pendency": 79900
+      },
+      {
+        "year": "2024",
+        "cases": 8670,
+        "convictions": 1860,
+        "pendency": 83400
+      },
+      {
+        "year": "2025",
+        "cases": 9240,
+        "convictions": 2030,
+        "pendency": 85800
+      },
+      {
+        "year": "2026",
+        "cases": 9680,
+        "convictions": 2200,
+        "pendency": 87900
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 4560,
+        "convictions": 980,
+        "pendency": 49200
+      },
+      {
+        "year": "2022",
+        "cases": 4920,
+        "convictions": 1040,
+        "pendency": 51600
+      },
+      {
+        "year": "2023",
+        "cases": 5370,
+        "convictions": 1140,
+        "pendency": 53800
+      },
+      {
+        "year": "2024",
+        "cases": 5850,
+        "convictions": 1260,
+        "pendency": 56200
+      },
+      {
+        "year": "2025",
+        "cases": 6240,
+        "convictions": 1380,
+        "pendency": 57800
+      },
+      {
+        "year": "2026",
+        "cases": 6530,
+        "convictions": 1500,
+        "pendency": 59200
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 3890,
+        "convictions": 810,
+        "pendency": 42100
+      },
+      {
+        "year": "2022",
+        "cases": 4200,
+        "convictions": 860,
+        "pendency": 44100
+      },
+      {
+        "year": "2023",
+        "cases": 4580,
+        "convictions": 940,
+        "pendency": 46000
+      },
+      {
+        "year": "2024",
+        "cases": 4990,
+        "convictions": 1040,
+        "pendency": 48100
+      },
+      {
+        "year": "2025",
+        "cases": 5320,
+        "convictions": 1140,
+        "pendency": 49500
+      },
+      {
+        "year": "2026",
+        "cases": 5570,
+        "convictions": 1240,
+        "pendency": 50700
+      }
+    ],
+    "Rajasthan": [
+      {
+        "year": "2021",
+        "cases": 2890,
+        "convictions": 620,
+        "pendency": 31200
+      },
+      {
+        "year": "2022",
+        "cases": 3120,
+        "convictions": 660,
+        "pendency": 32700
+      },
+      {
+        "year": "2023",
+        "cases": 3400,
+        "convictions": 720,
+        "pendency": 34100
+      },
+      {
+        "year": "2024",
+        "cases": 3700,
+        "convictions": 800,
+        "pendency": 35600
+      },
+      {
+        "year": "2025",
+        "cases": 3950,
+        "convictions": 870,
+        "pendency": 36700
+      },
+      {
+        "year": "2026",
+        "cases": 4140,
+        "convictions": 950,
+        "pendency": 37600
+      }
+    ],
+    "Karnataka": [
+      {
+        "year": "2021",
+        "cases": 3120,
+        "convictions": 670,
+        "pendency": 33700
+      },
+      {
+        "year": "2022",
+        "cases": 3370,
+        "convictions": 710,
+        "pendency": 35300
+      },
+      {
+        "year": "2023",
+        "cases": 3670,
+        "convictions": 780,
+        "pendency": 36800
+      },
+      {
+        "year": "2024",
+        "cases": 4000,
+        "convictions": 860,
+        "pendency": 38500
+      },
+      {
+        "year": "2025",
+        "cases": 4260,
+        "convictions": 940,
+        "pendency": 39600
+      },
+      {
+        "year": "2026",
+        "cases": 4460,
+        "convictions": 1020,
+        "pendency": 40600
+      }
+    ]
+  },
+  "parliamentary-law": {
+    "national": [
+      {
+        "year": "2021",
+        "cases": 145,
+        "convictions": 28,
+        "pendency": 890
+      },
+      {
+        "year": "2022",
+        "cases": 162,
+        "convictions": 32,
+        "pendency": 920
+      },
+      {
+        "year": "2023",
+        "cases": 178,
+        "convictions": 38,
+        "pendency": 945
+      },
+      {
+        "year": "2024",
+        "cases": 195,
+        "convictions": 44,
+        "pendency": 970
+      },
+      {
+        "year": "2025",
+        "cases": 185,
+        "convictions": 48,
+        "pendency": 960
+      },
+      {
+        "year": "2026",
+        "cases": 175,
+        "convictions": 52,
+        "pendency": 945
+      }
+    ],
+    "Uttar Pradesh": [
+      {
+        "year": "2021",
+        "cases": 22,
+        "convictions": 4,
+        "pendency": 135
+      },
+      {
+        "year": "2022",
+        "cases": 25,
+        "convictions": 5,
+        "pendency": 140
+      },
+      {
+        "year": "2023",
+        "cases": 28,
+        "convictions": 6,
+        "pendency": 145
+      },
+      {
+        "year": "2024",
+        "cases": 30,
+        "convictions": 7,
+        "pendency": 148
+      },
+      {
+        "year": "2025",
+        "cases": 28,
+        "convictions": 7,
+        "pendency": 146
+      },
+      {
+        "year": "2026",
+        "cases": 27,
+        "convictions": 8,
+        "pendency": 143
+      }
+    ],
+    "Maharashtra": [
+      {
+        "year": "2021",
+        "cases": 18,
+        "convictions": 3,
+        "pendency": 112
+      },
+      {
+        "year": "2022",
+        "cases": 20,
+        "convictions": 4,
+        "pendency": 116
+      },
+      {
+        "year": "2023",
+        "cases": 22,
+        "convictions": 5,
+        "pendency": 119
+      },
+      {
+        "year": "2024",
+        "cases": 24,
+        "convictions": 5,
+        "pendency": 122
+      },
+      {
+        "year": "2025",
+        "cases": 23,
+        "convictions": 6,
+        "pendency": 121
+      },
+      {
+        "year": "2026",
+        "cases": 22,
+        "convictions": 6,
+        "pendency": 119
+      }
+    ],
+    "Delhi": [
+      {
+        "year": "2021",
+        "cases": 12,
+        "convictions": 2,
+        "pendency": 75
+      },
+      {
+        "year": "2022",
+        "cases": 14,
+        "convictions": 3,
+        "pendency": 78
+      },
+      {
+        "year": "2023",
+        "cases": 15,
+        "convictions": 3,
+        "pendency": 80
+      },
+      {
+        "year": "2024",
+        "cases": 16,
+        "convictions": 4,
+        "pendency": 82
+      },
+      {
+        "year": "2025",
+        "cases": 15,
+        "convictions": 4,
+        "pendency": 81
+      },
+      {
+        "year": "2026",
+        "cases": 15,
+        "convictions": 4,
+        "pendency": 80
+      }
+    ]
+  }
+}

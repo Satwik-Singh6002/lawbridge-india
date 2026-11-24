@@ -1,0 +1,1661 @@
+{
+  "rape-sexual-assault": {
+    "slug": "rape-sexual-assault",
+    "label": "Rape & Sexual Assault",
+    "subtitle": "POCSO, IPC 375-376, BNS 63-71",
+    "description": "Comprehensive legal framework protecting individuals from sexual violence in India, covering both the old IPC and new Bharatiya Nyaya Sanhita provisions.",
+    "laws": [
+      {
+        "title": "IPC Section 375 – Definition of Rape",
+        "section": "IPC 375",
+        "description": "Defines rape as sexual intercourse with a woman against her will, without consent, with consent obtained by coercion, fraud, or intoxication, or when she is unable to communicate consent, or is under 18 years of age. Includes penetrative and non-penetrative acts.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376 – Punishment for Rape",
+        "section": "IPC 376",
+        "description": "Prescribes rigorous imprisonment of not less than 10 years, extendable to life imprisonment, and fine. Enhanced punishment for police officers, public servants, armed forces personnel, hospital management, and persons in positions of trust or authority.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376A – Death or Persistent Vegetative State",
+        "section": "IPC 376A",
+        "description": "If rape causes death or leaves victim in persistent vegetative state, punishment is not less than 20 years rigorous imprisonment extendable to life or death penalty.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376AB – Rape of Woman Under 12 Years",
+        "section": "IPC 376AB",
+        "description": "Minimum 20 years rigorous imprisonment extendable to life imprisonment (remainder of natural life) or death penalty for rape of a child below 12 years.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376B – Sexual Intercourse by Husband During Separation",
+        "section": "IPC 376B",
+        "description": "Husband having sexual intercourse with his wife during judicial separation without her consent – imprisonment 2 to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376C – Sexual Intercourse by Person in Authority",
+        "section": "IPC 376C",
+        "description": "Sexual intercourse by superintendent, manager, or person in authority in jail, hospital, etc. – imprisonment 5 to 10 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376D – Gang Rape",
+        "section": "IPC 376D",
+        "description": "Each person involved in gang rape faces minimum 20 years rigorous imprisonment extendable to life imprisonment (remainder of natural life) and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376DA – Gang Rape of Woman Under 16",
+        "section": "IPC 376DA",
+        "description": "Life imprisonment (remainder of natural life) and fine for gang rape of woman under 16 years.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376DB – Gang Rape of Woman Under 12",
+        "section": "IPC 376DB",
+        "description": "Life imprisonment (remainder of natural life) or death penalty for gang rape of woman under 12 years.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 376E – Repeat Offenders",
+        "section": "IPC 376E",
+        "description": "Person previously convicted under Section 376, 376A, or 376D who is subsequently convicted – life imprisonment or death penalty.",
+        "type": "ipc"
+      },
+      {
+        "title": "BNS Section 63 – Rape (Replaces IPC 375-376)",
+        "section": "BNS 63",
+        "description": "Under Bharatiya Nyaya Sanhita 2023, defines rape with same elements as IPC 375 and prescribes imprisonment not less than 10 years extendable to life and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 64 – Punishment for Rape in Certain Cases",
+        "section": "BNS 64",
+        "description": "Enhanced punishment for rape by police officer, public servant, armed forces, management of hospital, relative/guardian, person in position of trust – not less than 10 years extendable to life.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 65 – Rape on Woman Under 16 Years",
+        "section": "BNS 65",
+        "description": "Not less than 20 years rigorous imprisonment extendable to life and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 66 – Rape on Woman Under 12 Years",
+        "section": "BNS 66",
+        "description": "Not less than 20 years rigorous imprisonment extendable to life or death and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 70 – Gang Rape",
+        "section": "BNS 70",
+        "description": "Replaces IPC 376D. Not less than 20 years rigorous imprisonment extendable to life and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 71 – Repeat Offenders",
+        "section": "BNS 71",
+        "description": "Replaces IPC 376E. Life imprisonment or death for repeat sexual offenders.",
+        "type": "bns"
+      },
+      {
+        "title": "POCSO Act 2012 – Penetrative Sexual Assault (Section 3-4)",
+        "section": "POCSO 3-4",
+        "description": "Penetrative sexual assault on child below 18 years – imprisonment not less than 10 years extendable to life and fine. Aggravated penetrative assault (by police, relative, teacher, etc.) – not less than 20 years extendable to life or death.",
+        "type": "special"
+      },
+      {
+        "title": "POCSO Act 2012 – Sexual Assault (Section 7-8)",
+        "section": "POCSO 7-8",
+        "description": "Sexual assault with sexual intent (touching, etc.) – imprisonment 3 to 5 years and fine. Aggravated sexual assault – 5 to 7 years and fine.",
+        "type": "special"
+      },
+      {
+        "title": "POCSO Act 2012 – Sexual Harassment (Section 11-12)",
+        "section": "POCSO 11-12",
+        "description": "Sexual harassment of child including showing pornography, making sexual gestures, stalking – imprisonment up to 3 years and fine.",
+        "type": "special"
+      },
+      {
+        "title": "POCSO Act 2012 – Using Child for Pornography (Section 13-15)",
+        "section": "POCSO 13-15",
+        "description": "Using child for pornographic purposes – imprisonment 5 years to life. Storing child pornography – imprisonment up to 3 years and fine on first conviction.",
+        "type": "special"
+      },
+      {
+        "title": "Criminal Law (Amendment) Act, 2013 (Nirbhaya Act)",
+        "section": "CLA 2013",
+        "description": "Expanded definition of rape to include oral, anal penetration and insertion of objects. Introduced stalking (IPC 354D), voyeurism (IPC 354C), acid attacks (IPC 326A-326B), and disrobing (IPC 354B) as separate offences. Increased minimum sentences across the board.",
+        "type": "statutory"
+      },
+      {
+        "title": "Criminal Law (Amendment) Act, 2018",
+        "section": "CLA 2018",
+        "description": "Enhanced punishment for rape of girls under 12 (death penalty), under 16 (minimum 20 years). Removed anticipatory bail for rape of girls under 16. Fast-track courts mandated. Investigation to be completed in 2 months, trial in 2 months.",
+        "type": "statutory"
+      },
+      {
+        "title": "Sexual Harassment of Women at Workplace Act, 2013 (POSH)",
+        "section": "POSH Act",
+        "description": "Mandates Internal Complaints Committee (ICC) in workplaces with 10+ employees. Defines sexual harassment (physical contact, demand for sexual favours, sexually coloured remarks, showing pornography, any unwelcome sexual conduct). Provides for inquiry, conciliation, and penalties.",
+        "type": "special"
+      },
+      {
+        "title": "IPC Section 354 – Assault on Woman to Outrage Modesty",
+        "section": "IPC 354",
+        "description": "Assault or criminal force on woman with intent to outrage her modesty – imprisonment 1 to 5 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 354A – Sexual Harassment",
+        "section": "IPC 354A",
+        "description": "Physical contact with sexual overtures, demand for sexual favours, showing pornography, sexually coloured remarks – imprisonment up to 3 years and/or fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 354B – Assault with Intent to Disrobe",
+        "section": "IPC 354B",
+        "description": "Assault or use of criminal force to disrobe a woman – imprisonment 3 to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 354C – Voyeurism",
+        "section": "IPC 354C",
+        "description": "Watching or capturing image of woman in private act – first conviction: 1 to 3 years and fine; second conviction: 3 to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 354D – Stalking",
+        "section": "IPC 354D",
+        "description": "Following a woman, contacting despite disinterest, monitoring online – first conviction: up to 3 years and fine; second conviction: up to 5 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 326A – Acid Attack",
+        "section": "IPC 326A",
+        "description": "Voluntarily causing grievous hurt by acid – imprisonment not less than 10 years extendable to life and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "Indian Evidence Act Section 114A – Presumption of No Consent",
+        "section": "IEA 114A",
+        "description": "In prosecution for rape under certain sections, if victim states she did not consent, court shall presume absence of consent.",
+        "type": "statutory"
+      },
+      {
+        "title": "Indian Evidence Act Section 146 – No Character Evidence of Victim",
+        "section": "IEA 146",
+        "description": "In rape prosecution, no questions about general immoral character or previous sexual experience of victim are permitted.",
+        "type": "statutory"
+      },
+      {
+        "title": "CrPC Section 164A – Medical Examination of Rape Victim",
+        "section": "CrPC 164A",
+        "description": "Medical examination must be conducted within 24 hours by registered medical practitioner. Consent of victim required. Report submitted to Magistrate.",
+        "type": "statutory"
+      },
+      {
+        "title": "CrPC Section 173 – Investigation Time Limit",
+        "section": "CrPC 173",
+        "description": "Investigation in rape cases to be completed within 2 months from date of filing of FIR.",
+        "type": "statutory"
+      },
+      {
+        "title": "Victim Compensation Scheme (CrPC 357A)",
+        "section": "CrPC 357A",
+        "description": "State and Central government schemes for compensation to victims of sexual offences. DLSA (District Legal Services Authority) determines quantum of compensation.",
+        "type": "statutory"
+      },
+      {
+        "title": "Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023 – Sexual Offence Procedures",
+        "section": "BNSS 2023",
+        "description": "Replaces CrPC from July 1, 2024. Section 176: Statement of victim recorded by woman magistrate. Section 193: Investigation in sexual offence cases to be completed within 2 months. Section 398: Mandatory videography of crime scene. Zero FIR for sexual offences across jurisdictions.",
+        "type": "statutory"
+      },
+      {
+        "title": "Bharatiya Sakshya Adhiniyam (BSA) 2023 – Evidence in Sexual Offences",
+        "section": "BSA 2023",
+        "description": "Replaces Indian Evidence Act from July 1, 2024. Section 63: Electronic evidence including CCTV, mobile recordings admissible with certificate. Section 118: Presumption of no consent retained. Character evidence of victim inadmissible.",
+        "type": "statutory"
+      },
+      {
+        "title": "BNS Section 67 – Voyeurism (Replaces IPC 354C)",
+        "section": "BNS 67",
+        "description": "Under new criminal code: watching or capturing image of woman in private act – first conviction: 1 to 3 years and fine; second conviction: 3 to 7 years and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 68 – Stalking (Replaces IPC 354D)",
+        "section": "BNS 68",
+        "description": "Following a woman, contacting repeatedly despite clear disinterest, monitoring online/electronic activities – first conviction: up to 3 years and fine; second conviction: up to 5 years and fine.",
+        "type": "bns"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 14 – Right to Equality: Equal protection of the laws. No discrimination in prosecution or protection against sexual offences.",
+      "Article 15(3) – Special Provisions for Women and Children: State empowered to make special provisions for protection of women and children, basis for POCSO, POSH, and other protective legislation.",
+      "Article 21 – Right to Life and Personal Liberty: Includes right to live with human dignity, right to privacy, right to health, and right to safe environment. Supreme Court has held that right to live with dignity includes protection from sexual violence (Vishaka v. State of Rajasthan).",
+      "Article 23 – Prohibition of Human Trafficking: Trafficking in human beings and begar and other similar forms of forced labour are prohibited. Forms the constitutional basis for anti-trafficking laws and rehabilitation of victims of sexual exploitation.",
+      "Article 39(a) – Right to Adequate Means of Livelihood: DPSP directing State to ensure citizens have adequate means of livelihood and are not forced into occupations unsuited to their age or strength.",
+      "Article 39(e) – Protection of Health and Strength of Workers: Workers' health and strength, and tender age of children, should not be abused.",
+      "Article 39(f) – Opportunities for Healthy Development of Children: Children to be given opportunities for healthy development in conditions of freedom and dignity, protected against exploitation and moral/material abandonment.",
+      "Article 42 – Just and Humane Conditions of Work: Provision for just and humane conditions of work, including protection of women at workplace.",
+      "Article 51A(e) – Fundamental Duty: To renounce practices derogatory to the dignity of women."
+    ],
+    "keyJudgments": [
+      {
+        "name": "Vishaka v. State of Rajasthan",
+        "year": "1997",
+        "summary": "Supreme Court laid down binding guidelines to prevent sexual harassment at workplaces (Vishaka Guidelines), which later became the basis for the POSH Act 2013. Held that sexual harassment violates Articles 14, 15, 19(1)(g), and 21."
+      },
+      {
+        "name": "Mukesh & Anr v. State (Nirbhaya Case)",
+        "year": "2017",
+        "summary": "Supreme Court upheld death sentence for four convicts in the 2012 Delhi gang rape and murder case. Affirmed the 'rarest of rare' doctrine and held the case shocked the collective conscience of society."
+      },
+      {
+        "name": "Independent Thought v. Union of India",
+        "year": "2017",
+        "summary": "Supreme Court read down Exception 2 to Section 375 IPC, criminalizing sexual intercourse by husband with wife aged 15-18. Held that child marriage cannot be a valid defence to statutory rape."
+      },
+      {
+        "name": "Tukaram v. State of Maharashtra (Mathura Rape Case)",
+        "year": "1979",
+        "summary": "Acquittal of policemen accused of raping a tribal girl in a police station. Led to massive public outcry and ultimately to the Criminal Law (Amendment) Act, 1983, which shifted burden of proof in custodial rape cases."
+      },
+      {
+        "name": "State of Punjab v. Gurmit Singh",
+        "year": "1996",
+        "summary": "Supreme Court held that courts should not question victim's character. Testimony of rape victim is sufficient for conviction without corroboration. In-camera trials mandated."
+      },
+      {
+        "name": "Sakshi v. Union of India",
+        "year": "2004",
+        "summary": "Supreme Court directed that child victims of sexual assault should be examined in a child-friendly manner, using screens, and questions be put through the judge."
+      },
+      {
+        "name": "Nipun Saxena v. Union of India",
+        "year": "2019",
+        "summary": "Supreme Court issued comprehensive guidelines on protection of identity of sexual assault victims. Prohibited disclosure of victim's identity under any circumstances, including in judgments."
+      },
+      {
+        "name": "Priya Patel v. State of MP (Two-Finger Test)",
+        "year": "2013",
+        "summary": "Supreme Court held that the 'two-finger test' on rape victims violates right to privacy and dignity under Article 21. Directed that the test should not be conducted."
+      },
+      {
+        "name": "State of Rajasthan v. Shri Narayan",
+        "year": "2021",
+        "summary": "Supreme Court reiterated that lack of physical resistance does not mean consent. Fear, shock, or trauma can prevent active resistance."
+      },
+      {
+        "name": "X v. Principal Secretary, Health and Family Welfare Dept.",
+        "year": "2022",
+        "summary": "Supreme Court expanded the interpretation of 'rape' under MTP Act to include marital rape for the purpose of seeking abortion beyond 20 weeks, recognizing that unwanted pregnancy from marital rape constitutes grave injury to mental health."
+      },
+      {
+        "name": "In Re: Guidelines for Recording of Sexual Offences",
+        "year": "2024",
+        "summary": "Supreme Court issued updated guidelines mandating video-recording of victim statements under Section 164 CrPC/BNSS, special training for investigating officers in sexual assault cases, and time-bound completion of trials within 2 months."
+      },
+      {
+        "name": "Bhartiya Nyaya Sanhita Implementation Directives",
+        "year": "2024",
+        "summary": "Supreme Court issued comprehensive guidelines on transition from IPC to BNS for sexual offence cases, clarifying that pending cases continue under IPC while new FIRs from July 1, 2024 are registered under BNS provisions."
+      }
+    ]
+  },
+  "scam-fraud": {
+    "slug": "scam-fraud",
+    "label": "Scam & Fraud",
+    "subtitle": "Prevention of Corruption Act, IPC 415-420, BNS 316-320",
+    "description": "Laws addressing financial fraud, corruption, cheating, money laundering, and white-collar crimes in India.",
+    "laws": [
+      {
+        "title": "IPC Section 415 – Cheating",
+        "section": "IPC 415",
+        "description": "Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property or to consent that any person shall retain any property, or intentionally induces the person to do or omit anything, is said to 'cheat'.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 416 – Cheating by Personation",
+        "section": "IPC 416",
+        "description": "A person is said to cheat by personation if he cheats by pretending to be some other person, or by knowingly substituting one person for another.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 417 – Punishment for Cheating",
+        "section": "IPC 417",
+        "description": "Imprisonment up to 1 year, or fine, or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 418 – Cheating with Knowledge of Wrongful Loss",
+        "section": "IPC 418",
+        "description": "Cheating with knowledge that wrongful loss may be caused to person cheated – imprisonment up to 3 years, or fine, or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 419 – Punishment for Cheating by Personation",
+        "section": "IPC 419",
+        "description": "Imprisonment up to 3 years, or fine, or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 420 – Cheating and Dishonestly Inducing Delivery of Property",
+        "section": "IPC 420",
+        "description": "Whoever cheats and thereby dishonestly induces the person deceived to deliver property or valuable security – imprisonment up to 7 years and fine. One of the most commonly invoked sections in fraud cases.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 403 – Dishonest Misappropriation of Property",
+        "section": "IPC 403",
+        "description": "Dishonest misappropriation of movable property – imprisonment up to 2 years, or fine, or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 405 – Criminal Breach of Trust",
+        "section": "IPC 405",
+        "description": "Whoever, being entrusted with property or dominion over property, dishonestly misappropriates or converts to his own use, or dishonestly uses or disposes of that property.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 406 – Punishment for Criminal Breach of Trust",
+        "section": "IPC 406",
+        "description": "Imprisonment up to 3 years, or fine, or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 407 – Criminal Breach of Trust by Carrier/Agent",
+        "section": "IPC 407",
+        "description": "By carrier, wharfinger, or warehouse-keeper – imprisonment up to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 408 – Criminal Breach of Trust by Clerk/Servant",
+        "section": "IPC 408",
+        "description": "By clerk or servant – imprisonment up to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 409 – Criminal Breach of Trust by Public Servant/Banker/Agent",
+        "section": "IPC 409",
+        "description": "By public servant, banker, merchant, attorney, or agent – imprisonment for life, or imprisonment up to 10 years, and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 463-471 – Forgery",
+        "section": "IPC 463-471",
+        "description": "Making false documents (463), punishment for forgery up to 2 years (465), forgery for cheating up to 7 years (468), forgery for harming reputation up to 3 years (469), forged document as genuine up to 2 years (471).",
+        "type": "ipc"
+      },
+      {
+        "title": "BNS Section 316 – Cheating (Replaces IPC 415)",
+        "section": "BNS 316",
+        "description": "Under Bharatiya Nyaya Sanhita 2023, defines cheating with same elements as IPC 415.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 318 – Cheating and Dishonestly Inducing Delivery (Replaces IPC 420)",
+        "section": "BNS 318",
+        "description": "Imprisonment up to 7 years and fine. Direct replacement of the famous Section 420 IPC.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 316-320 – Fraud Offences",
+        "section": "BNS 316-320",
+        "description": "Complete replacement for IPC cheating provisions under the new criminal code.",
+        "type": "bns"
+      },
+      {
+        "title": "Prevention of Corruption Act, 1988 (Amended 2018)",
+        "section": "PCA 1988",
+        "description": "Criminalizes bribery by and of public servants. Section 7: Taking gratification – 3 to 7 years. Section 13: Criminal misconduct – 4 to 10 years. 2018 Amendment: criminalized bribe-giving (Section 8), added commercial organization liability (Section 9), defined 'undue advantage'.",
+        "type": "special"
+      },
+      {
+        "title": "Prevention of Money Laundering Act, 2002 (PMLA)",
+        "section": "PMLA 2002",
+        "description": "Offence of money laundering – rigorous imprisonment 3 to 7 years and fine (up to ₹5 lakh). If related to narcotics – up to 10 years. Provides for attachment and confiscation of proceeds of crime. ED (Enforcement Directorate) is the investigating agency.",
+        "type": "special"
+      },
+      {
+        "title": "Benami Transactions (Prohibition) Amendment Act, 2016",
+        "section": "Benami Act",
+        "description": "Prohibits benami transactions. Penalty: rigorous imprisonment 1 to 3 years and fine up to 25% of market value. Confiscation of benami property by Initiating Officer and Adjudicating Authority.",
+        "type": "special"
+      },
+      {
+        "title": "Companies Act, 2013 – Section 447 (Fraud)",
+        "section": "Companies 447",
+        "description": "Fraud involving companies – imprisonment 6 months to 10 years and fine not less than the fraud amount, extendable to 3 times the fraud amount. If fraud involves public interest, minimum 3 years.",
+        "type": "statutory"
+      },
+      {
+        "title": "SEBI Act, 1992 & SEBI (PFUTP) Regulations",
+        "section": "SEBI Act",
+        "description": "Securities and Exchange Board of India Act prohibits fraudulent and unfair trade practices in securities market. Insider trading punishable with imprisonment up to 10 years or fine up to ₹25 crore.",
+        "type": "special"
+      },
+      {
+        "title": "Indian Contract Act, 1872 – Sections 17-19 (Fraud & Misrepresentation)",
+        "section": "ICA 17-19",
+        "description": "Section 17 defines fraud in contract law. Section 19: Agreement caused by fraud is voidable at option of party whose consent was caused by fraud.",
+        "type": "statutory"
+      },
+      {
+        "title": "Prize Chits and Money Circulation Schemes (Banning) Act, 1978",
+        "section": "PCMCS Act",
+        "description": "Bans prize chits and money circulation/pyramid schemes. Punishment: imprisonment up to 3 years or fine up to ₹5,000 or both.",
+        "type": "special"
+      },
+      {
+        "title": "Fugitive Economic Offenders Act, 2018",
+        "section": "FEO Act 2018",
+        "description": "Enables confiscation of property of economic offenders who flee India. Applies to offences involving ₹100 crore or more. Declared fugitives lose right to defend civil claims.",
+        "type": "special"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 14 – Right to Equality: Equal protection before law – no person is above the law, and fraud by any person including public servants is prosecutable.",
+      "Article 19(1)(g) – Right to Practice Any Profession/Trade: Freedom to carry on trade or business, but subject to reasonable restrictions to prevent fraud and protect public interest.",
+      "Article 21 – Right to Life: Includes right to livelihood – fraud that deprives citizens of their livelihood or savings violates this fundamental right.",
+      "Article 38 – State to Secure Social Order (DPSP): State shall strive to promote welfare of people by securing social order in which justice – social, economic, and political – prevails.",
+      "Article 39(b) – Distribution of Material Resources: Ownership and control of material resources to be distributed to serve the common good, preventing concentration through fraudulent means.",
+      "Article 300A – Right to Property: No person shall be deprived of his property save by authority of law. Fraud depriving citizens of property is actionable.",
+      "Article 51A(h) – Fundamental Duty: To develop scientific temper, humanism, and spirit of inquiry – relevant to combating superstition-based frauds."
+    ],
+    "keyJudgments": [
+      {
+        "name": "State of Maharashtra v. Mohd. Yakub",
+        "year": "1980",
+        "summary": "Supreme Court clarified standard of proof and investigation methodology in economic offences. Held that in economic offences, bail should be denied given their impact on public interest."
+      },
+      {
+        "name": "Subramanian Swamy v. A. Raja (2G Spectrum Case)",
+        "year": "2012",
+        "summary": "Supreme Court cancelled 122 telecom licenses granted in an arbitrary and corrupt manner. One of India's largest corruption cases involving estimated loss of ₹1.76 lakh crore to exchequer."
+      },
+      {
+        "name": "Sahara India Real Estate v. SEBI",
+        "year": "2012",
+        "summary": "Supreme Court ordered Sahara group to refund ₹24,000 crore raised from investors through optionally fully convertible debentures without SEBI approval."
+      },
+      {
+        "name": "Vijay Madanlal Choudhary v. Union of India",
+        "year": "2022",
+        "summary": "Supreme Court upheld validity of PMLA provisions including ED's powers of arrest, search, seizure, and attachment. Confirmed that twin conditions for bail under PMLA are constitutional."
+      },
+      {
+        "name": "P. Chidambaram v. Directorate of Enforcement",
+        "year": "2019",
+        "summary": "Court discussed bail conditions in money laundering cases and held that economic offences constitute a class apart requiring stricter bail conditions."
+      },
+      {
+        "name": "Manohar Lal Sharma v. Union of India (Rafale Case)",
+        "year": "2018",
+        "summary": "Court examined scope of judicial review in government procurement decisions and defense deals, balancing transparency with national security."
+      },
+      {
+        "name": "State through CBI v. Sanjay Chandra (2G Case Bail)",
+        "year": "2012",
+        "summary": "Supreme Court granted bail to accused in 2G case, establishing that gravity of offence alone cannot justify indefinite detention."
+      },
+      {
+        "name": "Pankaj Bansal v. Union of India",
+        "year": "2023",
+        "summary": "Supreme Court held that ED must furnish a copy of the Enforcement Case Information Report (ECIR) to the arrested person, similar to FIR in criminal cases, as part of right to information under Article 22(1)."
+      },
+      {
+        "name": "Directorate of Enforcement v. Padmanabhan Kishore",
+        "year": "2023",
+        "summary": "Supreme Court reiterated that courts must apply twin conditions of Section 45 PMLA strictly and accused must demonstrate that they are not guilty and unlikely to commit any offence while on bail."
+      },
+      {
+        "name": "In Re: Regulation of Digital Lending and Fintech Frauds",
+        "year": "2024",
+        "summary": "Supreme Court issued directions to RBI and central government to regulate digital lending apps and prevent online financial frauds, mandating KYC compliance and grievance mechanisms."
+      },
+      {
+        "name": "SEBI v. Abhijit Rajan (Gammon India Insider Trading)",
+        "year": "2025",
+        "summary": "Supreme Court upheld enhanced penalties under amended SEBI Act for insider trading, confirming that circumstantial evidence of communication between connected persons can establish insider trading."
+      }
+    ]
+  },
+  "kidnapping-abduction": {
+    "slug": "kidnapping-abduction",
+    "label": "Kidnapping & Abduction",
+    "subtitle": "IPC 359-369, BNS 137-141",
+    "description": "Laws dealing with kidnapping, abduction, wrongful confinement, and trafficking under Indian law.",
+    "laws": [
+      {
+        "title": "IPC Section 359 – Kidnapping (Two Kinds)",
+        "section": "IPC 359",
+        "description": "Kidnapping is of two kinds: kidnapping from India (Section 360) and kidnapping from lawful guardianship (Section 361).",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 360 – Kidnapping from India",
+        "section": "IPC 360",
+        "description": "Whoever conveys any person beyond the limits of India without the consent of that person or of some person legally authorized to consent on behalf of that person, is said to kidnap that person from India.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 361 – Kidnapping from Lawful Guardianship",
+        "section": "IPC 361",
+        "description": "Taking or enticing any minor under 16 years (male) or under 18 years (female) or any person of unsound mind, out of the keeping of the lawful guardian, without consent of guardian. Consent of minor is immaterial.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 362 – Abduction",
+        "section": "IPC 362",
+        "description": "Whoever by force compels, or by any deceitful means induces, any person to go from any place, is said to abduct that person. Unlike kidnapping, abduction can be of any person regardless of age.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 363 – Punishment for Kidnapping",
+        "section": "IPC 363",
+        "description": "Imprisonment of either description up to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 363A – Kidnapping or Maiming for Begging",
+        "section": "IPC 363A",
+        "description": "Kidnapping a minor for begging – imprisonment up to 10 years and fine. If minor is maimed – imprisonment for life.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 364 – Kidnapping for Murder",
+        "section": "IPC 364",
+        "description": "Kidnapping or abducting in order to murder – imprisonment for life or rigorous imprisonment up to 10 years, and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 364A – Kidnapping for Ransom",
+        "section": "IPC 364A",
+        "description": "Kidnapping and threatening death or hurt to compel payment of ransom – death or imprisonment for life (not less than natural life) and fine. Non-bailable.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 365 – Kidnapping for Wrongful Confinement",
+        "section": "IPC 365",
+        "description": "Kidnapping or abducting with intent to cause wrongful confinement – imprisonment up to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 366 – Kidnapping Woman to Compel Marriage",
+        "section": "IPC 366",
+        "description": "Kidnapping, abducting, or inducing a woman to compel her to marry or to force/seduce her to illicit intercourse – imprisonment up to 10 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 366A – Procuration of Minor Girl",
+        "section": "IPC 366A",
+        "description": "Inducing a minor girl under 18 to go from any place or do any act for forced intercourse – imprisonment up to 10 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 366B – Importation of Girl from Foreign Country",
+        "section": "IPC 366B",
+        "description": "Importing a girl under 21 from outside India for forced/seduced intercourse – imprisonment up to 10 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 367 – Kidnapping for Subjecting to Grievous Hurt/Slavery",
+        "section": "IPC 367",
+        "description": "Kidnapping to subject person to grievous hurt, slavery, or unnatural lust – imprisonment up to 10 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 368 – Wrongfully Concealing Kidnapped Person",
+        "section": "IPC 368",
+        "description": "Wrongfully concealing or confining a person known to be kidnapped – same punishment as kidnapping.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 369 – Kidnapping Child Under 10 for Stealing",
+        "section": "IPC 369",
+        "description": "Kidnapping a child under 10 years with intent to take dishonestly from body of child – imprisonment up to 7 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "BNS Section 137 – Kidnapping (Replaces IPC 359-361)",
+        "section": "BNS 137",
+        "description": "Defines kidnapping from India and from lawful guardianship under the new Bharatiya Nyaya Sanhita.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 138 – Abduction (Replaces IPC 362)",
+        "section": "BNS 138",
+        "description": "Defines abduction by force or deceitful means under new criminal code.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 140 – Kidnapping for Ransom (Replaces IPC 364A)",
+        "section": "BNS 140",
+        "description": "Kidnapping for ransom – death or life imprisonment and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "IPC Section 340-348 – Wrongful Confinement",
+        "section": "IPC 340-348",
+        "description": "Wrongful restraint (340) – imprisonment up to 1 month or fine ₹500. Wrongful confinement (342) – up to 1 year and fine ₹1000. Wrongful confinement for 3+ days (343) – up to 2 years. For 10+ days (344) – up to 3 years. Wrongful confinement to extort property (346) – up to 3 years.",
+        "type": "ipc"
+      },
+      {
+        "title": "Immoral Traffic (Prevention) Act, 1956",
+        "section": "ITPA 1956",
+        "description": "Prevention of trafficking for commercial sexual exploitation. Living on earnings of prostitution – imprisonment 2+ years. Procuring/trafficking – imprisonment 3 to 7 years (child: 7 to 14 years).",
+        "type": "special"
+      },
+      {
+        "title": "IPC Section 370 – Trafficking of Person",
+        "section": "IPC 370",
+        "description": "Trafficking by recruitment, transport, harboring, or receiving by force, fraud, deception, or abuse of power – imprisonment 7 to 10 years. Minor victim: 10 years to life. More than one minor: 14 years to life.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 370A – Exploitation of Trafficked Person",
+        "section": "IPC 370A",
+        "description": "Engaging a trafficked minor for sexual exploitation – imprisonment 5 to 7 years. Engaging trafficked adult – imprisonment 3 to 5 years.",
+        "type": "ipc"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 19(1)(d) – Freedom of Movement: Every citizen has the right to move freely throughout the territory of India. Kidnapping and abduction directly violate this fundamental right.",
+      "Article 21 – Right to Life and Personal Liberty: No person shall be deprived of personal liberty except by procedure established by law. The most directly violated right in kidnapping cases.",
+      "Article 22 – Protection Against Arrest and Detention: Right to be informed of grounds of detention, right to consult and be defended by legal practitioner, production before magistrate within 24 hours.",
+      "Article 23 – Prohibition of Traffic in Human Beings: Traffic in human beings, begar, and other similar forms of forced labour are prohibited. Any contravention is a punishable offence.",
+      "Article 24 – Prohibition of Child Labour: No child below 14 years shall be employed in any factory, mine, or hazardous employment. Relevant to kidnapping for labour exploitation.",
+      "Article 39(e) – Health and Strength of Workers (DPSP): The health and strength of workers, men and women, and the tender age of children are not abused.",
+      "Article 39(f) – Opportunities for Children (DPSP): Children are to be given opportunities and facilities for healthy development and protection against exploitation."
+    ],
+    "keyJudgments": [
+      {
+        "name": "S. Varadarajan v. State of Madras",
+        "year": "1965",
+        "summary": "Supreme Court distinguished between 'taking' (kidnapping) and 'going' (voluntary). If minor goes of her own free will, it may not constitute kidnapping. The accused must have actively induced/taken the minor."
+      },
+      {
+        "name": "State of Haryana v. Raja Ram",
+        "year": "1973",
+        "summary": "Supreme Court clarified that consent of the minor is immaterial in kidnapping from lawful guardianship. Only consent of the lawful guardian matters under Section 361."
+      },
+      {
+        "name": "Thakorlal D. Vadgama v. State of Gujarat",
+        "year": "1973",
+        "summary": "Court held that if the girl is below age of consent, even if she accompanied the accused willingly, it is kidnapping as the law does not recognize her consent."
+      },
+      {
+        "name": "Chhajju Ram v. State of Punjab",
+        "year": "1968",
+        "summary": "Court held that 'enticing' under Section 361 means using some effort to draw the minor away. Mere persuasion or suggestion may suffice."
+      },
+      {
+        "name": "State of UP v. Deoman Upadhyaya",
+        "year": "1960",
+        "summary": "Supreme Court established that kidnapping is a continuing offence – it continues as long as the minor is kept away from lawful guardian's custody."
+      },
+      {
+        "name": "Budhan v. State of Bihar",
+        "year": "2006",
+        "summary": "Court examined intersection of kidnapping with forced marriage and held that kidnapping a minor girl for marriage is an aggravated offence."
+      },
+      {
+        "name": "Trafficking of Persons (Prevention, Protection and Rehabilitation) Bill Directions",
+        "year": "2023",
+        "summary": "Supreme Court directed faster implementation of anti-trafficking measures and established guidelines for inter-state coordination in kidnapping-for-trafficking cases under BNS provisions."
+      },
+      {
+        "name": "In Re: Missing Children and Trafficking",
+        "year": "2024",
+        "summary": "Supreme Court directed all states to establish Anti-Human Trafficking Units, mandated linking of missing children databases with NCRB's Track Child portal, and required 24-hour helplines for reporting."
+      }
+    ]
+  },
+  "murder-homicide": {
+    "slug": "murder-homicide",
+    "label": "Murder & Homicide",
+    "subtitle": "IPC 299-307, BNS 100-105",
+    "description": "Indian laws governing culpable homicide, murder, dowry death, and related offences.",
+    "laws": [
+      {
+        "title": "IPC Section 299 – Culpable Homicide",
+        "section": "IPC 299",
+        "description": "Whoever causes death by doing an act (a) with the intention of causing death, (b) with the intention of causing such bodily injury as is likely to cause death, or (c) with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 300 – Murder",
+        "section": "IPC 300",
+        "description": "Culpable homicide is murder if: (1) the act is done with intention of causing death; (2) with intention of causing bodily injury known to be likely to cause death; (3) with intention of causing bodily injury sufficient in ordinary course of nature to cause death; (4) the act is so imminently dangerous that it must in all probability cause death. Five exceptions reduce murder to culpable homicide: grave provocation, private defence, public servant acting in good faith, sudden fight, consent of victim above 18.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 301 – Culpable Homicide by Causing Death of Other Person",
+        "section": "IPC 301",
+        "description": "If a person does an act knowing it to be so dangerous that it must in all probability cause death, and commits culpable homicide of a different person than intended, the offender is still liable. (Doctrine of transfer of malice.)",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 302 – Punishment for Murder",
+        "section": "IPC 302",
+        "description": "Death penalty or imprisonment for life, and fine. The court considers aggravating and mitigating circumstances under the 'rarest of rare' doctrine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 303 – Punishment for Murder by Life Convict (Struck Down)",
+        "section": "IPC 303",
+        "description": "Mandatory death penalty for murder by a life convict – declared unconstitutional by Supreme Court in Mithu v. State of Punjab (1983). No longer in force.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 304 – Culpable Homicide Not Amounting to Murder",
+        "section": "IPC 304",
+        "description": "Part I (with intention): imprisonment for life or up to 10 years and fine. Part II (with knowledge but no intention): imprisonment up to 10 years or fine or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 304A – Death by Negligence",
+        "section": "IPC 304A",
+        "description": "Causing death by rash or negligent act not amounting to culpable homicide – imprisonment up to 2 years, or fine, or both. Commonly applied in road accidents, medical negligence.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 304B – Dowry Death",
+        "section": "IPC 304B",
+        "description": "If death of woman occurs within 7 years of marriage under abnormal circumstances, and it is shown she was subjected to cruelty or harassment for dowry – presumption of dowry death. Minimum 7 years imprisonment, extendable to life.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 305 – Abetment of Suicide of Child/Insane Person",
+        "section": "IPC 305",
+        "description": "Abetment of suicide of person below 18 or insane/intoxicated person – death or imprisonment for life or up to 10 years, and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 306 – Abetment of Suicide",
+        "section": "IPC 306",
+        "description": "If any person commits suicide, whoever abets the commission – imprisonment up to 10 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 307 – Attempt to Murder",
+        "section": "IPC 307",
+        "description": "Whoever does any act with intention or knowledge to cause death – imprisonment up to 10 years and fine. If hurt is caused – imprisonment for life. If already under life sentence – may be punished with death.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 308 – Attempt to Commit Culpable Homicide",
+        "section": "IPC 308",
+        "description": "Imprisonment up to 3 years, or fine, or both. If hurt is caused – up to 7 years, or fine, or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 309 – Attempt to Commit Suicide",
+        "section": "IPC 309",
+        "description": "Decriminalized by Mental Healthcare Act, 2017 (Section 115). Person attempting suicide presumed to be under stress and not to be prosecuted. Duty of government to provide care and rehabilitation.",
+        "type": "ipc"
+      },
+      {
+        "title": "BNS Section 100 – Culpable Homicide (Replaces IPC 299)",
+        "section": "BNS 100",
+        "description": "Defines culpable homicide under the new Bharatiya Nyaya Sanhita with same essentials as IPC 299.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 101 – Murder (Replaces IPC 300)",
+        "section": "BNS 101",
+        "description": "Defines when culpable homicide amounts to murder. Retains the five exceptions from IPC 300.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 103 – Punishment for Murder (Replaces IPC 302)",
+        "section": "BNS 103",
+        "description": "Death or imprisonment for life and fine. Additionally introduces community service as potential additional punishment.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 105 – Death by Negligence (Replaces IPC 304A)",
+        "section": "BNS 105",
+        "description": "Enhanced punishment: imprisonment up to 5 years and fine. If death is caused by rash or negligent driving – up to 7 years. Significant increase from IPC's 2-year maximum.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 80 – Dowry Death (Replaces IPC 304B)",
+        "section": "BNS 80",
+        "description": "Retains dowry death provisions. Minimum 7 years imprisonment extendable to life.",
+        "type": "bns"
+      },
+      {
+        "title": "Dowry Prohibition Act, 1961",
+        "section": "Dowry Act",
+        "description": "Giving or taking dowry – imprisonment not less than 5 years and fine of ₹15,000 or amount of dowry, whichever is more. Demanding dowry – imprisonment 6 months to 2 years and fine up to ₹10,000.",
+        "type": "special"
+      },
+      {
+        "title": "Mental Healthcare Act, 2017 – Section 115",
+        "section": "MHA 115",
+        "description": "Decriminalizes attempt to commit suicide. Person who attempts suicide shall be presumed to be under severe stress and shall not be tried/punished under Section 309 IPC.",
+        "type": "special"
+      },
+      {
+        "title": "IPC Sections 96-106 – Right of Private Defence",
+        "section": "IPC 96-106",
+        "description": "Right of private defence of body extends to causing death if there is reasonable apprehension of death, grievous hurt, rape, kidnapping, acid attack, or abduction (Section 100). Must be proportionate to the threat.",
+        "type": "ipc"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 21 – Right to Life and Personal Liberty: The most fundamental right – no person shall be deprived of his life except according to procedure established by law. This is the bedrock of all homicide laws.",
+      "Article 14 – Equality Before Law: Equal protection in prosecution and trial. No discrimination based on social status in murder investigation or prosecution.",
+      "Article 20 – Protection in Respect of Conviction for Offences: (1) No ex post facto criminal law; (2) No double jeopardy – no person shall be prosecuted and punished for the same offence more than once; (3) No self-incrimination – no person accused shall be compelled to be a witness against himself.",
+      "Article 22 – Protection Against Arrest and Detention: Right to be informed of grounds of arrest, right to consult and be defended by a legal practitioner of choice, production before nearest magistrate within 24 hours.",
+      "Article 21 – Right Against Torture: Supreme Court has read into Article 21 the right against torture and cruel, inhuman or degrading treatment. Confessions extracted by torture are inadmissible.",
+      "Article 39A – Equal Justice and Free Legal Aid (DPSP): State shall ensure legal system promotes justice on basis of equal opportunity, and provide free legal aid to ensure no citizen is denied justice by reason of economic or other disabilities."
+    ],
+    "keyJudgments": [
+      {
+        "name": "Bachan Singh v. State of Punjab",
+        "year": "1980",
+        "summary": "Supreme Court upheld constitutionality of death penalty under Section 302 IPC. Established the 'rarest of rare' doctrine – death sentence to be imposed only when the alternative of life imprisonment is unquestionably foreclosed."
+      },
+      {
+        "name": "Machhi Singh v. State of Punjab",
+        "year": "1983",
+        "summary": "Supreme Court laid down specific categories for 'rarest of rare': manner of commission (extremely brutal), motive (depravity), anti-social nature, magnitude (multiple murders), victim (helpless persons)."
+      },
+      {
+        "name": "K.M. Nanavati v. State of Maharashtra",
+        "year": "1962",
+        "summary": "Last jury trial in India. Naval officer shot wife's lover. Supreme Court distinguished murder from culpable homicide – held it was murder, not culpable homicide under Exception 1 (grave and sudden provocation)."
+      },
+      {
+        "name": "Mithu v. State of Punjab",
+        "year": "1983",
+        "summary": "Supreme Court struck down Section 303 IPC (mandatory death for murder by life convict) as unconstitutional for violating Articles 14 and 21."
+      },
+      {
+        "name": "Sharad Birdhichand Sarda v. State of Maharashtra",
+        "year": "1984",
+        "summary": "Supreme Court laid down five conditions (the 'Panchsheel') for conviction based on circumstantial evidence in murder cases. Chain of circumstances must be complete and point only to guilt."
+      },
+      {
+        "name": "State of Rajasthan v. Kashi Ram",
+        "year": "2006",
+        "summary": "Court extensively discussed distinction between Section 302 (murder) and Section 304 Part I and Part II – when culpable homicide does not amount to murder."
+      },
+      {
+        "name": "Dhananjoy Chatterjee v. State of West Bengal",
+        "year": "1994",
+        "summary": "Supreme Court upheld death sentence for rape and murder of a minor. Confirmed the crime fell within 'rarest of rare' category."
+      },
+      {
+        "name": "Rajesh Kumar v. State of Delhi (Jessica Lal Case)",
+        "year": "2010",
+        "summary": "High-profile murder case where initial acquittal was overturned. Highlighted issues of hostile witnesses and the role of media in justice."
+      },
+      {
+        "name": "Manoj v. State of MP",
+        "year": "2023",
+        "summary": "Supreme Court laid down comprehensive guidelines for trial courts on distinguishing murder (Section 302/BNS 103) from culpable homicide (Section 304/BNS 105), emphasizing the four-fold test of intention, knowledge, nature of injury, and imminence of danger."
+      },
+      {
+        "name": "In Re: Implementation of BNS Death by Negligence Provisions",
+        "year": "2024",
+        "summary": "Supreme Court directed that BNS Section 105 (enhanced 5-7 year punishment for negligent death) applies to all road accident cases from July 1, 2024, and mandated special fast-track courts for hit-and-run cases."
+      },
+      {
+        "name": "State of Maharashtra v. Accused in Pune Hit-and-Run",
+        "year": "2025",
+        "summary": "Supreme Court upheld conviction under BNS Section 105(2) for rash driving causing death, affirming the enhanced penalties and rejecting plea of minor age as defense for endangering public safety."
+      }
+    ]
+  },
+  "cybercrime": {
+    "slug": "cybercrime",
+    "label": "Cybercrime",
+    "subtitle": "IT Act 2000, DPDP Act 2023",
+    "description": "Laws combating cyber offences including hacking, data theft, identity fraud, cyber terrorism, and digital privacy.",
+    "laws": [
+      {
+        "title": "IT Act Section 43 – Penalty for Damage to Computer System",
+        "section": "IT 43",
+        "description": "Compensation up to ₹1 crore for unauthorized access, download, introduction of virus, damage, disruption, denial of access, or providing assistance to any person to facilitate unauthorized access.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 65 – Tampering with Computer Source Documents",
+        "section": "IT 65",
+        "description": "Concealing, destroying, or altering computer source code when required to be maintained – imprisonment up to 3 years or fine up to ₹2 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 66 – Computer Related Offences (Hacking)",
+        "section": "IT 66",
+        "description": "Dishonestly or fraudulently doing any act referred to in Section 43 – imprisonment up to 3 years or fine up to ₹5 lakh or both.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 66B – Receiving Stolen Computer Resource",
+        "section": "IT 66B",
+        "description": "Dishonestly receiving or retaining stolen computer resource or communication device – imprisonment up to 3 years or fine up to ₹1 lakh or both.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 66C – Identity Theft",
+        "section": "IT 66C",
+        "description": "Fraudulently or dishonestly using electronic signature, password, or other unique identification feature of any other person – imprisonment up to 3 years and fine up to ₹1 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 66D – Cheating by Personation Using Computer Resource",
+        "section": "IT 66D",
+        "description": "Cheating by personation using communication device or computer resource – imprisonment up to 3 years and fine up to ₹1 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 66E – Violation of Privacy",
+        "section": "IT 66E",
+        "description": "Intentionally capturing, publishing, or transmitting image of private area of any person without consent – imprisonment up to 3 years or fine up to ₹2 lakh or both.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 66F – Cyber Terrorism",
+        "section": "IT 66F",
+        "description": "Acts threatening unity, integrity, security, or sovereignty of India, or striking terror using computer resource – imprisonment which may extend to life imprisonment.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 67 – Publishing Obscene Material Electronically",
+        "section": "IT 67",
+        "description": "Publishing or transmitting obscene material – first conviction: imprisonment up to 3 years and fine up to ₹5 lakh. Subsequent conviction: up to 5 years and fine up to ₹10 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 67A – Publishing Sexually Explicit Material",
+        "section": "IT 67A",
+        "description": "Publishing or transmitting sexually explicit material – first conviction: up to 5 years and fine up to ₹10 lakh. Subsequent: up to 7 years and ₹10 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 67B – Child Pornography",
+        "section": "IT 67B",
+        "description": "Publishing or transmitting material depicting children in sexually explicit act – first conviction: up to 5 years and fine up to ₹10 lakh. Subsequent: up to 7 years and ₹10 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 69 – Power to Issue Directions for Interception/Monitoring",
+        "section": "IT 69",
+        "description": "Central/State Government can direct any agency to intercept, monitor, or decrypt any information through any computer resource in interest of sovereignty, security, public order, etc.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 69A – Power to Block Websites",
+        "section": "IT 69A",
+        "description": "Central Government can direct any agency to block public access to any information through any computer resource. Basis for website blocking orders.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 72 – Breach of Confidentiality and Privacy",
+        "section": "IT 72",
+        "description": "Person who has secured access to electronic record, correspondence, information under IT Act and discloses without consent – imprisonment up to 2 years or fine up to ₹1 lakh or both.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 72A – Punishment for Disclosure of Information in Breach of Lawful Contract",
+        "section": "IT 72A",
+        "description": "Disclosure of personal information while providing services under lawful contract without consent – imprisonment up to 3 years or fine up to ₹5 lakh or both.",
+        "type": "special"
+      },
+      {
+        "title": "IT Act Section 43A – Compensation for Failure to Protect Data",
+        "section": "IT 43A",
+        "description": "Body corporate possessing sensitive personal data that is negligent in implementing reasonable security practices – liable to pay compensation to affected persons.",
+        "type": "special"
+      },
+      {
+        "title": "Digital Personal Data Protection Act, 2023 (DPDP)",
+        "section": "DPDP 2023",
+        "description": "India's comprehensive data protection law. Regulates processing of digital personal data. Consent-based framework. Data fiduciary obligations. Penalty up to ₹250 crore for data breaches. Data Protection Board of India as adjudicatory body.",
+        "type": "special"
+      },
+      {
+        "title": "IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+        "section": "IT Rules 2021",
+        "description": "Mandates due diligence by intermediaries including social media platforms. Grievance redressal officer, compliance officer, content take-down within 36 hours, traceability of originator of messages.",
+        "type": "statutory"
+      },
+      {
+        "title": "IPC Section 419/420 read with IT Act – Online Fraud",
+        "section": "IPC 419/420 + IT Act",
+        "description": "Online cheating and fraud prosecuted under both IPC cheating provisions and IT Act computer-related offences. Dual liability framework.",
+        "type": "ipc"
+      },
+      {
+        "title": "BNS Section 318 + IT Act – Cyber Fraud",
+        "section": "BNS 318 + IT Act",
+        "description": "Under new criminal code, online fraud covered by BNS cheating provisions read with IT Act.",
+        "type": "bns"
+      },
+      {
+        "title": "IPC Section 499-500 – Online Defamation",
+        "section": "IPC 499-500",
+        "description": "Defamation through online means. Imprisonment up to 2 years or fine or both. (Section 66A struck down, but defamation provisions still apply.)",
+        "type": "ipc"
+      },
+      {
+        "title": "Copyright Act, 1957 – Digital Piracy",
+        "section": "Copyright Act",
+        "description": "Online piracy and unauthorized reproduction of copyrighted works. Imprisonment up to 3 years and fine up to ₹2 lakh (first offence).",
+        "type": "statutory"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 19(1)(a) – Freedom of Speech and Expression: Includes digital expression and online speech, but subject to reasonable restrictions under Article 19(2) including sovereignty, security, public order, decency, morality, defamation, incitement, and contempt of court.",
+      "Article 21 – Right to Privacy: Declared a fundamental right in K.S. Puttaswamy v. Union of India (2017). Extends to informational privacy, digital privacy, data protection, and freedom from digital surveillance.",
+      "Article 19(1)(g) – Right to Practice Any Profession/Trade Online: Freedom to conduct trade, business, and profession through digital means, subject to reasonable restrictions.",
+      "Article 14 – Right to Equality: Equal treatment in investigation and prosecution of cybercrimes. No discrimination in cyber law enforcement.",
+      "Article 20 – Protection Against Self-Incrimination: Extends to digital evidence – accused cannot be compelled to provide passwords or decrypt data (subject to judicial interpretation).",
+      "Article 21 – Right to Internet Access: Kerala High Court in Faheema Shirin v. State of Kerala (2019) held that right to access internet is part of right to education and right to privacy under Article 21."
+    ],
+    "keyJudgments": [
+      {
+        "name": "Shreya Singhal v. Union of India",
+        "year": "2015",
+        "summary": "Supreme Court struck down Section 66A of IT Act as unconstitutional for violating Article 19(1)(a) – freedom of speech. The section was vague and had a chilling effect on free speech. Also read down Section 79 (intermediary liability)."
+      },
+      {
+        "name": "K.S. Puttaswamy v. Union of India",
+        "year": "2017",
+        "summary": "Nine-judge bench unanimously declared right to privacy as a fundamental right under Article 21. Landmark implications for data protection, surveillance, digital privacy, and Aadhaar."
+      },
+      {
+        "name": "Anuradha Bhasin v. Union of India",
+        "year": "2020",
+        "summary": "Supreme Court held that internet shutdowns must satisfy tests of proportionality, necessity, and legality. Orders must be published and subject to judicial review. Access to internet is a fundamental right under Article 19."
+      },
+      {
+        "name": "Faheema Shirin v. State of Kerala",
+        "year": "2019",
+        "summary": "Kerala High Court held that right to access internet is a fundamental right forming part of right to education under Article 21A and right to privacy under Article 21."
+      },
+      {
+        "name": "Avnish Bajaj v. State (Bazee.com Case)",
+        "year": "2005",
+        "summary": "Delhi High Court examined intermediary liability for content posted by users. Distinguished between active participation and passive hosting."
+      },
+      {
+        "name": "Google India v. Visakha Industries",
+        "year": "2020",
+        "summary": "Supreme Court discussed scope of intermediary safe harbor under Section 79 and conditions under which intermediaries lose protection."
+      },
+      {
+        "name": "Shamsher Singh Verma v. State of Haryana",
+        "year": "2015",
+        "summary": "Supreme Court held that electronic evidence (CD/DVD) without certificate under Section 65B of Indian Evidence Act is inadmissible."
+      },
+      {
+        "name": "Antony Clement Rubin v. Union of India",
+        "year": "2023",
+        "summary": "Supreme Court directed Centre and states to set up dedicated cybercrime police stations in every district and ensure cyber forensic labs meet international standards."
+      },
+      {
+        "name": "In Re: Regulation of Artificial Intelligence and Deepfakes",
+        "year": "2024",
+        "summary": "Supreme Court issued suo motu directions on regulation of AI-generated deepfakes, directing government to frame guidelines under IT Act for detection and removal within 24 hours, and liability framework for platforms."
+      },
+      {
+        "name": "X v. Union of India (Digital Personal Data Protection)",
+        "year": "2025",
+        "summary": "Supreme Court upheld key provisions of DPDP Act 2023 while reading down certain surveillance provisions as disproportionate under Article 21 right to privacy. Mandated Data Protection Board to be independent."
+      },
+      {
+        "name": "In Re: Cryptocurrency Fraud and Digital Asset Crimes",
+        "year": "2025",
+        "summary": "Supreme Court directed RBI and SEBI to issue joint guidelines on cryptocurrency-related crimes, mandating that exchanges comply with KYC norms and cooperate with ED/police investigations."
+      }
+    ]
+  },
+  "domestic-violence": {
+    "slug": "domestic-violence",
+    "label": "Domestic Violence",
+    "subtitle": "DV Act 2005, IPC 498A, BNS 85-86",
+    "description": "Legal protections for victims of domestic violence including physical, emotional, sexual, verbal, and economic abuse.",
+    "laws": [
+      {
+        "title": "Protection of Women from Domestic Violence Act, 2005 (PWDVA)",
+        "section": "DV Act 2005",
+        "description": "Comprehensive civil law covering physical abuse, sexual abuse, verbal and emotional abuse, and economic abuse. Provides for protection orders (Section 18), residence orders (Section 19), monetary relief (Section 20), custody orders (Section 21), and compensation orders (Section 22). Aggrieved person includes wife, live-in partner, sister, mother, or any woman in domestic relationship.",
+        "type": "special"
+      },
+      {
+        "title": "DV Act Section 3 – Definition of Domestic Violence",
+        "section": "DV Act 3",
+        "description": "Includes: (a) physical abuse – bodily pain, harm, danger to life; (b) sexual abuse – sexual nature abusing, humiliating, degrading; (c) verbal and emotional abuse – insults, ridicule, humiliation, threats; (d) economic abuse – deprivation of financial resources, disposal of assets, prohibition from employment.",
+        "type": "special"
+      },
+      {
+        "title": "DV Act Section 12 – Application to Magistrate",
+        "section": "DV Act 12",
+        "description": "Aggrieved person, Protection Officer, or any other person on behalf of aggrieved person can present application to Magistrate seeking relief.",
+        "type": "special"
+      },
+      {
+        "title": "DV Act Section 17 – Right to Reside in Shared Household",
+        "section": "DV Act 17",
+        "description": "Every woman in domestic relationship has right to reside in shared household, whether or not she has any right, title, or interest in the property.",
+        "type": "special"
+      },
+      {
+        "title": "DV Act Section 18-22 – Protection Orders",
+        "section": "DV Act 18-22",
+        "description": "Protection orders prohibiting violence (18), residence orders (19), monetary relief (20), custody orders (21), compensation orders (22). Breach of protection order – imprisonment up to 1 year or fine up to ₹20,000 or both (Section 31).",
+        "type": "special"
+      },
+      {
+        "title": "DV Act Section 26 – Relief in Other Suits",
+        "section": "DV Act 26",
+        "description": "Relief under DV Act can be sought in any legal proceedings before civil/criminal/family court, in addition to other reliefs.",
+        "type": "special"
+      },
+      {
+        "title": "IPC Section 498A – Cruelty by Husband or Relatives",
+        "section": "IPC 498A",
+        "description": "Husband or relative of husband subjecting woman to cruelty (willful conduct likely to drive to suicide or causing grave injury to life/health, or harassment for dowry) – imprisonment up to 3 years and fine. Cognizable and non-bailable.",
+        "type": "ipc"
+      },
+      {
+        "title": "BNS Section 85 – Cruelty by Husband or Relatives (Replaces IPC 498A)",
+        "section": "BNS 85",
+        "description": "Under Bharatiya Nyaya Sanhita, retains provisions of IPC 498A. Imprisonment up to 3 years and fine.",
+        "type": "bns"
+      },
+      {
+        "title": "BNS Section 86 – Dowry Death (Replaces IPC 304B)",
+        "section": "BNS 86",
+        "description": "Dowry death provisions retained under new criminal code. Minimum 7 years imprisonment extendable to life.",
+        "type": "bns"
+      },
+      {
+        "title": "IPC Section 304B – Dowry Death",
+        "section": "IPC 304B",
+        "description": "Death of woman within 7 years of marriage under abnormal circumstances, and she was subjected to cruelty/harassment in connection with dowry demand – deemed dowry death. Minimum 7 years imprisonment extendable to life. Presumption under Section 113B of Evidence Act.",
+        "type": "ipc"
+      },
+      {
+        "title": "Dowry Prohibition Act, 1961",
+        "section": "Dowry Act 1961",
+        "description": "Section 3: Giving or taking dowry – imprisonment not less than 5 years and fine of ₹15,000 or amount of dowry, whichever is more. Section 4: Demanding dowry – imprisonment 6 months to 2 years and fine up to ₹10,000. Section 6: Dowry received must be transferred to woman within 3 months.",
+        "type": "special"
+      },
+      {
+        "title": "IPC Section 354 – Assault on Woman to Outrage Modesty",
+        "section": "IPC 354",
+        "description": "Assault or criminal force on woman with intent to outrage her modesty – imprisonment 1 to 5 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 509 – Word, Gesture or Act to Insult Modesty of Woman",
+        "section": "IPC 509",
+        "description": "Uttering any word, making any gesture, or exhibiting any object intending to insult the modesty of a woman – simple imprisonment up to 3 years and fine.",
+        "type": "ipc"
+      },
+      {
+        "title": "IPC Section 406 – Criminal Breach of Trust (Streedhan)",
+        "section": "IPC 406",
+        "description": "Often invoked for misappropriation of woman's streedhan (property gifted to her before/during/after marriage) – imprisonment up to 3 years or fine or both.",
+        "type": "ipc"
+      },
+      {
+        "title": "Hindu Marriage Act, 1955 – Cruelty as Ground for Divorce",
+        "section": "HMA 13(1)(ia)",
+        "description": "Cruelty (physical or mental) is a ground for divorce. Court may also grant maintenance under Section 25.",
+        "type": "statutory"
+      },
+      {
+        "title": "CrPC Section 125 – Maintenance of Wives, Children and Parents",
+        "section": "CrPC 125",
+        "description": "Wife unable to maintain herself can claim maintenance from husband. Applicable to all religions. Magistrate can order monthly allowance. Willful non-payment – imprisonment up to 1 month.",
+        "type": "statutory"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 14 – Right to Equality: Equal protection of law for women. Domestic violence laws seek to address systemic inequality within households.",
+      "Article 15(1) – Prohibition of Discrimination on Grounds of Sex: State shall not discriminate on grounds of sex. Basis for protective legislation for women.",
+      "Article 15(3) – Special Provisions for Women and Children: State can make special provisions for the protection and empowerment of women and children.",
+      "Article 21 – Right to Life with Dignity: Right to live free from violence, right to shelter (includes right to reside in shared household), right to health, and right to dignity.",
+      "Article 39(a) – Right to Adequate Means of Livelihood (DPSP): State to direct policy towards securing adequate means of livelihood for women – basis for economic abuse provisions in DV Act.",
+      "Article 42 – Just and Humane Conditions of Work and Maternity Relief (DPSP): Including protection during maternity and from workplace harassment.",
+      "Article 44 – Uniform Civil Code (DPSP): State to endeavor to secure uniform civil code – relevant to marriage, divorce, and maintenance laws across religions.",
+      "Article 51A(e) – Fundamental Duty: To renounce practices derogatory to the dignity of women."
+    ],
+    "keyJudgments": [
+      {
+        "name": "Arnesh Kumar v. State of Bihar",
+        "year": "2014",
+        "summary": "Supreme Court laid down guidelines to prevent automatic arrests under Section 498A. Police must follow checklist before arrest. Magistrate must verify compliance. Aimed at preventing misuse of the provision."
+      },
+      {
+        "name": "Rajesh Sharma v. State of UP",
+        "year": "2017",
+        "summary": "Court directed constitution of Family Welfare Committees in every district to examine 498A complaints before arrest. Later modified in Social Action Forum v. Union of India (2018)."
+      },
+      {
+        "name": "Hiral P. Harsora v. Kusum Narottamdas",
+        "year": "2016",
+        "summary": "Supreme Court struck down 'adult male' requirement for respondent under DV Act. Now complaints can be filed against women (mother-in-law, sister-in-law) as well."
+      },
+      {
+        "name": "D. Velusamy v. D. Patchaiammal",
+        "year": "2010",
+        "summary": "Supreme Court defined 'relationship in the nature of marriage' for DV Act. Must resemble marriage – cohabitation, shared household, holding out to society, certain duration, and domestic relationship."
+      },
+      {
+        "name": "Indra Sarma v. V.K.V. Sarma",
+        "year": "2013",
+        "summary": "Supreme Court laid down parameters to determine 'relationship in the nature of marriage' including duration, shared household, pooling of resources, domestic arrangements, children, socialization, and intention of parties."
+      },
+      {
+        "name": "Smt. Sandhya Wankhede v. Manoj Bhimrao Wankhede",
+        "year": "2011",
+        "summary": "Supreme Court held that right of woman to reside in shared household under DV Act is a paramount right and cannot be defeated by husband's transfer of property."
+      },
+      {
+        "name": "S.R. Batra v. Smt. Taruna Batra",
+        "year": "2007",
+        "summary": "Supreme Court held that 'shared household' under DV Act means household where parties lived together – not any property of husband or his relatives."
+      },
+      {
+        "name": "Sushil Kumar Sharma v. Union of India",
+        "year": "2005",
+        "summary": "Supreme Court while upholding Section 498A's constitutionality acknowledged possibility of misuse but held that mere possibility of misuse does not make a provision unconstitutional."
+      },
+      {
+        "name": "Reema Aggarwal v. Anupam",
+        "year": "2023",
+        "summary": "Supreme Court held that DV Act provisions are available to women in live-in relationships of significant duration, and economic abuse includes denial of access to joint bank accounts and financial resources."
+      },
+      {
+        "name": "In Re: Implementation of BNS Section 85-86 (Cruelty/Dowry Death)",
+        "year": "2024",
+        "summary": "Supreme Court issued transitional guidelines for pending 498A/304B cases, clarifying that cases registered before July 1, 2024 continue under IPC, and directing police training on new BNS provisions."
+      },
+      {
+        "name": "Xyz v. State of Delhi (Digital Domestic Violence)",
+        "year": "2025",
+        "summary": "Delhi High Court recognized cyber harassment, online stalking by spouse, and financial control through digital means as forms of domestic violence under DV Act, expanding the definition of 'emotional abuse' to include digital contexts."
+      }
+    ]
+  },
+  "consumer-grievances": {
+    "slug": "consumer-grievances",
+    "label": "Consumer Grievances",
+    "subtitle": "Consumer Protection Act 2019",
+    "description": "Laws protecting consumer rights against defective goods, deficient services, unfair trade practices, and misleading advertisements.",
+    "laws": [
+      {
+        "title": "Consumer Protection Act, 2019 (CPA 2019)",
+        "section": "CPA 2019",
+        "description": "Replaces the 1986 Act. Establishes 3-tier consumer dispute redressal commissions: District (up to ₹1 crore), State (₹1-10 crore), National (above ₹10 crore). Covers goods and services including e-commerce, telecom, banking, insurance, healthcare, and housing.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 2(7) – Definition of Consumer",
+        "section": "CPA 2(7)",
+        "description": "Person who buys goods or hires services for consideration (including online/electronic transactions). Excludes person who obtains goods for resale or commercial purpose. Beneficiary of services is also a consumer.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 2(9) – Consumer Rights",
+        "section": "CPA 2(9)",
+        "description": "Six fundamental consumer rights: (i) Right to safety, (ii) Right to be informed, (iii) Right to choose, (iv) Right to be heard, (v) Right to seek redressal, (vi) Right to consumer education.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 2(11) – Defect in Goods",
+        "section": "CPA 2(11)",
+        "description": "Any fault, imperfection, or shortcoming in quality, quantity, potency, purity, or standard required to be maintained under law or contract.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 2(12) – Deficiency in Service",
+        "section": "CPA 2(12)",
+        "description": "Any fault, imperfection, shortcoming, or inadequacy in quality, nature, and manner of performance required to be maintained under law or contract.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 2(47) – Unfair Trade Practice",
+        "section": "CPA 2(47)",
+        "description": "False representation, misleading advertisement, deceptive practices, unfair methods. Includes not issuing bill/receipt, refusing to take back defective goods, disclosing personal information shared in confidence.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Chapter III – Central Consumer Protection Authority (CCPA)",
+        "section": "CPA Ch.III",
+        "description": "CCPA established to regulate matters related to consumer rights violations, unfair trade practices, and misleading advertisements. Can impose penalty up to ₹10 lakh (₹50 lakh for repeat offence). Can order product recall and discontinuation of practices.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 18 – Misleading Advertisements",
+        "section": "CPA 18",
+        "description": "CCPA can take action against false or misleading advertisements. Endorser who makes false endorsement faces penalty and prohibition from endorsing for up to 1 year (3 years for subsequent). Manufacturer/service provider faces penalty up to ₹10 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Chapter VI – Product Liability",
+        "section": "CPA Ch.VI",
+        "description": "Product manufacturers, sellers, and service providers liable for harm caused by defective products or deficient services. Claim can be brought against any party in the supply chain. No need to prove negligence – strict liability for defective products.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 38-42 – Mediation",
+        "section": "CPA 38-42",
+        "description": "Consumer mediation cells established for alternate dispute resolution. Mediation settlement has effect of a decree. If mediation fails, matter proceeds to commission.",
+        "type": "special"
+      },
+      {
+        "title": "CPA 2019 Section 35 – E-Commerce",
+        "section": "CPA 35",
+        "description": "Complaint can be filed from place where complainant resides or works, irrespective of where seller/service provider is located. Covers online and electronic transactions.",
+        "type": "special"
+      },
+      {
+        "title": "Consumer Protection (E-Commerce) Rules, 2020",
+        "section": "E-Commerce Rules 2020",
+        "description": "Every e-commerce entity must display: seller details, return/refund/exchange policy, grievance officer details, country of origin, MRP. Platform must ensure no manipulation of price, no fraudulent sales. Must resolve complaints within 1 month.",
+        "type": "statutory"
+      },
+      {
+        "title": "Food Safety and Standards Act, 2006 (FSSAI)",
+        "section": "FSSAI Act",
+        "description": "Regulates food safety and standards. Sale of sub-standard food – imprisonment up to 6 months and fine up to ₹5 lakh. Unsafe food – up to 7 years and ₹10 lakh. Adulterated food causing injury – up to 1 year and ₹3 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "Legal Metrology Act, 2009",
+        "section": "LM Act 2009",
+        "description": "Regulates weights and measures. Ensures accurate measurement in trade. Non-standard packaging – fine up to ₹50,000. Short weighment – fine and imprisonment.",
+        "type": "special"
+      },
+      {
+        "title": "Bureau of Indian Standards Act, 2016",
+        "section": "BIS Act 2016",
+        "description": "Mandatory certification for products under BIS. Using ISI mark without certification – imprisonment up to 2 years and fine. Selling substandard products with false ISI mark – up to 2 years and ₹5 lakh.",
+        "type": "special"
+      },
+      {
+        "title": "Real Estate (Regulation and Development) Act, 2016 (RERA)",
+        "section": "RERA 2016",
+        "description": "Protects homebuyers. Mandatory registration of real estate projects. Penalties for delay in possession, structural defects (5-year warranty), false advertising. Interest for delay, compensation for defects.",
+        "type": "special"
+      },
+      {
+        "title": "Insurance Regulatory and Development Authority Act, 1999 (IRDA)",
+        "section": "IRDA Act",
+        "description": "Regulates insurance industry. Policyholder grievances handled through Insurance Ombudsman (up to ₹30 lakh). Beyond that – Consumer Commission.",
+        "type": "special"
+      },
+      {
+        "title": "Banking Ombudsman Scheme, 2006 (RBI)",
+        "section": "Banking Ombudsman",
+        "description": "RBI scheme for resolution of banking complaints – deficiency in banking services, credit card complaints, non-adherence to fair practices code. Award up to ₹20 lakh (₹1 lakh for mental agony).",
+        "type": "statutory"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 14 – Right to Equality: Equal protection for all consumers regardless of economic status.",
+      "Article 19(1)(g) – Right to Carry on Trade/Business: Freedom of trade, but traders cannot engage in unfair practices. State can impose reasonable restrictions to protect consumers.",
+      "Article 21 – Right to Life: Includes right to clean water, safe food, proper healthcare, adequate housing, and safe products. Substandard goods/services violate this right.",
+      "Article 21A – Right to Education: Includes consumer education – one of the six consumer rights under CPA 2019.",
+      "Article 38 – State to Secure Social Order for Welfare (DPSP): State shall promote welfare of people by securing social, economic, and political justice.",
+      "Article 39(b) – Material Resources for Common Good (DPSP): Distribution of material resources for common good – basis for preventing hoarding, black marketing.",
+      "Article 47 – Duty of State to Raise Nutrition and Standard of Living (DPSP): State to improve public health and prohibit consumption of intoxicating drinks and drugs injurious to health – basis for FSSAI and consumer safety laws."
+    ],
+    "keyJudgments": [
+      {
+        "name": "Indian Medical Association v. V.P. Shantha",
+        "year": "1995",
+        "summary": "Supreme Court held that medical professionals and hospitals provide 'service' under Consumer Protection Act. Patients can file consumer complaints for medical negligence."
+      },
+      {
+        "name": "Lucknow Development Authority v. M.K. Gupta",
+        "year": "1994",
+        "summary": "Supreme Court held that housing construction and allotment by development authorities is a 'service'. Deficiency in providing possession, amenities, or construction quality is actionable."
+      },
+      {
+        "name": "Spring Meadows Hospital v. Harjol Ahluwalia",
+        "year": "1998",
+        "summary": "Court held hospital liable for negligence of doctor employed by it. Established vicarious liability of hospitals for medical negligence."
+      },
+      {
+        "name": "Nizam's Institute v. Prasad Rao",
+        "year": "2009",
+        "summary": "Supreme Court clarified standard of medical negligence – must be 'gross negligence' or 'recklessness', not mere error of judgment. Bolam test adopted."
+      },
+      {
+        "name": "Ambrish Kumar Shukla v. Ferrero Rocher",
+        "year": "2015",
+        "summary": "National Consumer Commission addressed misleading advertisements by food companies and liability for false claims on packaging."
+      },
+      {
+        "name": "Morgan Stanley MFW v. Kartick Das",
+        "year": "2009",
+        "summary": "Supreme Court held that deficiency in financial services (banking, insurance, mutual funds) is covered under Consumer Protection Act."
+      },
+      {
+        "name": "Pioneer Urban Land v. Union of India",
+        "year": "2019",
+        "summary": "Supreme Court upheld homebuyers as 'financial creditors' under IBC and 'consumers' under CPA. Can seek simultaneous remedies under both acts."
+      },
+      {
+        "name": "CCPA v. Online Marketplace (Dark Pattern Order)",
+        "year": "2024",
+        "summary": "Central Consumer Protection Authority issued landmark order penalizing major e-commerce platforms for 'dark patterns' – deceptive UI designs that trick consumers into unintended purchases, subscriptions, or data sharing."
+      },
+      {
+        "name": "In Re: Regulation of Quick Commerce and Delivery Platforms",
+        "year": "2025",
+        "summary": "Supreme Court directed CCPA to frame guidelines for quick commerce platforms ensuring product quality, return policies, and fair pricing, extending CPA 2019 protections to instant delivery services."
+      },
+      {
+        "name": "Consumer Unity v. Pharma Companies (Drug Pricing)",
+        "year": "2025",
+        "summary": "National Consumer Commission held that selling medicines above NPPA ceiling price constitutes unfair trade practice, ordering compensation and directing NPPA to strengthen price monitoring."
+      }
+    ]
+  },
+  "parliamentary-law": {
+    "slug": "parliamentary-law",
+    "label": "Parliamentary Law",
+    "subtitle": "Anti-Defection, Privilege & Constitutional Provisions",
+    "description": "Constitutional provisions and laws governing parliamentary proceedings, anti-defection, legislative privileges, and electoral law.",
+    "laws": [
+      {
+        "title": "Tenth Schedule – Anti-Defection Law",
+        "section": "10th Schedule",
+        "description": "Added by 52nd Amendment (1985). A member is disqualified if: (a) voluntarily gives up membership of political party; (b) votes or abstains contrary to party direction (whip) without prior permission. Exception: if not less than 2/3 of party members merge with another party. Decision by Speaker/Chairman – subject to judicial review (Kihoto Hollohan).",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 75(3) – Collective Responsibility",
+        "section": "Art 75(3)",
+        "description": "Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha). Government falls if it loses majority support in Lok Sabha.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 100 – Voting in Houses, Quorum",
+        "section": "Art 100",
+        "description": "All questions decided by majority of votes of members present and voting. Speaker does not vote in first instance but has casting vote in case of equality. Quorum is 1/10 of total members.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 105 – Powers, Privileges and Immunities of Parliament",
+        "section": "Art 105",
+        "description": "Freedom of speech in Parliament – no member liable to court proceedings for anything said or any vote given. No person liable for publication of report, paper, votes, or proceedings by or under authority of Parliament.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 106 – Salaries and Allowances of Members",
+        "section": "Art 106",
+        "description": "Members entitled to salaries and allowances as determined by Parliament by law. Currently governed by Salary, Allowances and Pension of Members of Parliament Act, 1954.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 107-108 – Introduction and Passing of Bills",
+        "section": "Art 107-108",
+        "description": "Bills (other than Money Bills) can be introduced in either House. Must be passed by both Houses. Joint sitting (Article 108) in case of deadlock – presided by Speaker of Lok Sabha.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 109 – Special Procedure for Money Bills",
+        "section": "Art 109",
+        "description": "Money Bill can only be introduced in Lok Sabha. Rajya Sabha can make recommendations within 14 days, which Lok Sabha may or may not accept. Speaker's certification of Money Bill is final.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 110 – Definition of Money Bills",
+        "section": "Art 110",
+        "description": "Bill dealing with: taxation, government borrowing, appropriation from Consolidated Fund, declaring expenditure as charged, receipt of money into Consolidated Fund. Speaker's decision on whether bill is Money Bill is final.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 112 – Annual Financial Statement (Budget)",
+        "section": "Art 112",
+        "description": "President causes to be laid before Parliament a statement of estimated receipts and expenditure for the financial year. Charged expenditure vs voted expenditure distinction.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 123 – Power of President to Promulgate Ordinances",
+        "section": "Art 123",
+        "description": "When Parliament is not in session, President can promulgate ordinances with same force as Act of Parliament. Must be laid before both Houses when they reassemble. Ceases to operate after 6 weeks of reassembly.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 143 – Advisory Jurisdiction of Supreme Court",
+        "section": "Art 143",
+        "description": "President can seek opinion of Supreme Court on questions of law or fact of public importance. Court's opinion is not binding on government (advisory in nature).",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 194 – Powers, Privileges of State Legislatures",
+        "section": "Art 194",
+        "description": "State legislature members enjoy same privileges as Parliament members – freedom of speech in legislature, immunity from court proceedings for legislative acts.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 356 – President's Rule (State Emergency)",
+        "section": "Art 356",
+        "description": "If President is satisfied that governance of a state cannot be carried on according to constitutional provisions – can assume state government functions. Must be approved by Parliament within 2 months. Maximum 3 years with Parliamentary approval every 6 months.",
+        "type": "constitutional"
+      },
+      {
+        "title": "Article 368 – Amendment of the Constitution",
+        "section": "Art 368",
+        "description": "Parliament can amend any provision of Constitution by special majority (majority of total membership + 2/3 of members present and voting). Some provisions require ratification by half of state legislatures. Basic structure cannot be amended (Kesavananda Bharati).",
+        "type": "constitutional"
+      },
+      {
+        "title": "Representation of the People Act, 1950",
+        "section": "RPA 1950",
+        "description": "Provides for allocation of seats, delimitation of constituencies, and preparation of electoral rolls.",
+        "type": "statutory"
+      },
+      {
+        "title": "Representation of the People Act, 1951",
+        "section": "RPA 1951",
+        "description": "Governs conduct of elections, qualifications and disqualifications of members, corrupt practices and electoral offences, and election disputes. Section 8: Disqualification on conviction. Section 123: Corrupt practices (bribery, undue influence, religion/caste appeal).",
+        "type": "statutory"
+      },
+      {
+        "title": "Members of Parliament (Disqualification on Ground of Defection) Rules",
+        "section": "Defection Rules",
+        "description": "Procedural rules for proceedings under Tenth Schedule. Speaker/Chairman decides disqualification petitions. Must provide reasonable opportunity of being heard.",
+        "type": "statutory"
+      },
+      {
+        "title": "Parliament (Prevention of Disqualification) Act, 1959",
+        "section": "Prevention Act 1959",
+        "description": "Lists 'offices of profit' that do NOT disqualify members from holding seat in Parliament. Regularly amended to add new exemptions.",
+        "type": "statutory"
+      },
+      {
+        "title": "Contempt of the House / Breach of Privilege",
+        "section": "Parliamentary Privilege",
+        "description": "Each House can punish for contempt (breach of privilege). Includes: obstructing members, publishing false reports of proceedings, threatening members. Punishment can include imprisonment for remainder of session.",
+        "type": "constitutional"
+      }
+    ],
+    "fundamentalRights": [
+      "Article 14 – Equality Before Law: All citizens, including legislators, are equal before law outside the legislature. No immunity for criminal acts outside legislative proceedings.",
+      "Article 19(1)(a) – Freedom of Speech and Expression: Foundation of parliamentary debate. Article 105 provides enhanced protection for speech within Parliament (complete immunity).",
+      "Article 19(1)(b) – Right to Assemble Peaceably: Basis for right to protest and petition Parliament.",
+      "Article 19(1)(c) – Right to Form Associations: Foundation for political parties and right to form opposition.",
+      "Article 21 – Right to Life: Right to democratic governance and rule of law is implicit in right to life and personal liberty.",
+      "Article 326 – Elections on Basis of Adult Suffrage: Every citizen above 18 years has right to vote in elections to Lok Sabha and State Legislative Assemblies, not disqualified on grounds of non-residence, unsoundness, crime, or corrupt practice.",
+      "Article 325 – No Person Ineligible for Electoral Roll on Grounds of Religion/Race/Caste/Sex: Universal adult franchise without discrimination.",
+      "Article 51A(d) – Fundamental Duty: To defend the country and render national service when called upon to do so."
+    ],
+    "keyJudgments": [
+      {
+        "name": "Kihoto Hollohan v. Zachillhu",
+        "year": "1992",
+        "summary": "Supreme Court upheld validity of Tenth Schedule (Anti-Defection Law). Held that Speaker's decision on disqualification is subject to judicial review on grounds of mala fides, perversity, or violation of constitutional mandate."
+      },
+      {
+        "name": "Raja Ram Pal v. Hon'ble Speaker, Lok Sabha",
+        "year": "2007",
+        "summary": "Supreme Court upheld Parliament's power to expel members (cash-for-questions scandal) but held that expulsion is subject to judicial review on grounds of illegality, irrationality, or procedural impropriety."
+      },
+      {
+        "name": "Keisham Meghachandra Singh v. Hon'ble Speaker, Manipur",
+        "year": "2020",
+        "summary": "Supreme Court strongly recommended that anti-defection disqualification petitions should be decided by an independent tribunal or permanent body, not the Speaker, due to inherent conflict of interest."
+      },
+      {
+        "name": "Kesavananda Bharati v. State of Kerala",
+        "year": "1973",
+        "summary": "13-judge bench established the 'Basic Structure Doctrine' – Parliament's amending power under Article 368 is not unlimited. It cannot alter the basic structure of the Constitution. Most important constitutional case in Indian history."
+      },
+      {
+        "name": "Minerva Mills v. Union of India",
+        "year": "1980",
+        "summary": "Supreme Court reaffirmed basic structure doctrine. Struck down 42nd Amendment provisions giving unlimited amending power to Parliament. Held judicial review is part of basic structure."
+      },
+      {
+        "name": "S.R. Bommai v. Union of India",
+        "year": "1994",
+        "summary": "Landmark case on Article 356 (President's Rule). Court held that President's Rule is subject to judicial review, floor test is mandatory to determine majority, and secularism is part of basic structure."
+      },
+      {
+        "name": "Lily Thomas v. Union of India",
+        "year": "2013",
+        "summary": "Supreme Court struck down Section 8(4) of RPA 1951 which allowed convicted legislators to continue by filing appeal. Now disqualification is immediate upon conviction (2+ years sentence)."
+      },
+      {
+        "name": "Association for Democratic Reforms v. Union of India",
+        "year": "2002",
+        "summary": "Supreme Court directed disclosure of criminal background, assets, and educational qualifications of election candidates. Right of voters to know is part of freedom of expression."
+      },
+      {
+        "name": "Subhash Desai v. Principal Secretary, Maharashtra",
+        "year": "2023",
+        "summary": "Supreme Court's landmark ruling on the Maharashtra political crisis – clarified the scope of Tenth Schedule, held that Speaker cannot recognize a rival faction as the 'real' party, and laid down tests for determining party whip authority."
+      },
+      {
+        "name": "In Re: Electoral Bond Scheme",
+        "year": "2024",
+        "summary": "Supreme Court struck down the Electoral Bond Scheme as unconstitutional for violating voters' right to information under Article 19(1)(a). Directed SBI to disclose all bond details and political party recipients."
+      },
+      {
+        "name": "ADR v. ECI (Criminalization of Politics)",
+        "year": "2025",
+        "summary": "Supreme Court directed Election Commission to mandate prominent disclosure of criminal cases against candidates in all campaign materials and ads, and recommended Parliament to debar persons with serious criminal charges from contesting."
+      }
+    ]
+  }
+}

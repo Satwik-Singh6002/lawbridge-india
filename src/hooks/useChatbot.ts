@@ -89,17 +89,41 @@ export const useChatbot = () => {
     setIsLoading(true);
 
     try {
-      const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
-      if (!apiKey || apiKey === "your_openrouter_api_key_here") {
-        throw new Error("Please set a valid VITE_OPENROUTER_API_KEY in your .env file. Get one free at openrouter.ai");
-      }
-
       // Build conversation history (last 10 messages to keep context manageable)
       const recentMessages = messages.slice(-10);
-
       const currentLangCode = i18n.language || "en";
       const currentLangName = LANGUAGE_NAMES[currentLangCode] || "English";
       const currentDisclaimer = DISCLAIMERS[currentLangCode] || DISCLAIMERS.en;
+
+      // 1. Try Java Backend /api/chat first if available
+      try {
+        const javaRes = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            message: textToSend,
+            language: currentLangCode,
+            modelId: selectedModel.id,
+            history: recentMessages,
+          }),
+        });
+
+        if (javaRes.ok) {
+          const javaData = await javaRes.json();
+          if (javaData && javaData.success && javaData.reply) {
+            setMessages((prev) => [...prev, { role: "bot", text: javaData.reply }]);
+            return;
+          }
+        }
+      } catch (javaErr) {
+        console.debug("[Chatbot] Java backend /api/chat bypassed or offline:", javaErr);
+      }
+
+      // 2. Direct browser OpenRouter fallback
+      const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
+      if (!apiKey || apiKey === "your_openrouter_api_key_here") {
+        throw new Error("Java backend /api/chat is not available and VITE_OPENROUTER_API_KEY is not set. Please start the Java backend or configure .env");
+      }
 
       const systemPrompt = `You are Vidhi Sahayak, a highly knowledgeable AI legal assistant for India. 
 You provide accurate, helpful, and concise information about Indian laws including the Constitution of India, Bharatiya Nyaya Sanhita (BNS), Bharatiya Nagarik Suraksha Sanhita (BNSS), Bharatiya Sakshya Adhiniyam (BSA), RTI Act, Consumer Protection Act, IT Act, and more.

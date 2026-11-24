@@ -1,0 +1,807 @@
+[
+  {
+    "id": "right-1",
+    "title": "Consumer Rights",
+    "slug": "consumer-rights",
+    "category": "Consumer Rights",
+    "icon": "ShoppingBag",
+    "description": "Know your rights as a consumer when buying goods or services.",
+    "content": {
+      "whatIsTheIssue": "Every person who purchases goods or services is a consumer. Under Indian law, consumers are protected against unfair trade practices, defective products, deficient services, and misleading advertisements. The Consumer Protection Act, 2019 strengthens these protections with provisions for e-commerce, product liability, and a central consumer authority.",
+      "yourBasicRights": [
+        "Right to Safety — Protection against products or services that are hazardous to life and property",
+        "Right to Information — Right to be informed about the quality, quantity, potency, purity, standard, and price of goods or services",
+        "Right to Choose — Access to a variety of goods or services at competitive prices",
+        "Right to be Heard — Consumer interests will receive due consideration at appropriate forums",
+        "Right to Seek Redressal — Right to file complaints and get fair settlement of genuine grievances",
+        "Right to Consumer Education — Right to know about consumer rights and responsibilities"
+      ],
+      "whatYouCanDo": [
+        "File a complaint with the Consumer Forum (District, State, or National Commission depending on claim amount)",
+        "Use the online e-daakhil portal for filing complaints electronically",
+        "Complaints for goods/services up to ₹1 crore go to the District Commission",
+        "Contact the National Consumer Helpline (1800-11-4000) for guidance",
+        "Lodge complaints against misleading advertisements with CCPA",
+        "For e-commerce issues, file complaints directly with the e-commerce company first, then escalate"
+      ],
+      "whereToComplain": [
+        {
+          "name": "National Consumer Helpline",
+          "url": "https://consumerhelpline.gov.in"
+        },
+        {
+          "name": "e-Daakhil (Online Consumer Complaint)",
+          "url": "https://edaakhil.nic.in"
+        },
+        {
+          "name": "District Consumer Forum"
+        },
+        {
+          "name": "CCPA (Central Consumer Protection Authority)"
+        }
+      ],
+      "importantDocuments": [
+        "Purchase receipt or invoice",
+        "Warranty/guarantee card",
+        "Product photographs showing defect",
+        "Communication with the seller/service provider",
+        "Bank/payment transaction records",
+        "Any advertisement that was misleading"
+      ],
+      "usefulResources": [
+        {
+          "name": "National Consumer Helpline",
+          "url": "https://consumerhelpline.gov.in"
+        },
+        {
+          "name": "e-Daakhil Portal",
+          "url": "https://edaakhil.nic.in"
+        },
+        {
+          "name": "Consumer Protection Act 2019 (Text)",
+          "url": "https://egazette.nic.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "right-2",
+    "title": "Cyber Safety Rights",
+    "slug": "cyber-safety",
+    "category": "Cyber Safety",
+    "icon": "Shield",
+    "description": "Your rights related to online safety, privacy, and cyber crimes.",
+    "content": {
+      "whatIsTheIssue": "With increasing digital activity, citizens face threats like online fraud, identity theft, cyberbullying, and data breaches. The Information Technology Act, 2000 (and its amendments) provides legal protections against cyber crimes. Citizens have the right to privacy, safe digital transactions, and legal recourse against cyber crimes.",
+      "yourBasicRights": [
+        "Right to Privacy — Your personal data is protected under the Digital Personal Data Protection Act",
+        "Right to report cyber crimes and get them investigated",
+        "Protection against identity theft, hacking, and unauthorized access",
+        "Right to compensation for data breaches by companies",
+        "Protection against cyberbullying and online harassment",
+        "Right to have intimate images removed from the internet (under IT Act Section 66E)"
+      ],
+      "whatYouCanDo": [
+        "Report cyber crimes on cybercrime.gov.in",
+        "Call 1930 for immediate cyber fraud assistance",
+        "File an FIR at any police station — cyber crime FIRs can be filed regardless of jurisdiction",
+        "Contact your bank within 3 days of unauthorized transaction for a better chance of recovery",
+        "Request data deletion from companies under data protection laws",
+        "Report social media harassment through platform reporting tools AND police complaint"
+      ],
+      "whereToComplain": [
+        {
+          "name": "National Cyber Crime Portal",
+          "url": "https://cybercrime.gov.in"
+        },
+        {
+          "name": "Cyber Crime Helpline: 1930"
+        },
+        {
+          "name": "Local Police Station (FIR)"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in"
+        }
+      ],
+      "importantDocuments": [
+        "Screenshots of the fraud/scam messages",
+        "Transaction IDs and bank statements",
+        "Email headers (for phishing)",
+        "URLs of fraudulent websites",
+        "Communication records with scammers",
+        "FIR copy (after filing)"
+      ],
+      "usefulResources": [
+        {
+          "name": "National Cyber Crime Portal",
+          "url": "https://cybercrime.gov.in"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in"
+        },
+        {
+          "name": "IT Act, 2000",
+          "url": "https://www.meity.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "right-3",
+    "title": "Employment Rights",
+    "slug": "employment-rights",
+    "category": "Employment Rights",
+    "icon": "Briefcase",
+    "description": "Know your rights as an employee — wages, safety, and fair treatment.",
+    "content": {
+      "whatIsTheIssue": "Employees in India are protected by various labor laws covering minimum wages, working hours, workplace safety, social security, and protection against unfair dismissal. Key legislation includes the Code on Wages, 2019, Industrial Relations Code, and the Occupational Safety, Health & Working Conditions Code.",
+      "yourBasicRights": [
+        "Right to minimum wages as fixed by the government",
+        "Right to timely payment of wages — employers must pay within 7-10 days of the wage period",
+        "Right to equal pay for equal work regardless of gender",
+        "Right to a safe and healthy workplace",
+        "Right to form or join a trade union",
+        "Right to social security benefits (PF, ESI, gratuity)",
+        "Protection against unfair dismissal — notice period or compensation required",
+        "Right to maternity/paternity benefits"
+      ],
+      "whatYouCanDo": [
+        "File a complaint with the Labour Commissioner if wages are unpaid or below minimum wage",
+        "Lodge a complaint with the PF office if PF contributions are not being deposited",
+        "Contact the ESI office for ESI-related issues",
+        "File a complaint with the Sexual Harassment Committee (Internal Complaints Committee) at your workplace",
+        "Approach the Labour Court or Industrial Tribunal for wrongful termination",
+        "Use the UMANG app or EPFO portal to track your PF contributions"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Labour Commissioner Office"
+        },
+        {
+          "name": "EPFO Portal",
+          "url": "https://www.epfindia.gov.in"
+        },
+        {
+          "name": "ESIC Portal",
+          "url": "https://www.esic.nic.in"
+        },
+        {
+          "name": "Shram Suvidha Portal",
+          "url": "https://shramsuvidha.gov.in"
+        }
+      ],
+      "importantDocuments": [
+        "Appointment letter / Employment contract",
+        "Salary slips",
+        "PF statements (UAN)",
+        "Communication with employer",
+        "Termination letter (if applicable)",
+        "Attendance records"
+      ],
+      "usefulResources": [
+        {
+          "name": "Ministry of Labour",
+          "url": "https://labour.gov.in"
+        },
+        {
+          "name": "EPFO",
+          "url": "https://www.epfindia.gov.in"
+        },
+        {
+          "name": "Shram Suvidha Portal",
+          "url": "https://shramsuvidha.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-07-20"
+  },
+  {
+    "id": "right-4",
+    "title": "Women's Rights",
+    "slug": "womens-rights",
+    "category": "Women's Rights",
+    "icon": "Heart",
+    "description": "Legal protections available for women regarding safety, equality, and justice.",
+    "content": {
+      "whatIsTheIssue": "Indian law provides comprehensive protections for women against domestic violence, workplace harassment, dowry, and other forms of discrimination. Key legislation includes the Protection of Women from Domestic Violence Act, Sexual Harassment of Women at Workplace Act, Dowry Prohibition Act, and various provisions of the Indian Penal Code.",
+      "yourBasicRights": [
+        "Right to live with dignity and free from violence (Article 21)",
+        "Right to equal pay for equal work",
+        "Right to protection from domestic violence — right to reside in shared household",
+        "Right to file a complaint of sexual harassment at workplace (POSH Act)",
+        "Right to free legal aid",
+        "Right to file a Zero FIR (at any police station, regardless of jurisdiction)",
+        "Right to maternity benefits (26 weeks for first two children)",
+        "Right to maintenance from husband/partner",
+        "Right to education (Right to Education Act)",
+        "Right to property (equal inheritance rights under Hindu Succession Act amendments)"
+      ],
+      "whatYouCanDo": [
+        "Call Women Helpline: 181 for immediate assistance",
+        "Call Police: 112 in case of immediate danger",
+        "File a complaint under the Domestic Violence Act at the nearest police station",
+        "Approach the Internal Complaints Committee at your workplace for sexual harassment",
+        "Seek help from the National Commission for Women (NCW)",
+        "Access free legal aid through NALSA or State Legal Services Authority",
+        "File for maintenance under Section 125 CrPC in Magistrate's Court"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Women Helpline: 181"
+        },
+        {
+          "name": "National Commission for Women",
+          "url": "http://ncw.nic.in"
+        },
+        {
+          "name": "She-Box (Online Workplace Harassment)",
+          "url": "http://shebox.nic.in"
+        },
+        {
+          "name": "Police (112 or local station)"
+        },
+        {
+          "name": "One Stop Centre (Sakhi)"
+        }
+      ],
+      "importantDocuments": [
+        "FIR copy",
+        "Medical reports (if applicable)",
+        "Photographs of injuries",
+        "Communication records (messages, calls)",
+        "Witness statements",
+        "Protection order (from Magistrate)"
+      ],
+      "usefulResources": [
+        {
+          "name": "National Commission for Women",
+          "url": "http://ncw.nic.in"
+        },
+        {
+          "name": "She-Box Portal",
+          "url": "http://shebox.nic.in"
+        },
+        {
+          "name": "NALSA",
+          "url": "https://nalsa.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "right-5",
+    "title": "Senior Citizen Rights",
+    "slug": "senior-citizen-rights",
+    "category": "Senior Citizen Rights",
+    "icon": "Users",
+    "description": "Legal protections and government benefits available for senior citizens.",
+    "content": {
+      "whatIsTheIssue": "The Maintenance and Welfare of Parents and Senior Citizens Act, 2007 provides legal protections for senior citizens, including the right to maintenance from children and dependents, protection from abuse, and access to old-age homes. Senior citizens also have priority rights in property matters and legal proceedings.",
+      "yourBasicRights": [
+        "Right to maintenance from children and relatives",
+        "Right to live in their own property — children cannot evict parents",
+        "Right to revoke property transfer if maintenance is not provided",
+        "Right to protection from abuse, neglect, and exploitation",
+        "Priority in court proceedings (cases involving senior citizens are expedited)",
+        "Right to free legal aid",
+        "Right to concessions in government services and travel"
+      ],
+      "whatYouCanDo": [
+        "File a maintenance claim before the Maintenance Tribunal (under the Senior Citizens Act)",
+        "Contact the Senior Citizen Helpline: 14567",
+        "Approach the Subdivision Magistrate or District Magistrate for maintenance orders",
+        "File a police complaint for abuse or neglect",
+        "Seek help from Senior Citizen Welfare Associations",
+        "Access free legal aid through NALSA"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Senior Citizen Helpline: 14567"
+        },
+        {
+          "name": "District Magistrate / SDM Office"
+        },
+        {
+          "name": "Police (for abuse/neglect)"
+        },
+        {
+          "name": "NALSA (Free Legal Aid)",
+          "url": "https://nalsa.gov.in"
+        }
+      ],
+      "importantDocuments": [
+        "Age proof (Aadhaar, PAN, birth certificate)",
+        "Property documents",
+        "Proof of relationship with children/dependents",
+        "Medical records showing expenses",
+        "Evidence of abuse/neglect (if applicable)",
+        "Bank statements showing financial need"
+      ],
+      "usefulResources": [
+        {
+          "name": "Ministry of Social Justice",
+          "url": "https://socialjustice.gov.in"
+        },
+        {
+          "name": "NALSA",
+          "url": "https://nalsa.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-07-15"
+  },
+  {
+    "id": "right-6",
+    "title": "Student Rights",
+    "slug": "student-rights",
+    "category": "Student Rights",
+    "icon": "GraduationCap",
+    "description": "Know your rights as a student regarding education, fees, and campus safety.",
+    "content": {
+      "whatIsTheIssue": "Students in India are protected by the Right to Education Act, UGC regulations, and anti-ragging laws. Key issues include fee disputes, admission irregularities, ragging, unfair examination practices, and discrimination. Students have the right to quality education, safe campuses, and transparent evaluation.",
+      "yourBasicRights": [
+        "Right to free and compulsory education (ages 6-14 under RTE Act)",
+        "Right to a safe campus free from ragging (UGC Anti-Ragging Regulations)",
+        "Right to transparent fee structure and no capitation fees",
+        "Right to fair examination and evaluation",
+        "Right against discrimination based on caste, religion, gender, or disability",
+        "Right to access scholarships and financial aid",
+        "Right to grievance redressal in educational institutions"
+      ],
+      "whatYouCanDo": [
+        "Report ragging: Call Anti-Ragging Helpline 1800-180-5522",
+        "File complaint on the UGC website for university-level issues",
+        "Approach the Fee Regulatory Committee for excessive fees",
+        "File RTI applications for information about your institution",
+        "Contact NCPCR for violations of the Right to Education",
+        "Approach the court for admission or examination-related issues"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Anti-Ragging Helpline: 1800-180-5522"
+        },
+        {
+          "name": "UGC",
+          "url": "https://www.ugc.ac.in"
+        },
+        {
+          "name": "NCPCR",
+          "url": "https://ncpcr.gov.in"
+        },
+        {
+          "name": "District Education Officer"
+        }
+      ],
+      "importantDocuments": [
+        "Admission letter / enrollment proof",
+        "Fee receipts",
+        "Communication with institution",
+        "Evidence of ragging (messages, videos)",
+        "Examination records",
+        "Scholarship application records"
+      ],
+      "usefulResources": [
+        {
+          "name": "UGC",
+          "url": "https://www.ugc.ac.in"
+        },
+        {
+          "name": "Anti-Ragging Portal",
+          "url": "https://antiragging.in"
+        },
+        {
+          "name": "NCPCR",
+          "url": "https://ncpcr.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-07-10"
+  },
+  {
+    "id": "right-7",
+    "title": "Tenant Rights",
+    "slug": "tenant-rights",
+    "category": "Tenant Rights",
+    "icon": "Home",
+    "description": "Your rights as a tenant — rent, eviction, deposits, and disputes.",
+    "content": {
+      "whatIsTheIssue": "Tenants in India are protected under various state Rent Control Acts and the Model Tenancy Act, 2021. Key issues include illegal eviction, excessive rent increases, security deposit disputes, and maintenance responsibilities. Both tenants and landlords have rights and obligations defined by the rental agreement and applicable state laws.",
+      "yourBasicRights": [
+        "Right to a written rental agreement",
+        "Right to peaceful enjoyment of the rented property",
+        "Right against arbitrary eviction — landlord must follow legal process",
+        "Right to reasonable notice before eviction (usually 1-3 months)",
+        "Right to get security deposit back when vacating (minus legitimate deductions)",
+        "Right to essential services (water, electricity) — landlord cannot cut them off",
+        "Right to privacy — landlord cannot enter without notice"
+      ],
+      "whatYouCanDo": [
+        "Ensure you have a written rental agreement (registered if possible)",
+        "Document the property condition at move-in with photos",
+        "File a complaint with the Rent Authority/Controller for disputes",
+        "Approach the Civil Court for eviction-related matters",
+        "Contact the police if the landlord tries illegal eviction or cuts off services",
+        "Keep records of all rent payments (receipts or bank transfers)"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Rent Authority / Rent Controller"
+        },
+        {
+          "name": "Civil Court"
+        },
+        {
+          "name": "Police (for illegal eviction or harassment)"
+        },
+        {
+          "name": "Consumer Forum (for service-related issues)"
+        }
+      ],
+      "importantDocuments": [
+        "Rental agreement (registered)",
+        "Rent payment receipts",
+        "Security deposit receipt",
+        "Property condition photos (at move-in)",
+        "Communication with landlord",
+        "Utility bills"
+      ],
+      "usefulResources": [
+        {
+          "name": "Model Tenancy Act, 2021",
+          "url": "https://legislative.gov.in"
+        },
+        {
+          "name": "State Rent Control Act (check your state)"
+        }
+      ]
+    },
+    "lastReviewed": "2026-07-20"
+  },
+  {
+    "id": "right-8",
+    "title": "Banking Rights",
+    "slug": "banking-rights",
+    "category": "Banking Rights",
+    "icon": "Landmark",
+    "description": "Your rights as a bank customer regarding accounts, loans, and services.",
+    "content": {
+      "whatIsTheIssue": "Bank customers in India are protected by the Banking Regulation Act, RBI guidelines, and the Banking Ombudsman Scheme. Key issues include unauthorized transactions, unfair lending practices, hidden charges, and poor customer service. Customers have the right to fair treatment, transparency, and grievance redressal.",
+      "yourBasicRights": [
+        "Right to open a basic savings account (BSBD account) with zero balance",
+        "Right to be informed about all charges and fees",
+        "Right to compensation for delayed ECS/NEFT/RTGS transactions",
+        "Right to approach the Banking Ombudsman for unresolved complaints",
+        "Right to close your bank account without giving a reason",
+        "Right to refund for unauthorized electronic transactions (if reported within 3 days)",
+        "Right to not be forced to buy insurance or other products when taking a loan",
+        "Right to fair and transparent loan terms"
+      ],
+      "whatYouCanDo": [
+        "File a complaint with your bank's Grievance Redressal Officer first",
+        "If unresolved within 30 days, approach the RBI Banking Ombudsman",
+        "File complaints online on the CMS portal (cms.rbi.org.in)",
+        "For unauthorized transactions, report to bank within 3 days for zero liability",
+        "File an RTI application to get information from public sector banks",
+        "Approach the Consumer Forum for banking service deficiencies"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Bank's Internal Grievance Cell"
+        },
+        {
+          "name": "RBI Banking Ombudsman",
+          "url": "https://cms.rbi.org.in"
+        },
+        {
+          "name": "Consumer Forum"
+        },
+        {
+          "name": "RBI Sachet",
+          "url": "https://sachet.rbi.org.in"
+        }
+      ],
+      "importantDocuments": [
+        "Bank account statements",
+        "Transaction records",
+        "Loan agreement/sanction letter",
+        "Communication with bank",
+        "Complaint acknowledgment from bank",
+        "FIR copy (for fraud cases)"
+      ],
+      "usefulResources": [
+        {
+          "name": "RBI Banking Ombudsman",
+          "url": "https://cms.rbi.org.in"
+        },
+        {
+          "name": "RBI Sachet",
+          "url": "https://sachet.rbi.org.in"
+        },
+        {
+          "name": "RBI Customer Education",
+          "url": "https://www.rbi.org.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-08-05"
+  },
+  {
+    "id": "right-9",
+    "title": "Digital Rights",
+    "slug": "digital-rights",
+    "category": "Digital Rights",
+    "icon": "Smartphone",
+    "description": "Your rights regarding personal data, online privacy, and digital services.",
+    "content": {
+      "whatIsTheIssue": "With increasing digitization, citizens have important rights regarding their personal data, online privacy, and access to digital services. The Digital Personal Data Protection Act, 2023 and the IT Act provide legal frameworks for data protection, while the right to privacy has been recognized as a fundamental right by the Supreme Court.",
+      "yourBasicRights": [
+        "Right to Privacy — recognized as a fundamental right (Puttaswamy judgment)",
+        "Right to know how your data is being collected and used",
+        "Right to consent before your personal data is processed",
+        "Right to access, correct, and erase your personal data",
+        "Right to data portability",
+        "Right to not be denied services for refusing unnecessary data collection",
+        "Right to access the internet and digital services"
+      ],
+      "whatYouCanDo": [
+        "Read privacy policies before sharing personal data",
+        "Opt out of unnecessary data collection by apps and websites",
+        "Request companies to delete your personal data",
+        "File complaints with the Data Protection Board when your data rights are violated",
+        "Report data breaches to CERT-In",
+        "Use privacy settings on social media and apps",
+        "Exercise your right to be forgotten where applicable"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Data Protection Board of India (once operational)"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in"
+        },
+        {
+          "name": "Ministry of Electronics & IT",
+          "url": "https://www.meity.gov.in"
+        }
+      ],
+      "importantDocuments": [
+        "Evidence of data misuse",
+        "Screenshots of consent/privacy settings",
+        "Communication with the company",
+        "Data breach notification (if received)"
+      ],
+      "usefulResources": [
+        {
+          "name": "MeitY (Digital Personal Data Protection)",
+          "url": "https://www.meity.gov.in"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-07-25"
+  },
+  {
+    "id": "right-10",
+    "title": "Police & Legal Rights",
+    "slug": "police-legal-rights",
+    "category": "Police & Legal Rights",
+    "icon": "Scale",
+    "description": "Your rights when dealing with police, during arrest, and in legal proceedings.",
+    "content": {
+      "whatIsTheIssue": "Citizens have fundamental rights when interacting with law enforcement, including the right to legal representation, protection against arbitrary arrest, and the right to a fair trial. Understanding these rights is crucial for protecting yourself and your family during police encounters.",
+      "yourBasicRights": [
+        "Right to know the grounds of arrest (Article 22)",
+        "Right to consult a lawyer upon arrest",
+        "Right to be produced before a Magistrate within 24 hours of arrest",
+        "Right against self-incrimination (Article 20)",
+        "Right to free legal aid if you cannot afford a lawyer (Article 39A)",
+        "Right to file a Zero FIR at any police station",
+        "Right to file an FIR — police cannot refuse to register an FIR for cognizable offenses",
+        "Right to a copy of the FIR",
+        "Women cannot be arrested after sunset and before sunrise (except in exceptional cases)",
+        "Right to bail (for bailable offenses, it's a right; for non-bailable, it's court's discretion)"
+      ],
+      "whatYouCanDo": [
+        "Demand to see the arrest warrant (for warrant-based arrests)",
+        "Contact a lawyer immediately upon arrest",
+        "Inform your family/friend about the arrest",
+        "Request a medical examination if subjected to police violence",
+        "File a complaint against police misconduct with the SP/DIG or Police Complaints Authority",
+        "Apply for bail before the Magistrate or Sessions Court",
+        "File a habeas corpus petition in High Court if illegally detained"
+      ],
+      "whereToComplain": [
+        {
+          "name": "Superintendent of Police (SP)"
+        },
+        {
+          "name": "Police Complaints Authority"
+        },
+        {
+          "name": "National/State Human Rights Commission",
+          "url": "https://nhrc.nic.in"
+        },
+        {
+          "name": "High Court (Writ Petition)"
+        },
+        {
+          "name": "NALSA (Free Legal Aid)",
+          "url": "https://nalsa.gov.in"
+        }
+      ],
+      "importantDocuments": [
+        "FIR copy",
+        "Arrest memo",
+        "Medical examination report",
+        "Bail order",
+        "Court orders",
+        "Witness details"
+      ],
+      "usefulResources": [
+        {
+          "name": "NALSA",
+          "url": "https://nalsa.gov.in"
+        },
+        {
+          "name": "NHRC",
+          "url": "https://nhrc.nic.in"
+        },
+        {
+          "name": "eCourts",
+          "url": "https://ecourts.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "right-11",
+    "title": "Property Basics",
+    "slug": "property-basics",
+    "category": "Property Basics",
+    "icon": "Building",
+    "description": "Essential rights regarding property ownership, buying, selling, and disputes.",
+    "content": {
+      "whatIsTheIssue": "Property transactions in India involve complex legal requirements. Common issues include fraudulent property sales, boundary disputes, encroachment, title defects, and builder delays. The Real Estate (Regulation and Development) Act, 2016 (RERA) provides protection for homebuyers, while property rights are governed by the Transfer of Property Act and Registration Act.",
+      "yourBasicRights": [
+        "Right to own property (Article 300A — constitutional right)",
+        "Right to a registered sale deed for property transactions",
+        "Right to clear title — seller must provide clean title documents",
+        "Right to RERA protection when buying from builders (timely possession, quality, refund)",
+        "Right to compensation for delayed possession under RERA",
+        "Right to ancestral property (equal for sons and daughters under Hindu law)",
+        "Right against encroachment — legal remedies for encroachment on your property"
+      ],
+      "whatYouCanDo": [
+        "Always verify property title through legal search before purchasing",
+        "Register all property documents at the Sub-Registrar's office",
+        "File RERA complaints for builder-related issues (delayed possession, defects)",
+        "Approach Revenue Court for property boundary disputes",
+        "File a civil suit for property title disputes",
+        "Get an encumbrance certificate to verify no pending claims on property"
+      ],
+      "whereToComplain": [
+        {
+          "name": "RERA Authority (State-level)",
+          "url": "https://rera.gov.in"
+        },
+        {
+          "name": "Civil Court"
+        },
+        {
+          "name": "Revenue Court / Tehsildar"
+        },
+        {
+          "name": "Consumer Forum (for builder issues)"
+        }
+      ],
+      "importantDocuments": [
+        "Sale deed (registered)",
+        "Title documents and chain of title",
+        "Encumbrance certificate",
+        "Property tax receipts",
+        "Building plan approval",
+        "RERA registration number (for new projects)",
+        "No Objection Certificates (NOCs)"
+      ],
+      "usefulResources": [
+        {
+          "name": "RERA Portal",
+          "url": "https://rera.gov.in"
+        },
+        {
+          "name": "Land Records (State portals)"
+        },
+        {
+          "name": "eCourts (for property dispute status)",
+          "url": "https://ecourts.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-07-15"
+  },
+  {
+    "id": "right-12",
+    "title": "Government Services",
+    "slug": "government-services",
+    "category": "Government Services",
+    "icon": "FileText",
+    "description": "Your rights to access government services, RTI, and public welfare schemes.",
+    "content": {
+      "whatIsTheIssue": "Citizens have the right to access government services efficiently and transparently. The Right to Information Act allows citizens to seek information from public authorities. Various government schemes provide financial assistance, healthcare, education, and other benefits to eligible citizens.",
+      "yourBasicRights": [
+        "Right to Information (RTI Act, 2005) — seek information from any public authority",
+        "Right to government services within specified timelines (state-specific guarantee laws)",
+        "Right to Aadhaar-linked services and benefits",
+        "Right to access public welfare schemes (PM-KISAN, Ayushman Bharat, etc.)",
+        "Right to public hearing (Jan Sunwai) for grievance redressal",
+        "Right to access birth/death certificates, caste certificates, and other documents",
+        "Right to access education (under Right to Education Act)"
+      ],
+      "whatYouCanDo": [
+        "File RTI applications online on rtionline.gov.in",
+        "Use UMANG app for accessing government services",
+        "Track your government scheme applications online",
+        "File complaints on CPGRAMS for central government grievances",
+        "Use DigiLocker for digital document management",
+        "Visit Common Service Centers (CSC) for government service access",
+        "Contact the relevant department's public grievance cell"
+      ],
+      "whereToComplain": [
+        {
+          "name": "RTI Online",
+          "url": "https://rtionline.gov.in"
+        },
+        {
+          "name": "CPGRAMS",
+          "url": "https://pgportal.gov.in"
+        },
+        {
+          "name": "UMANG App",
+          "url": "https://web.umang.gov.in"
+        },
+        {
+          "name": "State Chief Secretary (for state services)"
+        }
+      ],
+      "importantDocuments": [
+        "Aadhaar card",
+        "Ration card",
+        "Voter ID",
+        "Income certificate",
+        "Caste certificate (if applicable)",
+        "RTI application receipt",
+        "Scheme enrollment number"
+      ],
+      "usefulResources": [
+        {
+          "name": "RTI Online",
+          "url": "https://rtionline.gov.in"
+        },
+        {
+          "name": "UMANG",
+          "url": "https://web.umang.gov.in"
+        },
+        {
+          "name": "DigiLocker",
+          "url": "https://digilocker.gov.in"
+        },
+        {
+          "name": "CPGRAMS",
+          "url": "https://pgportal.gov.in"
+        }
+      ]
+    },
+    "lastReviewed": "2026-08-01"
+  }
+]

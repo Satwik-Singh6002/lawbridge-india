@@ -1,0 +1,453 @@
+[
+  {
+    "id": "lawyer-1",
+    "name": "Adv. Priya Sharma",
+    "slug": "priya-sharma",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Cyber Crime",
+      "Consumer",
+      "Criminal"
+    ],
+    "city": "New Delhi",
+    "state": "Delhi",
+    "experience": 12,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "description": "Specializing in cyber crime and digital fraud cases with extensive experience in consumer protection matters. [DEMO PROFILE — Not a real lawyer listing]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call",
+      "Phone"
+    ],
+    "rating": 4.8,
+    "reviewCount": 47,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 6 PM",
+    "education": "LLB, Delhi University; LLM (Cyber Law), NLSIU Bangalore"
+  },
+  {
+    "id": "lawyer-2",
+    "name": "Adv. Rajesh Menon",
+    "slug": "rajesh-menon",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Family",
+      "Civil",
+      "Property"
+    ],
+    "city": "Kochi",
+    "state": "Kerala",
+    "experience": 18,
+    "languages": [
+      "English",
+      "Hindi",
+      "Malayalam"
+    ],
+    "description": "Experienced family law practitioner handling divorce, custody, and property disputes with compassion and professionalism. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call"
+    ],
+    "rating": 4.6,
+    "reviewCount": 63,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Sat, 9 AM - 5 PM",
+    "education": "BA LLB, Kerala Law Academy; LLM (Family Law)"
+  },
+  {
+    "id": "lawyer-3",
+    "name": "Adv. Sunita Patil",
+    "slug": "sunita-patil",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Employment",
+      "Corporate",
+      "Tax"
+    ],
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "experience": 15,
+    "languages": [
+      "English",
+      "Hindi",
+      "Marathi"
+    ],
+    "description": "Corporate and employment law specialist with experience advising both companies and individuals on labor disputes and tax matters. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call",
+      "Phone"
+    ],
+    "rating": 4.7,
+    "reviewCount": 38,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 7 PM",
+    "education": "BA LLB, Government Law College, Mumbai; LLM (Corporate Law)"
+  },
+  {
+    "id": "lawyer-4",
+    "name": "Adv. Vikram Singh",
+    "slug": "vikram-singh",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Criminal",
+      "Constitutional",
+      "Civil"
+    ],
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "experience": 22,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "description": "Senior criminal law advocate with over two decades of experience in the Rajasthan High Court. Handles complex criminal and constitutional matters. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person"
+    ],
+    "rating": 4.9,
+    "reviewCount": 89,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Sat, 10 AM - 4 PM",
+    "education": "LLB, University of Rajasthan; Diploma in Criminology"
+  },
+  {
+    "id": "lawyer-5",
+    "name": "Adv. Kavitha Rajan",
+    "slug": "kavitha-rajan",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Consumer",
+      "Banking",
+      "Civil"
+    ],
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "experience": 10,
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ],
+    "description": "Consumer rights advocate helping individuals resolve disputes with banks, insurance companies, and service providers. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call",
+      "Phone"
+    ],
+    "rating": 4.5,
+    "reviewCount": 29,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 6 PM",
+    "education": "BL, Madras Law College; PGDM (Banking Law)"
+  },
+  {
+    "id": "lawyer-6",
+    "name": "Adv. Arjun Desai",
+    "slug": "arjun-desai",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Property",
+      "Civil",
+      "Environmental"
+    ],
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "experience": 14,
+    "languages": [
+      "English",
+      "Hindi",
+      "Gujarati"
+    ],
+    "description": "Property and real estate law specialist with expertise in RERA matters, title disputes, and environmental law. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call"
+    ],
+    "rating": 4.4,
+    "reviewCount": 35,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Sat, 9 AM - 6 PM",
+    "education": "LLB, Gujarat University; LLM (Property Law)"
+  },
+  {
+    "id": "lawyer-7",
+    "name": "Adv. Deepa Nair",
+    "slug": "deepa-nair",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Family",
+      "Criminal",
+      "Constitutional"
+    ],
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "experience": 16,
+    "languages": [
+      "English",
+      "Hindi",
+      "Kannada"
+    ],
+    "description": "Women's rights advocate specializing in domestic violence, divorce, and criminal cases involving women and children. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call",
+      "Phone"
+    ],
+    "rating": 4.8,
+    "reviewCount": 56,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 9 AM - 5 PM",
+    "education": "BA LLB, NLSIU Bangalore; LLM (Human Rights)"
+  },
+  {
+    "id": "lawyer-8",
+    "name": "Adv. Sanjay Gupta",
+    "slug": "sanjay-gupta",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Tax",
+      "Corporate",
+      "Banking"
+    ],
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "experience": 20,
+    "languages": [
+      "English",
+      "Hindi",
+      "Bengali"
+    ],
+    "description": "Tax and corporate law specialist with extensive experience in GST disputes, income tax appeals, and banking regulations. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call"
+    ],
+    "rating": 4.6,
+    "reviewCount": 42,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 6 PM",
+    "education": "LLB, University of Calcutta; CS, ICSI; LLM (Taxation)"
+  },
+  {
+    "id": "lawyer-9",
+    "name": "Adv. Meera Reddy",
+    "slug": "meera-reddy",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Cyber Crime",
+      "Intellectual Property",
+      "Corporate"
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "experience": 8,
+    "languages": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "description": "Tech-savvy lawyer specializing in cyber law, data protection, and intellectual property rights in the digital age. [DEMO PROFILE]",
+    "consultationOptions": [
+      "Video Call",
+      "Phone",
+      "In-person"
+    ],
+    "rating": 4.7,
+    "reviewCount": 23,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 11 AM - 7 PM",
+    "education": "BA LLB, NALSAR Hyderabad; PG Diploma in Cyber Law"
+  },
+  {
+    "id": "lawyer-10",
+    "name": "Adv. Amit Joshi",
+    "slug": "amit-joshi",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Criminal",
+      "Civil",
+      "Consumer"
+    ],
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "experience": 25,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "description": "Veteran advocate with 25 years of practice at the Allahabad High Court. Handles criminal appeals, civil disputes, and consumer matters. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person"
+    ],
+    "rating": 4.9,
+    "reviewCount": 112,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Sat, 10 AM - 4 PM",
+    "education": "LLB, Lucknow University; LLM (Criminal Law)"
+  },
+  {
+    "id": "lawyer-11",
+    "name": "Adv. Ananya Iyer",
+    "slug": "ananya-iyer",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Employment",
+      "Consumer",
+      "Civil"
+    ],
+    "city": "Pune",
+    "state": "Maharashtra",
+    "experience": 7,
+    "languages": [
+      "English",
+      "Hindi",
+      "Marathi"
+    ],
+    "description": "Employment and labor law specialist helping workers with wage disputes, wrongful termination, and workplace harassment cases. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call",
+      "Phone"
+    ],
+    "rating": 4.5,
+    "reviewCount": 18,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 6 PM",
+    "education": "BA LLB, ILS Law College, Pune; LLM (Labour Law)"
+  },
+  {
+    "id": "lawyer-12",
+    "name": "Adv. Ravi Kumar",
+    "slug": "ravi-kumar",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Property",
+      "Family",
+      "Civil"
+    ],
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "experience": 13,
+    "languages": [
+      "English",
+      "Hindi",
+      "Kannada",
+      "Telugu"
+    ],
+    "description": "Real estate and family law practitioner with expertise in property registration, partition disputes, and matrimonial cases. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call"
+    ],
+    "rating": 4.3,
+    "reviewCount": 31,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Sat, 9 AM - 5 PM",
+    "education": "BA LLB, Bangalore University; PGDM (Real Estate Law)"
+  },
+  {
+    "id": "lawyer-13",
+    "name": "Adv. Nisha Agarwal",
+    "slug": "nisha-agarwal",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Constitutional",
+      "Criminal",
+      "Civil"
+    ],
+    "city": "New Delhi",
+    "state": "Delhi",
+    "experience": 19,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "description": "Constitutional law expert with significant experience in PIL matters, fundamental rights cases, and criminal appeals before the Supreme Court. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call"
+    ],
+    "rating": 4.9,
+    "reviewCount": 76,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 5 PM",
+    "education": "BA LLB, Faculty of Law, DU; LLM, Harvard Law School"
+  },
+  {
+    "id": "lawyer-14",
+    "name": "Adv. Mohammed Faizal",
+    "slug": "mohammed-faizal",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Banking",
+      "Consumer",
+      "Corporate"
+    ],
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "experience": 11,
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ],
+    "description": "Banking and financial services law specialist handling loan disputes, cheque bounce cases, and SARFAESI matters. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Phone"
+    ],
+    "rating": 4.4,
+    "reviewCount": 25,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Fri, 10 AM - 6 PM",
+    "education": "BL, Madras Law College; MBA (Finance); LLM (Banking Law)"
+  },
+  {
+    "id": "lawyer-15",
+    "name": "Adv. Pooja Bhatt",
+    "slug": "pooja-bhatt",
+    "profileImage": "",
+    "verificationStatus": "pending",
+    "practiceAreas": [
+      "Family",
+      "Criminal",
+      "Consumer"
+    ],
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "experience": 9,
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "description": "Family and criminal law practitioner with a focus on domestic violence protection, maintenance cases, and consumer rights. [DEMO PROFILE]",
+    "consultationOptions": [
+      "In-person",
+      "Video Call",
+      "Phone"
+    ],
+    "rating": 4.6,
+    "reviewCount": 33,
+    "barEnrollment": "Demo enrollment number",
+    "availability": "Mon-Sat, 10 AM - 5 PM",
+    "education": "BA LLB, University of Rajasthan; LLM (Family Law)"
+  }
+]

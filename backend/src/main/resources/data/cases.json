@@ -1,0 +1,200 @@
+[
+  {
+    "id": "case-1",
+    "title": "Right to Privacy as a Fundamental Right",
+    "slug": "right-to-privacy-puttaswamy",
+    "court": "Supreme Court",
+    "year": 2017,
+    "category": "Constitutional",
+    "summary": "The Supreme Court unanimously declared that the right to privacy is a fundamental right protected under the Constitution of India, specifically under Article 21 (Right to Life and Personal Liberty).",
+    "keyIssue": "Whether the right to privacy is a fundamental right under the Indian Constitution.",
+    "whatHappened": "The case arose in the context of challenges to the Aadhaar system. A nine-judge bench was constituted to settle the fundamental question of whether privacy is a constitutionally protected right, as previous smaller bench decisions had given conflicting views.",
+    "decision": "The nine-judge bench unanimously held that the right to privacy is a constitutionally protected fundamental right. It overruled previous decisions that had held otherwise. The court held that privacy is intrinsic to life and liberty under Article 21.",
+    "whyItMatters": "This landmark judgment established privacy as a fundamental right for every Indian citizen. It affects everything from data protection laws to government surveillance, personal autonomy, and digital rights. It became the foundation for the Digital Personal Data Protection Act.",
+    "whatCitizensShouldLearn": "Your privacy is a fundamental right. The government and private companies must respect your personal data and cannot collect or use it without proper legal basis. This judgment empowers you to challenge invasions of your privacy.",
+    "officialSource": "Justice K.S. Puttaswamy (Retd.) v. Union of India, (2017) 10 SCC 1",
+    "relatedRights": [
+      "Digital Rights",
+      "Police & Legal Rights"
+    ],
+    "popularity": 98
+  },
+  {
+    "id": "case-2",
+    "title": "Consumer Rights in E-Commerce",
+    "slug": "consumer-rights-ecommerce",
+    "court": "Consumer",
+    "year": 2021,
+    "category": "Consumer",
+    "summary": "Consumer forums have consistently held that e-commerce platforms are liable for defective products sold on their platform and must provide refunds or replacements to consumers.",
+    "keyIssue": "Whether e-commerce platforms are responsible for products sold by third-party sellers on their platform.",
+    "whatHappened": "Multiple consumers filed complaints against major e-commerce platforms for defective products, non-delivery, and refusal to provide refunds. The platforms argued they were mere intermediaries and not liable for third-party seller issues.",
+    "decision": "Consumer forums held that e-commerce platforms have a responsibility towards consumers and cannot simply disclaim liability. The Consumer Protection Act 2019 specifically brought e-commerce under its purview, holding platforms accountable.",
+    "whyItMatters": "This established that when you buy something online, you have strong consumer rights. E-commerce platforms cannot hide behind \"marketplace\" arguments to avoid responsibility for products sold on their platform.",
+    "whatCitizensShouldLearn": "If you receive a defective product from an online platform, you have the right to a refund, replacement, or compensation. File your complaint first with the platform, then with the Consumer Forum if unresolved. The Consumer Protection Act 2019 specifically covers online purchases.",
+    "officialSource": "Consumer Protection Act, 2019 — E-Commerce Rules, 2020",
+    "relatedRights": [
+      "Consumer Rights",
+      "Digital Rights"
+    ],
+    "popularity": 92
+  },
+  {
+    "id": "case-3",
+    "title": "Triple Talaq — Muslim Women's Rights",
+    "slug": "triple-talaq-shayara-bano",
+    "court": "Supreme Court",
+    "year": 2017,
+    "category": "Women's Rights",
+    "summary": "The Supreme Court struck down the practice of instant triple talaq (talaq-e-biddat), declaring it unconstitutional and providing Muslim women protection against arbitrary divorce.",
+    "keyIssue": "Whether the practice of instant triple talaq violates the fundamental rights of Muslim women.",
+    "whatHappened": "Shayara Bano challenged the practice of instant triple talaq after her husband divorced her through a letter. The petition argued that the practice violated the fundamental rights of Muslim women under Articles 14, 15, 21, and 25 of the Constitution.",
+    "decision": "By a 3-2 majority, the Supreme Court declared instant triple talaq unconstitutional. Subsequently, the Muslim Women (Protection of Rights on Marriage) Act, 2019 criminalized instant triple talaq, making it punishable with up to 3 years of imprisonment.",
+    "whyItMatters": "This landmark judgment provided legal protection to Muslim women against arbitrary divorce. It affirmed that personal law practices must also respect fundamental rights guaranteed by the Constitution.",
+    "whatCitizensShouldLearn": "Instant triple talaq is now illegal and a criminal offense. Muslim women who face this practice can file a police complaint and seek legal remedies including maintenance and custody of children.",
+    "officialSource": "Shayara Bano v. Union of India, (2017) 9 SCC 1",
+    "relatedRights": [
+      "Women's Rights",
+      "Police & Legal Rights"
+    ],
+    "popularity": 88
+  },
+  {
+    "id": "case-4",
+    "title": "Right to Free Legal Aid",
+    "slug": "right-to-free-legal-aid-hussainara",
+    "court": "Supreme Court",
+    "year": 1979,
+    "category": "Constitutional",
+    "summary": "The Supreme Court held that free legal aid is a fundamental right of every accused person who cannot afford a lawyer, expanding access to justice for the poor.",
+    "keyIssue": "Whether an accused person who cannot afford a lawyer has a right to free legal aid from the State.",
+    "whatHappened": "Thousands of undertrial prisoners in Bihar were languishing in jails, many having served more time in jail than the maximum sentence for their alleged offense. They had no legal representation because they could not afford lawyers.",
+    "decision": "The Supreme Court held that the right to free legal aid is an essential ingredient of reasonable, fair, and just procedure under Article 21. The State is obligated to provide free legal services to those who cannot afford it. This led to the establishment of the Legal Services Authorities Act, 1987 and NALSA.",
+    "whyItMatters": "This judgment ensures that justice is not the privilege of the rich. Every person, regardless of economic status, has the right to legal representation. It led to the creation of the entire legal aid infrastructure in India.",
+    "whatCitizensShouldLearn": "If you cannot afford a lawyer, you have a constitutional right to free legal aid. Contact NALSA (helpline: 15100) or your District Legal Services Authority. You can get a free lawyer for criminal cases, and even for some civil matters.",
+    "officialSource": "Hussainara Khatoon v. Home Secretary, State of Bihar, 1979 AIR 1369",
+    "relatedRights": [
+      "Police & Legal Rights",
+      "Government Services"
+    ],
+    "popularity": 85
+  },
+  {
+    "id": "case-5",
+    "title": "Sexual Harassment at Workplace — Vishaka Guidelines",
+    "slug": "vishaka-guidelines-workplace-harassment",
+    "court": "Supreme Court",
+    "year": 1997,
+    "category": "Women's Rights",
+    "summary": "The Supreme Court laid down binding guidelines for prevention and redressal of sexual harassment at the workplace, which later became the basis for the POSH Act, 2013.",
+    "keyIssue": "What measures should be in place to prevent sexual harassment of women at the workplace in the absence of specific legislation.",
+    "whatHappened": "Following the brutal gang rape of a social worker named Bhanwari Devi in Rajasthan (who was trying to prevent a child marriage), women's rights groups filed a PIL seeking enforcement of the fundamental rights of working women.",
+    "decision": "The Supreme Court laid down detailed guidelines (Vishaka Guidelines) that every employer must follow, including establishing a Complaints Committee, defining sexual harassment, and prescribing a redressal mechanism. These guidelines had the force of law until the POSH Act, 2013 was enacted.",
+    "whyItMatters": "This was a watershed moment for women's rights in India. It directly led to the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH Act), which mandates every organization with 10+ employees to have an Internal Complaints Committee.",
+    "whatCitizensShouldLearn": "Every workplace must have an Internal Complaints Committee (ICC) for sexual harassment. If you face harassment, you can complain to the ICC. If your organization doesn't have one, report to the Local Complaints Committee at the district level or use the She-Box portal.",
+    "officialSource": "Vishaka v. State of Rajasthan, AIR 1997 SC 3011",
+    "relatedRights": [
+      "Women's Rights",
+      "Employment Rights"
+    ],
+    "popularity": 90
+  },
+  {
+    "id": "case-6",
+    "title": "Right to Information — Transparency in Governance",
+    "slug": "right-to-information",
+    "court": "Supreme Court",
+    "year": 2005,
+    "category": "Constitutional",
+    "summary": "The Right to Information Act, 2005 was enacted after years of judicial recognition that citizens have a right to know about government functioning, making transparency a legal right.",
+    "keyIssue": "Whether citizens have a right to access information held by public authorities, and what mechanism should exist for exercising this right.",
+    "whatHappened": "The movement for right to information grew from grassroots activism, notably by Mazdoor Kisan Shakti Sangathan (MKSS) in Rajasthan. The Supreme Court had recognized the right to information as flowing from Article 19(1)(a) (freedom of speech and expression) in several judgments.",
+    "decision": "The RTI Act, 2005 was enacted by Parliament, giving every citizen the right to request information from public authorities, who must respond within 30 days. The Act covers central, state, and local government bodies, as well as bodies substantially funded by the government.",
+    "whyItMatters": "RTI is one of the most powerful tools for citizen empowerment. It allows any citizen to seek information from the government, making governance transparent and accountable. Millions of RTI applications are filed every year.",
+    "whatCitizensShouldLearn": "You can file an RTI application online (rtionline.gov.in) for a fee of ₹10 to get information from any central government department. BPL card holders are exempt from fees. The authority must respond within 30 days. If refused, you can appeal to the Central/State Information Commission.",
+    "officialSource": "Right to Information Act, 2005; S.P. Gupta v. Union of India, 1981",
+    "relatedRights": [
+      "Government Services",
+      "Digital Rights"
+    ],
+    "popularity": 95
+  },
+  {
+    "id": "case-7",
+    "title": "Bail is Rule, Jail is Exception",
+    "slug": "bail-is-rule-arnesh-kumar",
+    "court": "Supreme Court",
+    "year": 2014,
+    "category": "Criminal Law",
+    "summary": "The Supreme Court laid down guidelines restricting automatic arrest for offenses punishable with up to 7 years, emphasizing that bail should be the rule and jail the exception.",
+    "keyIssue": "Whether police can arrest a person automatically for every cognizable offense, particularly under Section 498A IPC (cruelty by husband/relatives).",
+    "whatHappened": "The case highlighted the misuse of Section 498A IPC (dowry harassment) for automatic arrests without proper investigation. The court noted that mechanical arrests violated fundamental rights and that many cases resulted in acquittal.",
+    "decision": "The Supreme Court issued detailed guidelines: police must not automatically arrest for offenses with punishment up to 7 years; they must first be satisfied that arrest is necessary based on specific parameters. The court also directed magistrates to not authorize detention mechanically.",
+    "whyItMatters": "This judgment protects citizens from arbitrary arrest. It establishes that personal liberty is paramount and that arrest should only be made when genuinely necessary, not as a routine measure by police.",
+    "whatCitizensShouldLearn": "If you are arrested for an offense punishable with up to 7 years, the police must record reasons for arrest. You have the right to seek anticipatory bail. Bail is your right for bailable offenses, and even for non-bailable offenses, courts should generally grant bail unless there are specific reasons not to.",
+    "officialSource": "Arnesh Kumar v. State of Bihar, (2014) 8 SCC 273",
+    "relatedRights": [
+      "Police & Legal Rights"
+    ],
+    "popularity": 82
+  },
+  {
+    "id": "case-8",
+    "title": "Right to Clean Environment",
+    "slug": "right-to-clean-environment",
+    "court": "Supreme Court",
+    "year": 1991,
+    "category": "Constitutional",
+    "summary": "The Supreme Court expanded Article 21 to include the right to a clean and healthy environment, allowing citizens to seek environmental protection through courts.",
+    "keyIssue": "Whether the right to a pollution-free environment is part of the fundamental right to life under Article 21.",
+    "whatHappened": "In several cases involving industrial pollution, the Supreme Court was asked whether environmental protection falls within the scope of fundamental rights. The Bhopal Gas Tragedy of 1984 and ongoing industrial pollution in various parts of India highlighted the urgent need for environmental justice.",
+    "decision": "The Supreme Court held that the right to a wholesome environment is part of the right to life under Article 21. This led to the development of the \"Polluter Pays\" and \"Precautionary\" principles in Indian environmental law, and the eventual establishment of the National Green Tribunal.",
+    "whyItMatters": "This means citizens can directly approach courts (including the National Green Tribunal) to seek protection against pollution and environmental degradation. The right to clean air, water, and a healthy environment is now a fundamental right.",
+    "whatCitizensShouldLearn": "You have a fundamental right to a clean environment. You can file complaints about pollution with the Pollution Control Board, approach the National Green Tribunal, or even file a PIL in the High Court. You don't need to be directly affected — any citizen can raise environmental concerns.",
+    "officialSource": "Subhash Kumar v. State of Bihar, AIR 1991 SC 420; MC Mehta cases",
+    "relatedRights": [
+      "Government Services",
+      "Property Basics"
+    ],
+    "popularity": 78
+  },
+  {
+    "id": "case-9",
+    "title": "Rights of Arrested Person — DK Basu Guidelines",
+    "slug": "dk-basu-arrest-guidelines",
+    "court": "Supreme Court",
+    "year": 1997,
+    "category": "Criminal Law",
+    "summary": "The Supreme Court laid down 11 mandatory requirements that police must follow when making an arrest, protecting citizens from custodial violence and abuse.",
+    "keyIssue": "What safeguards should exist to protect citizens from police excesses during arrest and custody.",
+    "whatHappened": "D.K. Basu wrote a letter to the Chief Justice of India highlighting the growing number of custodial deaths and police torture. The Supreme Court treated this as a public interest litigation and laid down binding guidelines.",
+    "decision": "The court prescribed 11 requirements including: police making arrest must wear accurate identification, prepare an arrest memo with witness, inform a relative about the arrest, allow medical examination, and the arrested person must be informed of their right to a lawyer. These guidelines are binding on all police forces.",
+    "whyItMatters": "These guidelines protect every citizen from police abuse. They ensure transparency in the arrest process and accountability of police officers. Violation of these guidelines is punishable as contempt of court.",
+    "whatCitizensShouldLearn": "If you or someone you know is arrested: (1) Police must identify themselves, (2) An arrest memo must be prepared, (3) You must be informed of grounds of arrest, (4) You can have a lawyer, (5) You must be produced before a magistrate within 24 hours, (6) You cannot be tortured in custody.",
+    "officialSource": "D.K. Basu v. State of West Bengal, (1997) 1 SCC 416",
+    "relatedRights": [
+      "Police & Legal Rights"
+    ],
+    "popularity": 86
+  },
+  {
+    "id": "case-10",
+    "title": "Equal Property Rights for Daughters",
+    "slug": "equal-property-rights-daughters",
+    "court": "Supreme Court",
+    "year": 2020,
+    "category": "Civil Law",
+    "summary": "The Supreme Court ruled that daughters have equal coparcenary rights in Hindu joint family property, regardless of whether the father was alive when the 2005 amendment was enacted.",
+    "keyIssue": "Whether a daughter's right as a coparcener in Hindu joint family property applies even if the father died before the 2005 Hindu Succession Amendment Act came into force.",
+    "whatHappened": "There was confusion and conflicting lower court decisions about whether the 2005 amendment to the Hindu Succession Act (which gave daughters equal coparcenary rights) applied retroactively, especially when the father had died before the amendment.",
+    "decision": "A three-judge bench unanimously held that a daughter's right as coparcener is by birth, not dependent on whether the father was alive when the 2005 amendment was enacted. The right is absolute and cannot be denied.",
+    "whyItMatters": "This landmark judgment ensures that daughters have absolutely equal rights in Hindu joint family property. It removes any ambiguity and establishes that property rights are by birth, not conditional on any other factor.",
+    "whatCitizensShouldLearn": "Daughters have equal rights in ancestral/joint family property as sons. This right exists from birth and cannot be denied even if the father has passed away. If you are a daughter who has been denied your property rights, you can approach the court to claim your share.",
+    "officialSource": "Vineeta Sharma v. Rakesh Sharma, (2020) 9 SCC 1",
+    "relatedRights": [
+      "Women's Rights",
+      "Property Basics"
+    ],
+    "popularity": 91
+  }
+]

@@ -1,4 +1,11 @@
-# Logs
+# Java & Maven
+backend/target/
+backend/.maven/
+target/
+.maven/
+*.class
+*.jar
+*.war
 logs
 *.log
 npm-debug.log*
